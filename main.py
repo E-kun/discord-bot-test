@@ -31,6 +31,7 @@ class TicTacToeButton(discord.ui.Button['TicTacToe']):
     async def callback(self, interaction: discord.Interaction):
         # await interaction.response.defer(ephemeral=True)
         print("Calling callback function")
+        
         assert self.view is not None
         view: TicTacToe = self.view
         state = view.board[self.y][self.x]
@@ -141,6 +142,7 @@ class TicTacToeBot(commands.Bot):
     async def on_ready(self):
         print(f'Logged in as {self.user} (ID: {self.user.id})')
         print('------')
+    
 
 
 bot = TicTacToeBot()
@@ -159,5 +161,9 @@ async def ping(ctx):
     title = "Ping"
     embed = EmbedClass(message, title)
     await ctx.send(embed=embed.embed)
+
+@bot.listen()
+async def on_interaction():
+    print('Heard')
 
 bot.run(TOKEN, log_handler=handler, log_level=logging.DEBUG)
