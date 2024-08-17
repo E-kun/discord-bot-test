@@ -27,7 +27,7 @@ class TicTacToeButton(discord.ui.Button['TicTacToe']):
     # This function is called whenever this particular button is pressed
     # This is part of the "meat" of the game logic
     async def callback(self, interaction: discord.Interaction):
-        await interaction.response.defer(ephemeral=True)
+        # await interaction.response.defer(ephemeral=True)
         assert self.view is not None
         view: TicTacToe = self.view
         state = view.board[self.y][self.x]
