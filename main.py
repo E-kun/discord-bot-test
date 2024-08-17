@@ -162,8 +162,8 @@ async def ping(ctx):
     embed = EmbedClass(message, title)
     await ctx.send(embed=embed.embed)
 
-@bot.listen()
-async def on_interaction():
-    print('Heard')
+# @bot.listen()
+# async def on_interaction():
+#     print('Heard')
 
 bot.run(TOKEN, log_handler=handler, log_level=logging.DEBUG)
