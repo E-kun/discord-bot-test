@@ -10,6 +10,8 @@ from dotenv import load_dotenv
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 from embedconfig import EmbedClass
+handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
+
 
 # Defines a custom button that contains the logic of the game.
 # The ['TicTacToe'] bit is for type hinting purposes to tell your IDE or linter
@@ -157,4 +159,4 @@ async def ping(ctx):
     embed = EmbedClass(message, title)
     await ctx.send(embed=embed.embed)
 
-bot.run(TOKEN)
+bot.run(TOKEN, log_handler=handler, log_level=logging.DEBUG)
