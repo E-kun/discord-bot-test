@@ -30,6 +30,7 @@ class TicTacToeButton(discord.ui.Button['TicTacToe']):
     # This is part of the "meat" of the game logic
     async def callback(self, interaction: discord.Interaction):
         # await interaction.response.defer(ephemeral=True)
+        print("Calling callback function")
         assert self.view is not None
         view: TicTacToe = self.view
         state = view.board[self.y][self.x]
