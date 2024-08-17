@@ -67,7 +67,7 @@ class TicTacToeButton(discord.ui.Button['TicTacToe']):
 
             view.stop()
 
-        await interaction.followup.edit_message(content=content, view=view)
+        await interaction.response.edit_message(content=content, view=view)
 
 
 # This is our actual board View
