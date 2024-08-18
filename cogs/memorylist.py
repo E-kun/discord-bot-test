@@ -24,7 +24,7 @@ class MemoryList(commands.Cog):
     @commands.command()
     async def memorylist(self, ctx: commands.Context) -> None:
         # print(dir(ctx))
-        testview = PaginationView()
+        testview = PaginationView(ctx.author)
         # await ctx.send("Testing", view=testview)
         # print(dir(view))
         testview.add_item(discord.ui.Button(label="Test", style=discord.ButtonStyle.blurple))
