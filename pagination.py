@@ -36,6 +36,7 @@ class PaginationView(discord.ui.View):
 
         if interaction.user == self.user:
             content = "Test"
+            await self.update_message(self.data[:self.sep])
             # await interaction.response.edit_message(content=content, view=view)
             return True
         # else send a message and return False
@@ -51,6 +52,16 @@ class PaginationView(discord.ui.View):
     #     # and update the message with the update View.
     #     if self.message:
     #         await self.message.edit(view=self)
+
+    def create_embed(self, data):
+        embed = discord.Embed(title=f"User List Page {self.current_page} / {int(len(self.data) / self.sep) + 1}")
+        for item in data:
+            embed.add_field(name=item['label'], value=item[''], inline=False)
+        return embed
+
+    async def update_message(self,data):
+        self.update_buttons()
+        await self.message.edit(embed=self.create_embed(data), view=self)
 
     def update_buttons(self):
         if self.current_page == 1:
@@ -75,30 +86,42 @@ class PaginationView(discord.ui.View):
             self.last_page_button.style = discord.ButtonStyle.green
             self.next_button.style = discord.ButtonStyle.primary
 
+    def get_current_page_data(self):
+        until_item = self.current_page * self.sep
+        from_item = until_item - self.sep
+        if not self.current_page == 1:
+            from_item = 0
+            until_item = self.sep
+        if self.current_page == int(len(self.data) / self.sep) + 1:
+            from_item = self.current_page * self.sep - self.sep
+            until_item = len(self.data)
+        return self.data[from_item:until_item]
+
     # adding a component using it's decorator
     @discord.ui.button(label="|<", style=discord.ButtonStyle.green, )
     async def first_page_button(self, inter: discord.Interaction, button: discord.ui.Button[PaginationView]) -> None:
         self.current_page=1
         # button.label = str(self.count)
         # await inter.response.edit_message(view=self)
+        await self.update_message(self.get_current_page_data())
 
     @discord.ui.button(label="<", style=discord.ButtonStyle.primary, )
     async def prev_button(self, inter: discord.Interaction, button: discord.ui.Button[PaginationView]) -> None:
         self.current_page-=1
         # button.label = str(self.count)
-        await inter.response.edit_message(view=self)
+        await self.update_message(self.get_current_page_data())
 
     @discord.ui.button(label=">", style=discord.ButtonStyle.primary, )
     async def next_button(self, inter: discord.Interaction, button: discord.ui.Button[PaginationView]) -> None:
         self.current_page+=1
         # button.label = str(self.count)
-        # await inter.response.edit_message(view=self)
+        await self.update_message(self.get_current_page_data())
 
     @discord.ui.button(label=">|", style=discord.ButtonStyle.green, )
     async def last_page_button(self, inter: discord.Interaction, button: discord.ui.Button[PaginationView]) -> None:
         self.current_page = int(len(self.data) / self.sep) + 1
         # button.label = str(self.count)
-        # await inter.response.edit_message(view=self)
+        await self.update_message(self.get_current_page_data())
 
     # error handler for the view
     async def on_error(
