@@ -24,10 +24,10 @@ class PaginationView(discord.ui.View):
     sep : int = 5
     current_page = 1
 
-    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0, data: range = range(1,15)) -> None:
+    def __init__(self, user: discord.User | discord.Member, timeout: float = 60.0) -> None:
         super().__init__(timeout=timeout)
         self.user = user
-        self.data = data
+        self.data = range(1,15)
 
     # checks for the view's interactions
     async def interaction_check(self, interaction: discord.Interaction) -> bool:
@@ -56,7 +56,7 @@ class PaginationView(discord.ui.View):
     def create_embed(self, data):
         embed = discord.Embed(title=f"User List Page {self.current_page} / {int(len(self.data) / self.sep) + 1}")
         for item in data:
-            embed.add_field(name=item['label'], value=item[''], inline=False)
+            embed.add_field(name=item, value=item, inline=False)
         return embed
 
     async def update_message(self,data):

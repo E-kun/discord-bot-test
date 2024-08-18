@@ -25,7 +25,7 @@ class MemoryList(commands.Cog):
     async def memorylist(self, ctx: commands.Context) -> None:
         # print(dir(ctx))
         data = range(1,15)
-        testview = PaginationView(ctx.author, data)
+        testview = PaginationView(ctx.author)
         # await ctx.send("Testing", view=testview)
         # print(dir(view))
         testview.message = await ctx.send("Testing", view=testview)
