@@ -29,10 +29,42 @@ class DropdownView(discord.ui.View):
         await interaction.response.send_message(f"The command was initiated by {self.user.mention}", ephemeral=True)
         return False
     
-    def create_embed(self, data):
-        embed = discord.Embed(title=f"User List Page {self.current_page} / {int(len(self.data) / self.sep) + 1}")
-        for item in data:
-            embed.add_field(name=item, value=item, inline=False)
+    def create_embed(self):
+    # def create_embed(self, data):
+        embed = discord.Embed(
+            title="Lamia: Lost Lullaby",
+            description="Awakening Set",
+        )
+        embed.add_field(name="Usage", value="Main")
+        embed.add_field(name="Game Modes", value="Pain Cage, Warzone, Norman, Clash Reflection, High Difficulty")
+        embed.add_field(
+            name="Description", 
+            values="""
+            Recommended for all ranks
+            General DPS set
+            """
+        )
+        embed.add_field(
+            name="Memories", 
+            values="""
+            4x Derketo
+            2x Cottie
+            """
+        )
+        embed.add_field(
+            name="Memory Resonances", 
+            values="""
+            Top Slot: 6x HP/ATK +15 or ATK/DEF +15
+            Bottom Slot: 6x Signature
+            """
+        )
+        embed.add_field(
+            name="Harmony Recommendation", 
+            values="Cottie"
+        )
+        
+        # for item in data:
+        #     embed.add_field(name=item, value=item, inline=False)
         return embed
 
     # async def update_message(self,data):
