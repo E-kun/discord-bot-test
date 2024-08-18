@@ -22,7 +22,7 @@ class DropdownView(discord.ui.View):
 
         if interaction.user == self.user:
             content = "Test"
-            await self.update_message(self.data[:self.sep])
+            # await self.update_message(self.data[:self.sep])
             # await interaction.response.edit_message(content=content, view=view)
             return True
         # else send a message and return False
@@ -35,9 +35,9 @@ class DropdownView(discord.ui.View):
             embed.add_field(name=item, value=item, inline=False)
         return embed
 
-    async def update_message(self,data):
-        # self.update_buttons()
-        await self.message.edit(embed=self.create_embed(data), view=self)
+    # async def update_message(self,data):
+    #     # self.update_buttons()
+    #     await self.message.edit(embed=self.create_embed(data), view=self)
 
     # def update_buttons(self):
     #     if self.current_page == 1:
