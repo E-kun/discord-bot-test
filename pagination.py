@@ -28,7 +28,7 @@ class PaginationView(discord.ui.View):
         self.user = user
 
     # checks for the view's interactions
-    async def interaction_check(self, interaction: discord.Interaction[discord.Client]) -> bool:
+    async def interaction_check(self, interaction: discord.Interaction) -> bool:
         # this method should return True if all checks pass, else False is returned
         # for example, you can check if the interaction was created by the user who
         # ran the command:

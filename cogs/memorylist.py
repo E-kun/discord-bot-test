@@ -27,7 +27,6 @@ class MemoryList(commands.Cog):
         testview = PaginationView(ctx.author)
         # await ctx.send("Testing", view=testview)
         # print(dir(view))
-        testview.add_item(discord.ui.Button(label="Test", style=discord.ButtonStyle.blurple))
         testview.message = await ctx.send("Testing", view=testview)
         # print(testview.message)
         
