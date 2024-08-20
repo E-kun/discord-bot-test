@@ -60,3 +60,6 @@ class Ppc(commands.Cog):
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Ppc(bot))
+
+async def teardown(bot):
+    print("Extension unloaded!")

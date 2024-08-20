@@ -1,0 +1,488 @@
+{
+  "noctis": {
+    "basic_attack": {
+      "name": "Darting Pursuit",
+      "description": {
+        "desc": "Rapidly fires arrows at the target, dealing Physical DMG.",
+        "result": ["Deals 460% Physical DMG in total."]
+      }
+    },
+    "red_orb": {
+      "name": "Prismatic Order",
+      "description": {
+        "desc": "Shoots an arrow forward, dealing Physical DMG.",
+        "result": [
+          "Deals 200%/390%/590% Physical DMG in total based on the number of orbs pinged."
+        ],
+        "extra": "Automatically uses a 3-Ping version of this attack upon switch-in."
+      }
+    },
+    "yellow_orb": {
+      "name": "Cosmic Descent",
+      "description": {
+        "desc": "Leaps up and turns around, shooting arrows at the enemy in mid-air and dealing Physical DMG. Gains Super Armor while using this skill.",
+        "result": [
+          "Deals 190%/380%/560% Physical DMG in total based on the number of orbs pinged."
+        ]
+      }
+    },
+    "blue_orb": {
+      "name": "Swift Verdict",
+      "description": {
+        "desc": "Crouches down to shoot multiple arrows upward, dealing Physical DMG to targets in a small area ahead.",
+        "result": [
+          "Deals 180%/360%/540% Physical DMG in total based on the number of orbs pinged."
+        ]
+      }
+    },
+    "core_passive": [
+      {
+        "name": "Cipher of Synergy",
+        "description": {
+          "desc": "Cecily fights alongside Echo. Press and hold Basic Attack to make Echo enter Tactical Cipher. In Tactical Cipher, Signal Orbs will be temporarily replaced by Cipher Orbs. Pinging a Cipher Orb will make Cecily fire a swordwave at the enemy, dealing Physical DMG. Cecily will then act based on the color of the Cipher Orbs pinged.",
+          "result": [
+            "Each swordwave deals 30% Physical DMG.",
+            "Red Cipher: Launches a thrust attack at the enemy, dealing 90% Physical DMG.",
+            "Yellow Cipher: Launches a downward thrust from above, pulling in nearby enemy units and dealing 50% Physical DMG.",
+            "Blue Cipher: Slashes the target, restoring HP equal to 20% of Echo's ATK to allies and dealing 50% Physical DMG."
+          ]
+        }
+      },
+      {
+        "name": "Sinbreaker's Judgment",
+        "description": {
+          "desc": "Upon entering Tactical Cipher, Echo starts charging, during which time Cecily will prevent enemies from attacking her and repel them. Echo gains Super Armor for 1.5s and 40% DMG Reduction. Cooldown: 5s. Keep pinging Cipher Orbs or drag the joystick to keep charging. When orbs are no longer pinged or when the joystick is released, Echo will stop charging and fire a Sinbreaker's Arrow, dealing Physical DMG. Echo can dodge attacks when performing this move. Cecily will then attack in the order of the Cipher Orbs pinged, with each attack consuming one Cipher Orb. After Echo exits the battlefield, Cecily will stay and continue to attack enemies until all Cipher Orbs are consumed.",
+          "result": [
+            "- When fully charged, Sinbreaker's Arrow deals 580% Physical DMG, rearranges all Signal Orbs into 3-Pings, and activates Judgment Zone, which heals allies within for 80% of Echo's ATK for 8s and grants Echo 6 Signature Energy.",
+            "- If Sinbreaker's Arrow is not fully charged, it will only deal 230% Physical DMG without activating Judgment Zone."
+          ]
+        }
+      },
+      {
+        "name": "Majestic Splendor",
+        "description": {
+          "desc": "Each orb pinged inside Judgment Zone will generate 10 Splendor Points, max 90."
+        }
+      },
+      {
+        "name": "Swift Archery",
+        "description": {
+          "desc": "Tapping Dodge inside Judgment Zone will trigger Swift Archery, dealing Physical DMG.",
+          "result": ["Deals 80% Physical DMG."]
+        }
+      },
+      {
+        "name": "Judgment Co-Strike",
+        "description": {
+          "desc": "At max Splendor Points, pinging a Signal Orb that matches the color of Cipher Orb inside Judgment Zone will trigger a Co-Strike. The first Co-Strike after Judgment Zone is activated will cast Imprisoning Co-Strike. If Echo has Soul Shatter Mark, she can trigger another Co-Strike afterward while the Judgment Zone is still active to cast Soulbreaking Co-Strike.",
+          "result": [
+            "- Imprisoning Co-Strike: Consumes all Splendor Points to imprison and pull in nearby enemies, dealing 720% Physical DMG and restoring 36 Signature Energy.",
+            "- Soulbreaking Co-Strike: Consumes Soul Shatter Mark to leap and shoot the target, dealing 576% Physical DMG and restoring 20 Signature Energy.- Echo becomes invincible during a Co-Strike but cannot cast Signature - Celestial Edge.",
+            "- Echo gains Soul Shatter Mark after casting Signature - Celestial Edge."
+          ]
+        }
+      },
+      {
+        "name": "Blessing of Fortitude",
+        "description": {
+          "desc": "Allies are granted Ultralimit Torque which increases their Physical DMG by 10% for 8s after being healed. The duration resets every time it is triggered."
+        }
+      }
+    ],
+    "signature": {
+      "name": "Celestial Edge",
+      "description": {
+        "desc": "Echo and Cecily attack at the same time, dealing Physical DMG and triggering Time Lag Calculation. Afterward, Echo gains Soul Shatter Mark.",
+        "result": ["- Deal 2660% Physical DMG in total."]
+      }
+    },
+    "qte": {
+      "name": "Advent of Justice",
+      "description": {
+        "desc": "Fires multiple arrows at the enemy, dealing Physical DMG and healing HP.",
+        "result": [
+          "- Deals 600% Physical DMG and heals for 100% of ATK in total. "
+        ]
+      }
+    },
+    "leader": {
+      "name": "Harbinger of Law",
+      "description": {
+        "desc": "All members' ATK increases by 10%. Amplifiers' Physical DMG Bonus increases by 5%."
+      }
+    },
+    "class": {
+      "name": "Amplifier",
+      "description": {
+        "desc": "All switched-in members gain an extra 10% ATK and 10% Elemental DMG Bonus of the Amplifier's element for 10s."
+      }
+    },
+    "ss_rank": {
+      "name": "Decisive Omen",
+      "levels": [
+        {
+          "rank": "Level 1 — Unlocked at S5",
+          "desc": "Casting Imprisoning Co-Strike and Soulbreaking Co-Strike will activate all available QTEs."
+        },
+        {
+          "rank": "Level 2 — Unlocked at SS",
+          "desc": "Gains a set of 3-Ping Orbs when switched in. While Judgment Zone is active, Extra DMG Bonus increases by 30%."
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Mark of Libra",
+      "levels": [
+        {
+          "rank": "Level 1 — Unlocked at SS3",
+          "desc": "When Echo is switched out, Cecily immediately gains 6 bonus Cipher Orbs. After Echo exits the battlefield, Cecily gains 100% Extra DMG Bonus."
+        },
+        {
+          "rank": "Level 2 — Unlocked at SSS",
+          "desc": "The effect of Amplifier Class Skill increases by 100%. Echo gains 30 Splendor Points and Soul Shatter Mark every time she enters the battlefield. Soulbreaking Co-Strike's Base DMG increases by 50%."
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "Dreamer's Shore",
+      "levels": [
+        {
+          "rank": "Level 1 — Unlocked at SSS3",
+          "desc": "Extra DMG Bonus of Signature - Celestial Edge increases by 30%."
+        },
+        {
+          "rank": "Level 2 — Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of 3-Ping skills and Cipher Orb skills increases by 50%."
+        },
+        {
+          "rank": "Level 3 — Unlocked at SSS+",
+          "desc": "Extra DMG Bonus of Imprisoning Co-Strike and Soulbreaking Co-Strike increase by 30%."
+        }
+      ]
+    }
+  },
+  "alisa": {
+    "basic_attack": {
+      "name": "Darting Pursuit",
+      "description": {
+        "desc": "Rapidly fires arrows at the target, dealing Physical DMG.",
+        "result": ["Deals 460% Physical DMG in total."]
+      }
+    },
+    "red_orb": {
+      "name": "Prismatic Order",
+      "description": {
+        "desc": "Shoots an arrow forward, dealing Physical DMG.",
+        "result": [
+          "Deals 200%/390%/590% Physical DMG in total based on the number of orbs pinged."
+        ],
+        "extra": "Automatically uses a 3-Ping version of this attack upon switch-in."
+      }
+    },
+    "yellow_orb": {
+      "name": "Cosmic Descent",
+      "description": {
+        "desc": "Leaps up and turns around, shooting arrows at the enemy in mid-air and dealing Physical DMG. Gains Super Armor while using this skill.",
+        "result": [
+          "Deals 190%/380%/560% Physical DMG in total based on the number of orbs pinged."
+        ]
+      }
+    },
+    "blue_orb": {
+      "name": "Swift Verdict",
+      "description": {
+        "desc": "Crouches down to shoot multiple arrows upward, dealing Physical DMG to targets in a small area ahead.",
+        "result": [
+          "Deals 180%/360%/540% Physical DMG in total based on the number of orbs pinged."
+        ]
+      }
+    },
+    "core_passive": [
+      {
+        "name": "Cipher of Synergy",
+        "description": {
+          "desc": "Cecily fights alongside Echo. Press and hold Basic Attack to make Echo enter Tactical Cipher. In Tactical Cipher, Signal Orbs will be temporarily replaced by Cipher Orbs. Pinging a Cipher Orb will make Cecily fire a swordwave at the enemy, dealing Physical DMG. Cecily will then act based on the color of the Cipher Orbs pinged.",
+          "result": [
+            "Each swordwave deals 30% Physical DMG.",
+            "Red Cipher: Launches a thrust attack at the enemy, dealing 90% Physical DMG.",
+            "Yellow Cipher: Launches a downward thrust from above, pulling in nearby enemy units and dealing 50% Physical DMG.",
+            "Blue Cipher: Slashes the target, restoring HP equal to 20% of Echo's ATK to allies and dealing 50% Physical DMG."
+          ]
+        }
+      },
+      {
+        "name": "Sinbreaker's Judgment",
+        "description": {
+          "desc": "Upon entering Tactical Cipher, Echo starts charging, during which time Cecily will prevent enemies from attacking her and repel them. Echo gains Super Armor for 1.5s and 40% DMG Reduction. Cooldown: 5s. Keep pinging Cipher Orbs or drag the joystick to keep charging. When orbs are no longer pinged or when the joystick is released, Echo will stop charging and fire a Sinbreaker's Arrow, dealing Physical DMG. Echo can dodge attacks when performing this move. Cecily will then attack in the order of the Cipher Orbs pinged, with each attack consuming one Cipher Orb. After Echo exits the battlefield, Cecily will stay and continue to attack enemies until all Cipher Orbs are consumed.",
+          "result": [
+            "- When fully charged, Sinbreaker's Arrow deals 580% Physical DMG, rearranges all Signal Orbs into 3-Pings, and activates Judgment Zone, which heals allies within for 80% of Echo's ATK for 8s and grants Echo 6 Signature Energy.",
+            "- If Sinbreaker's Arrow is not fully charged, it will only deal 230% Physical DMG without activating Judgment Zone."
+          ]
+        }
+      },
+      {
+        "name": "Majestic Splendor",
+        "description": {
+          "desc": "Each orb pinged inside Judgment Zone will generate 10 Splendor Points, max 90."
+        }
+      },
+      {
+        "name": "Swift Archery",
+        "description": {
+          "desc": "Tapping Dodge inside Judgment Zone will trigger Swift Archery, dealing Physical DMG.",
+          "result": ["Deals 80% Physical DMG."]
+        }
+      },
+      {
+        "name": "Judgment Co-Strike",
+        "description": {
+          "desc": "At max Splendor Points, pinging a Signal Orb that matches the color of Cipher Orb inside Judgment Zone will trigger a Co-Strike. The first Co-Strike after Judgment Zone is activated will cast Imprisoning Co-Strike. If Echo has Soul Shatter Mark, she can trigger another Co-Strike afterward while the Judgment Zone is still active to cast Soulbreaking Co-Strike.",
+          "result": [
+            "- Imprisoning Co-Strike: Consumes all Splendor Points to imprison and pull in nearby enemies, dealing 720% Physical DMG and restoring 36 Signature Energy.",
+            "- Soulbreaking Co-Strike: Consumes Soul Shatter Mark to leap and shoot the target, dealing 576% Physical DMG and restoring 20 Signature Energy.- Echo becomes invincible during a Co-Strike but cannot cast Signature - Celestial Edge.",
+            "- Echo gains Soul Shatter Mark after casting Signature - Celestial Edge."
+          ]
+        }
+      },
+      {
+        "name": "Blessing of Fortitude",
+        "description": {
+          "desc": "Allies are granted Ultralimit Torque which increases their Physical DMG by 10% for 8s after being healed. The duration resets every time it is triggered."
+        }
+      }
+    ],
+    "signature": {
+      "name": "Celestial Edge",
+      "description": {
+        "desc": "Echo and Cecily attack at the same time, dealing Physical DMG and triggering Time Lag Calculation. Afterward, Echo gains Soul Shatter Mark.",
+        "result": ["- Deal 2660% Physical DMG in total."]
+      }
+    },
+    "qte": {
+      "name": "Advent of Justice",
+      "description": {
+        "desc": "Fires multiple arrows at the enemy, dealing Physical DMG and healing HP.",
+        "result": [
+          "- Deals 600% Physical DMG and heals for 100% of ATK in total. "
+        ]
+      }
+    },
+    "leader": {
+      "name": "Harbinger of Law",
+      "description": {
+        "desc": "All members' ATK increases by 10%. Amplifiers' Physical DMG Bonus increases by 5%."
+      }
+    },
+    "class": {
+      "name": "Amplifier",
+      "description": {
+        "desc": "All switched-in members gain an extra 10% ATK and 10% Elemental DMG Bonus of the Amplifier's element for 10s."
+      }
+    },
+    "ss_rank": {
+      "name": "Decisive Omen",
+      "levels": [
+        {
+          "rank": "Level 1 — Unlocked at S5",
+          "desc": "Casting Imprisoning Co-Strike and Soulbreaking Co-Strike will activate all available QTEs."
+        },
+        {
+          "rank": "Level 2 — Unlocked at SS",
+          "desc": "Gains a set of 3-Ping Orbs when switched in. While Judgment Zone is active, Extra DMG Bonus increases by 30%."
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Mark of Libra",
+      "levels": [
+        {
+          "rank": "Level 1 — Unlocked at SS3",
+          "desc": "When Echo is switched out, Cecily immediately gains 6 bonus Cipher Orbs. After Echo exits the battlefield, Cecily gains 100% Extra DMG Bonus."
+        },
+        {
+          "rank": "Level 2 — Unlocked at SSS",
+          "desc": "The effect of Amplifier Class Skill increases by 100%. Echo gains 30 Splendor Points and Soul Shatter Mark every time she enters the battlefield. Soulbreaking Co-Strike's Base DMG increases by 50%."
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "Dreamer's Shore",
+      "levels": [
+        {
+          "rank": "Level 1 — Unlocked at SSS3",
+          "desc": "Extra DMG Bonus of Signature - Celestial Edge increases by 30%."
+        },
+        {
+          "rank": "Level 2 — Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of 3-Ping skills and Cipher Orb skills increases by 50%."
+        },
+        {
+          "rank": "Level 3 — Unlocked at SSS+",
+          "desc": "Extra DMG Bonus of Imprisoning Co-Strike and Soulbreaking Co-Strike increase by 30%."
+        }
+      ]
+    }
+  },
+  "lamia": {
+    "basic_attack": {
+      "name": "Darting Pursuit",
+      "description": {
+        "desc": "Rapidly fires arrows at the target, dealing Physical DMG.",
+        "result": ["Deals 460% Physical DMG in total."]
+      }
+    },
+    "red_orb": {
+      "name": "Prismatic Order",
+      "description": {
+        "desc": "Shoots an arrow forward, dealing Physical DMG.",
+        "result": [
+          "Deals 200%/390%/590% Physical DMG in total based on the number of orbs pinged."
+        ],
+        "extra": "Automatically uses a 3-Ping version of this attack upon switch-in."
+      }
+    },
+    "yellow_orb": {
+      "name": "Cosmic Descent",
+      "description": {
+        "desc": "Leaps up and turns around, shooting arrows at the enemy in mid-air and dealing Physical DMG. Gains Super Armor while using this skill.",
+        "result": [
+          "Deals 190%/380%/560% Physical DMG in total based on the number of orbs pinged."
+        ]
+      }
+    },
+    "blue_orb": {
+      "name": "Swift Verdict",
+      "description": {
+        "desc": "Crouches down to shoot multiple arrows upward, dealing Physical DMG to targets in a small area ahead.",
+        "result": [
+          "Deals 180%/360%/540% Physical DMG in total based on the number of orbs pinged."
+        ]
+      }
+    },
+    "core_passive": [
+      {
+        "name": "Cipher of Synergy",
+        "description": {
+          "desc": "Cecily fights alongside Echo. Press and hold Basic Attack to make Echo enter Tactical Cipher. In Tactical Cipher, Signal Orbs will be temporarily replaced by Cipher Orbs. Pinging a Cipher Orb will make Cecily fire a swordwave at the enemy, dealing Physical DMG. Cecily will then act based on the color of the Cipher Orbs pinged.",
+          "result": [
+            "Each swordwave deals 30% Physical DMG.",
+            "Red Cipher: Launches a thrust attack at the enemy, dealing 90% Physical DMG.",
+            "Yellow Cipher: Launches a downward thrust from above, pulling in nearby enemy units and dealing 50% Physical DMG.",
+            "Blue Cipher: Slashes the target, restoring HP equal to 20% of Echo's ATK to allies and dealing 50% Physical DMG."
+          ]
+        }
+      },
+      {
+        "name": "Sinbreaker's Judgment",
+        "description": {
+          "desc": "Upon entering Tactical Cipher, Echo starts charging, during which time Cecily will prevent enemies from attacking her and repel them. Echo gains Super Armor for 1.5s and 40% DMG Reduction. Cooldown: 5s. Keep pinging Cipher Orbs or drag the joystick to keep charging. When orbs are no longer pinged or when the joystick is released, Echo will stop charging and fire a Sinbreaker's Arrow, dealing Physical DMG. Echo can dodge attacks when performing this move. Cecily will then attack in the order of the Cipher Orbs pinged, with each attack consuming one Cipher Orb. After Echo exits the battlefield, Cecily will stay and continue to attack enemies until all Cipher Orbs are consumed.",
+          "result": [
+            "- When fully charged, Sinbreaker's Arrow deals 580% Physical DMG, rearranges all Signal Orbs into 3-Pings, and activates Judgment Zone, which heals allies within for 80% of Echo's ATK for 8s and grants Echo 6 Signature Energy.",
+            "- If Sinbreaker's Arrow is not fully charged, it will only deal 230% Physical DMG without activating Judgment Zone."
+          ]
+        }
+      },
+      {
+        "name": "Majestic Splendor",
+        "description": {
+          "desc": "Each orb pinged inside Judgment Zone will generate 10 Splendor Points, max 90."
+        }
+      },
+      {
+        "name": "Swift Archery",
+        "description": {
+          "desc": "Tapping Dodge inside Judgment Zone will trigger Swift Archery, dealing Physical DMG.",
+          "result": ["Deals 80% Physical DMG."]
+        }
+      },
+      {
+        "name": "Judgment Co-Strike",
+        "description": {
+          "desc": "At max Splendor Points, pinging a Signal Orb that matches the color of Cipher Orb inside Judgment Zone will trigger a Co-Strike. The first Co-Strike after Judgment Zone is activated will cast Imprisoning Co-Strike. If Echo has Soul Shatter Mark, she can trigger another Co-Strike afterward while the Judgment Zone is still active to cast Soulbreaking Co-Strike.",
+          "result": [
+            "- Imprisoning Co-Strike: Consumes all Splendor Points to imprison and pull in nearby enemies, dealing 720% Physical DMG and restoring 36 Signature Energy.",
+            "- Soulbreaking Co-Strike: Consumes Soul Shatter Mark to leap and shoot the target, dealing 576% Physical DMG and restoring 20 Signature Energy.- Echo becomes invincible during a Co-Strike but cannot cast Signature - Celestial Edge.",
+            "- Echo gains Soul Shatter Mark after casting Signature - Celestial Edge."
+          ]
+        }
+      },
+      {
+        "name": "Blessing of Fortitude",
+        "description": {
+          "desc": "Allies are granted Ultralimit Torque which increases their Physical DMG by 10% for 8s after being healed. The duration resets every time it is triggered."
+        }
+      }
+    ],
+    "signature": {
+      "name": "Celestial Edge",
+      "description": {
+        "desc": "Echo and Cecily attack at the same time, dealing Physical DMG and triggering Time Lag Calculation. Afterward, Echo gains Soul Shatter Mark.",
+        "result": ["- Deal 2660% Physical DMG in total."]
+      }
+    },
+    "qte": {
+      "name": "Advent of Justice",
+      "description": {
+        "desc": "Fires multiple arrows at the enemy, dealing Physical DMG and healing HP.",
+        "result": [
+          "- Deals 600% Physical DMG and heals for 100% of ATK in total. "
+        ]
+      }
+    },
+    "leader": {
+      "name": "Harbinger of Law",
+      "description": {
+        "desc": "All members' ATK increases by 10%. Amplifiers' Physical DMG Bonus increases by 5%."
+      }
+    },
+    "class": {
+      "name": "Amplifier",
+      "description": {
+        "desc": "All switched-in members gain an extra 10% ATK and 10% Elemental DMG Bonus of the Amplifier's element for 10s."
+      }
+    },
+    "ss_rank": {
+      "name": "Decisive Omen",
+      "levels": [
+        {
+          "rank": "Level 1 — Unlocked at S5",
+          "desc": "Casting Imprisoning Co-Strike and Soulbreaking Co-Strike will activate all available QTEs."
+        },
+        {
+          "rank": "Level 2 — Unlocked at SS",
+          "desc": "Gains a set of 3-Ping Orbs when switched in. While Judgment Zone is active, Extra DMG Bonus increases by 30%."
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Mark of Libra",
+      "levels": [
+        {
+          "rank": "Level 1 — Unlocked at SS3",
+          "desc": "When Echo is switched out, Cecily immediately gains 6 bonus Cipher Orbs. After Echo exits the battlefield, Cecily gains 100% Extra DMG Bonus."
+        },
+        {
+          "rank": "Level 2 — Unlocked at SSS",
+          "desc": "The effect of Amplifier Class Skill increases by 100%. Echo gains 30 Splendor Points and Soul Shatter Mark every time she enters the battlefield. Soulbreaking Co-Strike's Base DMG increases by 50%."
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "Dreamer's Shore",
+      "levels": [
+        {
+          "rank": "Level 1 — Unlocked at SSS3",
+          "desc": "Extra DMG Bonus of Signature - Celestial Edge increases by 30%."
+        },
+        {
+          "rank": "Level 2 — Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of 3-Ping skills and Cipher Orb skills increases by 50%."
+        },
+        {
+          "rank": "Level 3 — Unlocked at SSS+",
+          "desc": "Extra DMG Bonus of Imprisoning Co-Strike and Soulbreaking Co-Strike increase by 30%."
+        }
+      ]
+    }
+  }
+}

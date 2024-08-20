@@ -1,0 +1,167 @@
+{
+  "capriccio": {
+    "unit_name": "Selena",
+    "frame_name": "Capriccio",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3sailinna2.256.webp",
+    "set_list": ["4 Seraphine 2 Cottie"],
+    "builds": [
+      {
+        "set_name": "4 Seraphine 2 Cottie",
+        "set_type": "Awakening",
+        "description": ["Recommended for all ranks", "Dark Support Set"],
+        "memories": ["4x Seraphine", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "scire": {
+    "unit_name": "Karenina",
+    "frame_name": "Scire",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr4kalienina2.256.webp",
+    "set_list": ["4 Boone 2 Bathlon Harmo"],
+    "builds": [
+      {
+        "set_name": "4 Boone 2 Bathlon Harmo",
+        "set_type": "Awakening",
+        "description": [
+          "Recommended for all ranks",
+          "General DPS set",
+          "SS3 or higher"
+        ],
+        "memories": ["4x Boone", "2x Bathlon"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Bathlon"
+      }
+    ]
+  },
+  "noctis": {
+    "unit_name": "Noctis",
+    "frame_name": "Indomitus",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr2nuoketi3.256.webp",
+    "set_list": ["4 Heisen 2 Cottie"],
+    "builds": [
+      {
+        "set_name": "4 Signa 2 Da Vinci",
+        "set_type": "Awakening",
+        "description": ["Recommended for all ranks", "General DPS set"],
+        "memories": ["4x Heisen", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "alisa": {
+    "unit_name": "Alisa",
+    "frame_name": "Echo",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3yalisha3.256.webp",
+    "set_list": [
+      "4 Signa 2 Da Vinci Harmo",
+      "4 Signa 2 Guin Harmo",
+      "4 Signa 2 Da Vinci"
+    ],
+    "builds": [
+      {
+        "set_name": "4 Signa 2 Da Vinci Harmo",
+        "set_type": "Awakening + Harmony",
+        "game_modes": "",
+        "description": ["Recommended for all ranks", "Physical Support set"],
+        "memories": ["4x Signa", "2x Da Vinci"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "Da Vinci"
+      },
+      {
+        "set_name": "4 Signa 2 Guin Harmo",
+        "set_type": "Off Element",
+        "game_modes": "",
+        "description": ["Recommended for all ranks", "Off-element set, "],
+        "memories": ["4x Signa", "2x Guinevere"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "Guinevere"
+      },
+      {
+        "set_name": "4 Signa 2 Da Vinci",
+        "set_type": "Awakening",
+        "game_modes": "",
+        "description": [
+          "Recommended for all ranks",
+          "Physical Support set",
+          "No Harmo"
+        ],
+        "memories": ["4x Signa", "2x Da Vinci"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "lamia": {
+    "unit_name": "Lamia",
+    "frame_name": "Lost Lullaby",
+    "thumbnail_url": "",
+    "set_list": [
+      "4 Derketo 2 Cottie Harmo",
+      "4 Derketo 2 Cottie",
+      "4 Derketo 2 Frederick"
+    ],
+    "builds": [
+      {
+        "set_name": "4 Derketo 2 Cottie Harmo",
+        "set_type": "Awakening",
+        "game_modes": "https://assets.huaxu.app/glb/image/rolecharacter/lamiyanormal01.256.webp",
+        "description": ["Recommended for all ranks", "General DPS set"],
+        "memories": ["4x Derketo", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Cottie"
+      },
+      {
+        "set_name": "4 Derketo 2 Cottie",
+        "set_type": "Awakening",
+        "game_modes": "",
+        "description": [
+          "Recommended for all ranks",
+          "General DPS set",
+          "No Harmo"
+        ],
+        "memories": ["4x Derketo", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Derketo 2 Frederick",
+        "set_type": "Niche",
+        "game_modes": "",
+        "description": ["Niche DPS set"],
+        "memories": ["4x Derketo", "2x Frederick"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Cottie"
+      }
+    ]
+  }
+}

@@ -58,7 +58,7 @@ class MyBot(commands.Bot):
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s: %(message)s")
     bot = MyBot(prefix="?", ext_dir="cogs")
-    bot.run(TOKEN, log_handler=handler, log_level=logging.INFO)
+    bot.run(TOKEN, log_handler=handler, log_level=logging.ERROR)
 
 
 if __name__ == "__main__":

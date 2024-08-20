@@ -1,0 +1,720 @@
+{
+  "2-star": [
+    {
+      "name": "Merli",
+      "stars": "★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    }
+  ],
+  "3-star": [
+    {
+      "name": "Pinoff",
+      "stars": "★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "Extra DMG Bonus increases by 3% when at",
+      "4pc_desc": "",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Pavrey",
+      "stars": "★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    }
+  ],
+  "4-star": [
+    {
+      "name": "Archimedes",
+      "stars": "★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Edison",
+      "stars": "★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Alice",
+      "stars": "★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Cunningham",
+      "stars": "★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    }
+  ],
+  "5-star": [
+    {
+      "name": "Carrielynn",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Aife",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Ike",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Voltaire",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Gloria",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Richelieu",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Samantha",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Mozart",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Lucia - Summer Daze",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    }
+  ],
+  "event": [
+    {
+      "name": "Vera - Scarlet Summers",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Ceremony - Liv",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Luna: Fullmoon Laurel",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Bianca: Tipsy Night",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Chrome: Banquet",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Liv: United",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Lee - Celebration under the Moon",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Lantern Festival: Reunion",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "New Year Fireworks",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Liv: Reindeer",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Kuriko - Eternal",
+      "stars": "★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    }
+  ],
+  "uniframe": [
+    {
+      "name": "Shelley",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Isabel",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Marco",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Jack",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Lucrezia",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Wu'an",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Koya",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Boudica",
+      "stars": "★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Nimitz",
+      "stars": "★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    }
+  ],
+  "6-star": [
+    {
+      "name": "Condelina",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Shakespeare",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Heisen",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Darwin",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Hanna",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Cottie",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Da Vinci",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Catherine",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Einstina",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Phillip II",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Guinevere",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Frederick",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Bathlon",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Patton",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Chen Jiyuan",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Leeuwenhoek",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Flamel",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Tifa",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Elizabeth",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Seraphine",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Unimate",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Boone",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Charlotte",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Turing",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Aline",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Diesel",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Fran",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    },
+    {
+      "name": "Signa",
+      "stars": "★★★★★★",
+      "hp": 82,
+      "crit": 3,
+      "atk": 7,
+      "def": 12,
+      "2pc_desc": "ATK +10",
+      "4pc_desc": "HP +50",
+      "thumbnail_url": ""
+    }
+  ]
+}
