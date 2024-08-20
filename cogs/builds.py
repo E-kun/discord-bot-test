@@ -21,32 +21,66 @@ class Builds(commands.Cog):
     def retrieve_build(self, character):
         with open('data/builds.json') as file:
             parsed_json = json.load(file)
-        
-        match character:
-            case "daren" | "bonka" | "tsundere":
-                character = "scire"
-            case "capri" | "crapi" | "schizo" | "cappuccino" | "soup":
-                character = "capriccio"
-            case _:
-                character = character
-
         return parsed_json[character]
+
+    def does_character_exist(self, character):
+        framelist = ["lotus", "eclipse", "storm", "dawn", "lux", "palefire", "nightblade", "zero", "blast", "luminance", "entropy","ember", "pulse", "tenebrion","crimson abyss", "bastion", "astral", "brilliance", "veritas", "sophia", "arclight", "plume", "rozen", "camu", "rosetta", "changyu", "pavo", "laurel","2b", "9s", "a2", "hypnos", "tempest", "glory", "xxi", "garnet", "roland", "empyrea", "capriccio", "pulao", "starfarer", "haicma", "scire", "noan", "bambinata", "balter", "kaleido", "hyperreal", "crimson weave", "zitherwoe", "feral", "noctis", "alisa", "lamia", "brs", "epitaph"]
+        exists = False
+
+        for i in framelist:
+            if character == i:
+                exists = True
+                break
+            else:
+                exists = False
+
+        return exists
 
     @commands.Cog.listener()
     async def on_ready(self):
         print('Builds loaded.')
 
     @commands.command()
-    async def build(self, ctx: commands.Context, character) -> None:
-        build = self.retrieve_build(character)
-        # data = ["String 1", "String 2", "String 3"]
-        data = build['set_list']
-        view = DropdownView(ctx.author, data=data, build=build)
-        # content=""
-        # string = "String 1"
-        # embed = discord.Embed(title=f"{string}",description=f"Description of {string}")
-        embed = self.embedconf.create_build_embed(build, data[0])
-        await ctx.send(view=view, embed=embed)
+    async def build(self, ctx: commands.Context, *args) -> None:
+        if len(args) > 1:
+            character = args[0] + " " + args[1]
+        else:
+            character = args[0]
+
+        print(character)
+        
+        match character:
+            case "daren" | "bonka" | "tsundere" | "radiant daybreak":
+                character = "scire"
+            case "capri" | "crapi" | "schizo" | "cappuccino" | "soup":
+                character = "capriccio"
+            case "uncle" | "king engine" | "kingengine" | "wata":
+                character = "epitaph"
+            case "supercar" | "hyper":
+                character = "hyperreal"
+            case "cow":
+                character = "kaleido"
+            case "lullaby" | "lost lullaby" | "feesh" | "fish":
+                character = "lamia"
+            case "weave" | "motivation" | "vergil's daughter":
+                character = "crimson weave"
+            case "awoo" | "furry":
+                character = "feral"
+            case "indomitus":
+                character = "noctis"
+            case _:
+                character = character    
+
+        if(self.does_character_exist(character)):
+            build = self.retrieve_build(character)
+            data = build['set_list']
+            view = DropdownView(ctx.author, data=data, build=build)
+            embed = self.embedconf.create_build_embed(build, data[0])
+            await ctx.send(view=view, embed=embed)
+        else:
+            content = "This character does not exist. Please try again."
+            await ctx.send(content=content)
+    
         
 async def setup(bot: commands.Bot):
     await bot.add_cog(Builds(bot))

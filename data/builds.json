@@ -1,4 +1,189 @@
 {
+  "empyrea": {},
+  "starfarer": {},
+  "rigor": {},
+  "stigmata": {},
+  "hyperreal": {
+    "unit_name": "Lee",
+    "frame_name": "Hyperreal",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr4li3.256.webp",
+    "set_list": ["4 Turing 2 Darwin", "4 Turing 2 Cottie"],
+    "builds": [
+      {
+        "set_name": "4 Turing 2 Cottie",
+        "set_type": "Awakening",
+        "description": ["Used at SSO or below", "General DPS set"],
+        "memories": ["4x Turing", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Turing 2 Darwin",
+        "set_type": "Awakening",
+        "description": ["Used at SS3 or above", "General DPS set"],
+        "memories": ["4x Turing", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "kaleido": {
+    "unit_name": "Ayla",
+    "frame_name": "Kaleido",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3aila3.256.webp",
+    "set_list": ["4 Aline 2 Cottie", "4 Aline 2 Darwin"],
+    "builds": [
+      {
+        "set_name": "4 Aline 2 Cottie",
+        "set_type": "Awakening",
+        "description": ["General DPS set"],
+        "memories": ["4x Aline", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Aline 2 Darwin",
+        "set_type": "Niche",
+        "description": ["Niche DPS set", "For Chaos and Hell PPC difficulties"],
+        "memories": ["4x Aline", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "crimson weave": {
+    "unit_name": "Lucia",
+    "frame_name": "Crimson Weave",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr5luxiya3.256.webp",
+    "set_list": [
+      "4 Diesel 2 Cottie SSS Harmo",
+      "4 Diesel 2 Cottie S-SS3 Harmo"
+    ],
+    "builds": [
+      {
+        "set_name": "4 Diesel 2 Cottie SSS Harmo",
+        "set_type": "Awakening",
+        "description": [
+          "General DPS set",
+          "For SS3 and above",
+          "Usable without Harmo"
+        ],
+        "memories": ["4x Diesel", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Basic Atk",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Cottie"
+      },
+      {
+        "set_name": "4 Diesel 2 Cottie S-SS3 Harmo",
+        "set_type": "Awakening",
+        "description": [
+          "General DPS set",
+          "For SS0 and below",
+          "Usable without Harmo"
+        ],
+        "memories": ["4x Diesel", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Basic Atk",
+          "Bottom Slot: 6x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "Cottie"
+      }
+    ]
+  },
+  "feral": {
+    "unit_name": "No. 21",
+    "frame_name": "Feral",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3twentyone3.256.webp",
+    "set_list": [
+      "4 Fran 2 Guinevere Harmo",
+      "4 Fran 2 Cottie Harmo",
+      "4 Guinevere 2 Da Vinci Harmo",
+      "4 Fran 2 Guinevere",
+      "4 Guinevere 2 Da Vinci"
+    ],
+    "builds": [
+      {
+        "set_name": "4 Fran 2 Guinevere Harmo",
+        "set_type": "Awakening",
+        "description": ["General DPS set"],
+        "memories": ["4x Fran", "2x Guinevere"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "Guinevere"
+      },
+      {
+        "set_name": "4 Fran 2 Cottie Harmo",
+        "set_type": "Niche",
+        "description": [
+          "General DPS set",
+          "Allows for double rotations; SS3+ & DLT needed to pull off effectively"
+        ],
+        "memories": ["4x Fran", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "Guinevere"
+      },
+      {
+        "set_name": "4 Guinevere 2 Da Vinci Harmo",
+        "set_type": "QTE Bot",
+        "description": ["PPC Support", "QTE Bot Set"],
+        "memories": ["4x Guinevere", "2x Da Vinci"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "Da Vinci"
+      },
+      {
+        "set_name": "4 Fran 2 Guinevere",
+        "set_type": "Awakening",
+        "description": [
+          "General DPS set",
+          "Mainly used for Warzone.",
+          "No Harmo"
+        ],
+        "memories": ["4x Fran", "2x Guinevere"],
+        "memory_resonance": [
+          "Top Slot   : 6x Basic Atk",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Guinevere 2 Da Vinci",
+        "set_type": "QTE Bot",
+        "description": [
+          "QTE Bot Set",
+          "Used in PPC for solo main DPS lightning",
+          "No Harmo"
+        ],
+        "memories": ["4x Guinevere", "2x Da Vinci"],
+        "memory_resonance": [
+          "Top Slot   : 6x Basic Atk",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
   "capriccio": {
     "unit_name": "Selena",
     "frame_name": "Capriccio",
@@ -6,9 +191,24 @@
     "set_list": ["4 Seraphine 2 Cottie"],
     "builds": [
       {
-        "set_name": "4 Seraphine 2 Cottie",
+        "set_name": "4 Seraphine 2 Cottie Harmo",
         "set_type": "Awakening",
         "description": ["Recommended for all ranks", "Dark Support Set"],
+        "memories": ["4x Seraphine", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "Cottie"
+      },
+      {
+        "set_name": "4 Seraphine 2 Cottie",
+        "set_type": "Awakening",
+        "description": [
+          "Recommended for all ranks",
+          "Dark Support Set",
+          "No Harmo"
+        ],
         "memories": ["4x Seraphine", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
@@ -22,22 +222,56 @@
     "unit_name": "Karenina",
     "frame_name": "Scire",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr4kalienina2.256.webp",
-    "set_list": ["4 Boone 2 Bathlon Harmo"],
+    "set_list": [
+      "4 Boone 2 Bathlon Harmo",
+      "4 Bathlon 2 Einstina Harmo",
+      "4 Boone 2 Condelina",
+      "4 Bathlon 2 Einstina"
+    ],
     "builds": [
       {
         "set_name": "4 Boone 2 Bathlon Harmo",
         "set_type": "Awakening",
-        "description": [
-          "Recommended for all ranks",
-          "General DPS set",
-          "SS3 or higher"
-        ],
+        "description": ["Used at SS3 or higher"],
         "memories": ["4x Boone", "2x Bathlon"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "Bathlon"
+      },
+      {
+        "set_name": "4 Bathlon 2 Einstina Harmo",
+        "set_type": "QTE Bot",
+        "description": ["QTE Bot Set", "For SS0 and below"],
+        "memories": ["4x Bathlon", "2x Einstina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "Einstina"
+      },
+      {
+        "set_name": "4 Boone 2 Condelina",
+        "set_type": "Awakening",
+        "description": ["General DPS set", "SS3 or higher", "No Harmo"],
+        "memories": ["4x Boone", "2x Condelina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Bathlon 2 Einstina",
+        "set_type": "QTE Bot",
+        "description": ["QTE Bot Set", "For SS0 and below", "No Harmo"],
+        "memories": ["4x Boone", "2x Bathlon"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
       }
     ]
   },
@@ -48,7 +282,7 @@
     "set_list": ["4 Heisen 2 Cottie"],
     "builds": [
       {
-        "set_name": "4 Signa 2 Da Vinci",
+        "set_name": "4 Heisen 2 Cottie",
         "set_type": "Awakening",
         "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Heisen", "2x Cottie"],
@@ -66,7 +300,7 @@
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3yalisha3.256.webp",
     "set_list": [
       "4 Signa 2 Da Vinci Harmo",
-      "4 Signa 2 Guin Harmo",
+      "4 Da Vinci 2 Guin Harmo",
       "4 Signa 2 Da Vinci"
     ],
     "builds": [
@@ -83,11 +317,11 @@
         "harmony_rec": "Da Vinci"
       },
       {
-        "set_name": "4 Signa 2 Guin Harmo",
+        "set_name": "4 Da Vinci 2 Guin Harmo",
         "set_type": "Off Element",
         "game_modes": "",
         "description": ["Recommended for all ranks", "Off-element set, "],
-        "memories": ["4x Signa", "2x Guinevere"],
+        "memories": ["4x Da Vinci", "2x Guinevere"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Class"
@@ -115,7 +349,7 @@
   "lamia": {
     "unit_name": "Lamia",
     "frame_name": "Lost Lullaby",
-    "thumbnail_url": "",
+    "thumbnail_url": "https://media.discordapp.net/attachments/1275421020949446748/1275455316409978931/Dialogue-LostLullaby-Awaken-Icon.png?ex=66c5f3d4&is=66c4a254&hm=5d0f8f1fc851ec3e059b29178d5e1f6b5803fb494253c4762f11de5cae94af37&=&format=webp&quality=lossless&width=530&height=530",
     "set_list": [
       "4 Derketo 2 Cottie Harmo",
       "4 Derketo 2 Cottie",
@@ -125,7 +359,7 @@
       {
         "set_name": "4 Derketo 2 Cottie Harmo",
         "set_type": "Awakening",
-        "game_modes": "https://assets.huaxu.app/glb/image/rolecharacter/lamiyanormal01.256.webp",
+        "game_modes": "",
         "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Derketo", "2x Cottie"],
         "memory_resonance": [
@@ -161,6 +395,43 @@
           "Bottom Slot: 6x Signature"
         ],
         "harmony_rec": "Cottie"
+      }
+    ]
+  },
+  "brs": {},
+  "epitaph": {
+    "unit_name": "Watanabe",
+    "frame_name": "Epitaph",
+    "thumbnail_url": "https://cdn.discordapp.com/attachments/1275421020949446748/1275429806976270336/800px-Dialogue-Epitaph-Awaken-Icon.png?ex=66c5dc12&is=66c48a92&hm=9f180c00eede6fa901f27e6eda40e15cd8c24fc8c738c4362dc17f9f46bb5249&",
+    "set_list": ["4 Alphonse 2 Cottie Harmo", "4 Alphonse 2 Cottie"],
+    "builds": [
+      {
+        "set_name": "4 Alphonse 2 Cottie Harmo",
+        "set_type": "Awakening",
+        "game_modes": "",
+        "description": ["Recommended for all ranks", "General DPS set"],
+        "memories": ["4x Alphonse", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Red Orb",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "Cottie"
+      },
+      {
+        "set_name": "4 Alphonse 2 Cottie",
+        "set_type": "Awakening",
+        "game_modes": "",
+        "description": [
+          "Recommended for all ranks",
+          "General DPS set",
+          "No Harmo"
+        ],
+        "memories": ["4x Alphonse", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Red Orb",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "N/A"
       }
     ]
   }
