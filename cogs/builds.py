@@ -50,9 +50,15 @@ class Builds(commands.Cog):
         print(character)
         
         match character:
-            case "daren" | "bonka" | "tsundere" | "radiant daybreak":
+            case "lumi":
+                character = "luminance"
+            case "evil liv" | "seggs" | "green jumper" | "<:evilliv:1272415890453041223>":
+                character = "lux"
+            case "empy" | "solaeter":
+                character = "empyrea"
+            case "daren" | "bonka" | "tsundere" | "radiant daybreak" | "trs" | "<:trs:1275701510293946482>":
                 character = "scire"
-            case "capri" | "crapi" | "schizo" | "cappuccino" | "soup":
+            case "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq":
                 character = "capriccio"
             case "uncle" | "king engine" | "kingengine" | "wata":
                 character = "epitaph"

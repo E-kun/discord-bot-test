@@ -1,5 +1,253 @@
 {
-  "empyrea": {},
+  "luminance": {
+    "unit_name": "Liv",
+    "frame_name": "Luminance",
+    "thumbnail_url": "https://assets.huaxu.app/browse/glb/image/rolecharacter/lifuyongzhuangnormal01.256.webp",
+    "set_list": [
+      "4 Da Vinci 2 Philip II",
+      "4 Patton 2 Darwin",
+      "4 Hanna 2 Cottie"
+    ],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Philip II",
+        "set_type": "Awakening",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": [
+          "Requires Leap",
+          "QTE support set, best physical support option."
+        ],
+        "memories": ["4x Da Vinci", "2x Philip II"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Patton 2 Darwin",
+        "set_type": "DPS",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["Niche", "DPS Set for Leap"],
+        "memories": ["4x Patton", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Hanna 2 Cottie",
+        "set_type": "Awakening",
+        "game_modes": "",
+        "description": ["High difficulty", "Physical Support set", "No Harmo"],
+        "memories": ["4x Hanna", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "eclipse": {
+    "unit_name": "Liv",
+    "frame_name": "Eclipse",
+    "thumbnail_url": "https://assets.huaxu.app/browse/glb/image/rolecharacter/lifunormal01.256.webp",
+    "set_list": ["4 Da Vinci 2 Philip II", "4 Darwin 2 Leeuwenhoek"],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Philip II",
+        "set_type": "Awakening",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["Recommended for all ranks", "QTE support set."],
+        "memories": ["4x Da Vinci", "2x Philip II"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Darwin 2 Leeuwenhoek",
+        "set_type": "Awakening",
+        "game_modes": "High Difficulty",
+        "description": ["Recommended for all ranks", "Niche build"],
+        "memories": ["4x Darwin", "2x Leeuwenhoek"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "lux": {
+    "unit_name": "Liv",
+    "frame_name": "Lux",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadlifu2s.256.webp",
+    "set_list": ["4 Da Vinci 2 Guinevere", "4 Guinevere 2 Lantern"],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Guinevere",
+        "set_type": "Awakening",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": [
+          "Recommended for all ranks",
+          "QTE support set",
+          "Used when there is a DPS and sub DPS i.e. Lux / Veritas / Garnet Lux"
+        ],
+        "memories": ["4x Da Vinci", "2x Guinevere"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Guinevere 2 Lantern",
+        "set_type": "Awakening",
+        "game_modes": "Pain Cage, Norman, High Difficulty",
+        "description": [
+          "Recommended for all ranks",
+          "QTE Support, used for supporting a solo DPS",
+          "Better heals and higher buffs, paired with Davinci lightning tank.",
+          "Lux can activate Guinevere Drone in a single QTE",
+          "Use Samantha if no Lantern."
+        ],
+        "memories": ["4x Guinevere", "2x Lantern"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "empyrea": {
+    "unit_name": "Liv",
+    "frame_name": "Empyrea",
+    "thumbnail_url": "https://assets.huaxu.app/browse/glb/image/rolecharacter/roleheadr4lifu2.256.webp",
+    "set_list": [
+      "4 Da Vinci 2 Guinevere 2 Einsteina Harmo",
+      "4 Da Vinci 4 Guinevere Harmo",
+      "4 Guinevere 2 Einsteina 2 Samantha Harmo",
+      "4 Elizabeth 2 Cottie",
+      "4 Elizabeth 2 Darwin",
+      "4 Da Vinci 2 Guinevere",
+      "4 Da Vinci 2 Philip II",
+      "4 Guinevere 2 Gloria"
+    ],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Guinevere 2 Einsteina Harmo",
+        "set_type": "Awakening + Harmony",
+        "game_modes": "Warzone",
+        "description": ["Recommended for all ranks", "Support set"],
+        "memories": ["4x Da Vinci", "2x Guinevere", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "Einsteina"
+      },
+      {
+        "set_name": "4 Da Vinci 4 Guinevere Harmo",
+        "set_type": "Awakening + Harmony",
+        "game_modes": "Pain Cage",
+        "description": ["Recommended for all ranks", "Support set"],
+        "memories": ["4x Da Vinci", "4x Guinevere"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "Guinevere"
+      },
+      {
+        "set_name": "4 Guinevere 2 Einsteina 2 Samantha Harmo",
+        "set_type": "Awakening + Harmony",
+        "game_modes": "Pain Cage",
+        "description": ["Recommended for all ranks", "Non-fire Support set"],
+        "memories": ["4x Da Vinci", "2x Einsteina", "2x Samantha"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 4x Class, 2x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "Einsteina"
+      },
+      {
+        "set_name": "4 Elizabeth 2 Cottie",
+        "set_type": "Awakening",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["SSS or lower", "General DPS/sub-DPS set"],
+        "memories": ["4x Elizabeth", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 3x Core / 3x Signature"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Elizabeth 2 Darwin",
+        "set_type": "Awakening",
+        "game_modes": "Pain Cage, Norman, High Difficulty",
+        "description": [
+          "Primary set before timestop buff",
+          "Alternate DPS set"
+        ],
+        "memories": ["4x Elizabeth", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Da Vinci 2 Guinevere",
+        "set_type": "Awakening",
+        "game_modes": "Pain Cage, Warzone",
+        "description": [
+          "Recommended for all ranks",
+          "Elemental QTE support set"
+        ],
+        "memories": ["4x Da Vinci", "2x Guinevere"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Da Vinci 2 Philip II",
+        "set_type": "Awakening",
+        "game_modes": "Pain Cage, Warzone",
+        "description": ["Recommended for all ranks", "Physical Support set"],
+        "memories": ["4x Da Vinci", "2x Philip II"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Guinevere 2 Gloria",
+        "set_type": "Awakening",
+        "game_modes": "Pain Cage",
+        "description": [
+          "Recommended for all ranks",
+          "QTE support set for single DPS",
+          "Empyrea can proc Guinevere's drone in a single QTE",
+          "Lantern sometimes substitutes Gloria."
+        ],
+        "memories": ["4x Guinevere", "2x Gloria"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
   "starfarer": {},
   "rigor": {},
   "stigmata": {},

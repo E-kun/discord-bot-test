@@ -54,11 +54,17 @@ class MyBot(commands.Bot):
             self.synced = not self.synced
             self.logger.info("Synced command tree")
 
+    
 
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="[%(asctime)s] %(levelname)s: %(message)s")
     bot = MyBot(prefix="?", ext_dir="cogs")
     bot.run(TOKEN, log_handler=handler, log_level=logging.ERROR)
+
+    @bot.command()
+    async def reload(ctx: commands.Context, extension: str):
+        await bot.reload_extension(f"cogs.{extension}")
+        await ctx.send(f"Reloaded {extension}!")
 
 
 if __name__ == "__main__":

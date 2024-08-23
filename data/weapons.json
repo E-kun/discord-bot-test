@@ -1,0 +1,38 @@
+{
+  "sarastro": {
+    "name": "Sarastro",
+    "weapon_type": "Flute-Sword",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3fluntmd010011.webp",
+    "rarity": 6,
+    "atk": 463,
+    "crit": 254,
+    "effect": {
+      "effect_name": "Mirage Light Concerto",
+      "effect_description": "Each phantom unleashed by Selena: Capriccio on the field will make Selena: Capriccio deal 5% more Extra DMG. This effect can be stacked up to 6 times. Upon casting a Reprise: Echo, Selena: Capriccio gains 12 additional Signature Energy."
+    }
+  },
+  "illuminare": {
+    "name": "Illuminare",
+    "weapon_type": "Blast Hammer",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2hammermd030011.webp",
+    "rarity": 6,
+    "atk": 458,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Big Bang",
+      "effect_description": "The Chain Fusion effect applied by Karenina: Scire increases by 10%. Each time Karenina casts Radiant Whirlwind, she recovers 1 Energy. The Extra DMG Bonus of Leap Attack increases by 20%."
+    }
+  },
+  "metis": {
+    "name": "Metis",
+    "weapon_type": "Xeno-Glaive",
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3lamiyamd010011.webp",
+    "rarity": 6,
+    "atk": 458,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Drowning Currents",
+      "effect_description": "ATK increases by 10%. The rate in which Lamia accumulates Abussos Points increases by 100%. When pinging a Tidal Orb, trigger Matrix if available."
+    }
+  }
+}

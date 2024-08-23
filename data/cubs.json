@@ -1,0 +1,46 @@
+{
+  "cetus": {
+    "name": "Cetus",
+    "cub_type": "Damage, Crowd Control",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3dolphinoffmd010011.webp",
+    "active_skills": [
+      {
+        "skill_name": "Terrifying Vortex",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. after casting, Cetus will leap up, dive to the target location and generate a vortex, dealing 1600% DMG and applying Rigidity. Rigidity: Immobilizes the enemy for 2s. "
+      },
+      {
+        "skill_name": "Raging Waves",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Cetus will swim toward the enemy, swing its tail, and backflip, generating waves behind the target, dealing 1750% DMG and pushing the enemy to the character."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Dolphin Tactic: Patrol",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Cetus' Active Skill deals 70% more DMG."
+      },
+      {
+        "skill_name": "Dolphin Tactic: Escort",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the carrier's ATK by 100."
+      },
+      {
+        "skill_name": "Dolphin Tactic: Raid",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Each time Cetus casts an Active Skill, the carrier's Extra DMG Bonus increases by 5% for 8s. Triggering this effect again will renew its duration."
+      },
+      {
+        "skill_name": "Submerged Rock",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Dark DMG by 10%. "
+      },
+      {
+        "skill_name": "Old Illusions",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When Lamia: Lost Lullaby casts Signature - Sunken finale with Cetus equipped, base DMG will increase by 80%. Casting Blue Orb Skill - Ocean Break and Basic Attack - Abyssal Currents will summon Cetus to launch a joint attack dealing 2500% Dark DMG. "
+      }
+    ]
+  }
+}
