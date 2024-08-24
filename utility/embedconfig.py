@@ -65,17 +65,26 @@ class EmbedClass:
         stars = memory['rarity']
         
         match stars:
+            case 2:
+                stars = "★★"
+                colour = 0x75d17d
+            case 3:
+                stars = "★★★"
+                colour = 0x3c76bd
             case 4:
                 stars = "★★★★"
+                colour = 0xd667f0
             case 5:
                 stars = "★★★★★"
+                colour = 0xf79514
             case 6:
                 stars = "★★★★★★"
+                colour = 0xfc5f21
 
         embed = discord.Embed(
             title=f"{memory['name']} {stars}",
             # description=f"{memory['weapon_type']}",
-            # color=discord.colour(value=0xfc5f21)
+            color=discord.Color(colour)
         )
         embed.add_field(
             name=f"2pc Set Bonus",
@@ -106,23 +115,33 @@ class EmbedClass:
         embed.set_thumbnail(url=memory['thumbnail'])
         return embed
 
-
     def create_weapon_embed(self, weapon):
         effect = weapon['effect']
         stars = weapon['rarity']
         
         match stars:
+            case 2:
+                stars = "★★"
+                colour = 0x75d17d
+            case 3:
+                stars = "★★★"
+                colour = 0x3c76bd
             case 4:
                 stars = "★★★★"
+                colour = 0xd667f0
             case 5:
                 stars = "★★★★★"
+                colour = 0xf79514
             case 6:
                 stars = "★★★★★★"
+                colour = 0xfc5f21
         
+        print(colour)
+
         embed = discord.Embed(
             title=f"{weapon['name']} {stars}",
             description=f"{weapon['weapon_type']}",
-            # color=discord.colour(value=0xfc5f21)
+            color=discord.Color(colour)
         )
         embed.add_field(
             name=f"{effect['effect_name']}",

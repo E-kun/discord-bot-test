@@ -46,9 +46,9 @@ class Weapons(commands.Cog):
         
         weapon_name = check_nickname(weapon_name, "weapon")  
 
-        print(weapon_name)
+        # print(weapon_name)
         if(self.does_weapon_exist(weapon_name)):
-            print(weapon_name)
+            # print(weapon_name)
             weapon = self.retrieve_weapon(weapon_name)
             embed = self.embedconf.create_weapon_embed(weapon)
             await ctx.send(embed=embed)

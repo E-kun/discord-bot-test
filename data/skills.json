@@ -1,7 +1,7 @@
 {
   "noctis": {
     "basic_attack": {
-      "name": "Darting Pursuit",
+      "name": "Engine Vortex",
       "description": {
         "desc": "Rapidly fires arrows at the target, dealing Physical DMG.",
         "result": ["Deals 460% Physical DMG in total."]
@@ -61,7 +61,8 @@
       {
         "name": "Majestic Splendor",
         "description": {
-          "desc": "Each orb pinged inside Judgment Zone will generate 10 Splendor Points, max 90."
+          "desc": "Each orb pinged inside Judgment Zone will generate 10 Splendor Points, max 90.",
+          "result": []
         }
       },
       {
@@ -85,7 +86,8 @@
       {
         "name": "Blessing of Fortitude",
         "description": {
-          "desc": "Allies are granted Ultralimit Torque which increases their Physical DMG by 10% for 8s after being healed. The duration resets every time it is triggered."
+          "desc": "Allies are granted Ultralimit Torque which increases their Physical DMG by 10% for 8s after being healed. The duration resets every time it is triggered.",
+          "result": []
         }
       }
     ],
@@ -108,13 +110,15 @@
     "leader": {
       "name": "Harbinger of Law",
       "description": {
-        "desc": "All members' ATK increases by 10%. Amplifiers' Physical DMG Bonus increases by 5%."
+        "desc": "All members' ATK increases by 10%. Amplifiers' Physical DMG Bonus increases by 5%.",
+        "result": []
       }
     },
     "class": {
       "name": "Amplifier",
       "description": {
-        "desc": "All switched-in members gain an extra 10% ATK and 10% Elemental DMG Bonus of the Amplifier's element for 10s."
+        "desc": "All switched-in members gain an extra 10% ATK and 10% Elemental DMG Bonus of the Amplifier's element for 10s.",
+        "result": []
       }
     },
     "ss_rank": {

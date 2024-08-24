@@ -4,6 +4,7 @@ import json
 from discord.ext import commands
 from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
 from utility.embedconfig import EmbedClass
+from utility.nickname_checker import check_nickname
 
 class Memories(commands.Cog):
 
@@ -17,6 +18,7 @@ class Memories(commands.Cog):
         return parsed_json[memory]
 
     def does_memory_exist(self, memory_name):
+
         memorylist = ["cottie", "edison", "aife", "ike", "einsteina", "archimedes", "alice", "patton", "bianca: tipsy night", "isabel", "kuriko eternal", "boone", "darwin", "da vinci", "derketo", "diesel", "lucia - summer daze", "seraphine", "philip", "frederick", "voltaire", "condelina", "shakespeare", "heisen", "hanna", "catherine", "guinevere", "bathlon", "chen jiyuan", "leeuwenhoek", "flamel", "tifa", "elizabeth", "unimate", "charlotte", "turing", "aline", "fran", "signa", "alphonse"]
         exists = False
 
@@ -40,33 +42,7 @@ class Memories(commands.Cog):
         else:
             memory_name = args[0]
         
-        match memory_name:
-            # case "lumi":
-            #     weapon_name = "luminance"
-            # case "evil liv" | "seggs" | "green jumper":
-            #     weapon_name = "lux"
-            # case "empy" | "solaeter":
-            #     weapon_name = "empyrea"
-            # case "daren" | "scire":
-            #     memory_name = "boone"
-            # case "capri" | "crapi" | "schizo" | "capriccio":
-            #     memory_name = "seraphine"
-            # case "uncle" | "king engine" | "kingengine" | "wata":
-            #     weapon_name = "epitaph"
-            # case "supercar" | "hyper":
-            #     weapon_name = "hyperreal"
-            # case "cow":
-            #     weapon_name = "kaleido"
-            case "lullaby" | "lost lullaby" | "fish" | "lamia":
-                memory_name = "derketo"
-            # case "weave" | "motivation" | "vergil's daughter":
-            #     weapon_name = "crimson weave"
-            # case "awoo" | "furry":
-            #     weapon_name = "feral"
-            # case "indomitus":
-            #     weapon_name = "noctis"
-            case _:
-                memory_name = memory_name            
+        memory_name = check_nickname(memory_name, "memory")            
 
         print(memory_name)
         if(self.does_memory_exist(memory_name)):

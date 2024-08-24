@@ -1,4 +1,28 @@
 {
+  "standard knife": {
+    "name": "Standard Knife",
+    "weapon_type": "Katana",
+    "rarity": 2,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1swordmd020011.webp",
+    "atk": 37,
+    "crit": 19,
+    "effect": {
+      "effect_name": "",
+      "effect_desc": ""
+    }
+  },
+  "levitator": {
+    "name": "Levitator",
+    "weapon_type": "Levi-Gun",
+    "rarity": 2,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1floatmd020011.webp",
+    "atk": 35,
+    "crit": 21,
+    "effect": {
+      "effect_name": "",
+      "effect_desc": ""
+    }
+  },
   "lotus berserker": {
     "name": "Lotus Berserker",
     "weapon_type": "Katana",
@@ -23,7 +47,7 @@
       "effect_desc": "Laser Shot's Extra DMG Bonus increases by 50%. Gains 15% ATK after a 3-Ping for 5s. Duration resets every time it is triggered."
     }
   },
-  "inverse - chimera": {
+  "inverse chimera": {
     "name": "Inverse - Chimera",
     "weapon_type": "Saw",
     "rarity": 6,
@@ -35,7 +59,7 @@
       "effect_desc": "Attacks have a 20% chance to inflict Breach, dealing 2% Physical DMG per second for 3s. The chance is doubled if the enemy's DEF has been reduced. Can be stacked up to 10 times. Duration resets every time it is triggered. Physical DMG increases by 10% when attacking a Breached enemy."
     }
   },
-  "inverse - shadow": {
+  "inverse shadow": {
     "name": "Inverse - Shadow",
     "weapon_type": "Katana",
     "rarity": 6,
@@ -116,7 +140,7 @@
     "crit": 253,
     "effect": {
       "effect_name": "Storm Hunt",
-      "effect_desc": "This weapon is bad, use Type Zero instead. Basic Attacks have a 10% chance to inflict Frail, reducing the target's ATK by 10% for 5s. Duration resets every time it is triggered. Attacking a Frail enemy has a 10% chance to restore 1 Signal Orb. 6s cooldown."
+      "effect_desc": "**This weapon is bad, use Type Zero instead.** Basic Attacks have a 10% chance to inflict Frail, reducing the target's ATK by 10% for 5s. Duration resets every time it is triggered. Attacking a Frail enemy has a 10% chance to restore 1 Signal Orb. 6s cooldown."
     }
   },
   "zero scale": {
@@ -335,7 +359,7 @@
       "effect_desc": "Dark DMG increases by 15%, and the 4th spine of annihilation orb will produce additional 100% of ranged dark DMG."
     }
   },
-  "virtuous contract - mod": {
+  "virtuous contract": {
     "name": "Virtuous Contract - Mod",
     "weapon_type": "Katana & Greatsword",
     "rarity": 6,
@@ -347,7 +371,7 @@
       "effect_desc": "Increases Physical DMG by 15% and doubles the effect of Leader Skill. Upon entering combat, gains 160 Stability and switching to Battle Stance gives 2 stacks of Data Correction."
     }
   },
-  "cruel oath - mod": {
+  "cruel oath": {
     "name": "Cruel Oath - Mod",
     "weapon_type": "Katana",
     "rarity": 6,
@@ -359,7 +383,7 @@
       "effect_desc": "Increases Physical DMG and Healing effects by 15%, also doubles the effects of Leader Skill. After triggering Overclock Indicator, swapping cooldown for 2B and A2 decreases by 1s and they gain 1 random Signal Orb."
     }
   },
-  "type-4o lance - mod": {
+  "type-4o lance": {
     "name": "Type-4O Lance - Mod",
     "weapon_type": "Tactical Lance",
     "rarity": 6,
@@ -539,7 +563,7 @@
       "effect_desc": "CRIT DMG increases by 30%. Upon entering the Sword Form, immediately gains 20 stacks of Stigmata Will and activate the Resolution status."
     }
   },
-  "sound of silence": {
+  "soundof silence": {
     "name": "Sound of Silence",
     "weapon_type": "Mantis Blades",
     "rarity": 6,
@@ -551,7 +575,7 @@
       "effect_desc": "ATK increases by 10%. Bambinata: Vitrum's Pas De Chat deals 15% more Ice DMG. Every time Bambinata: Vitrum is deployed, she will forget a random color of Signal Orbs for 1 Pact of Memory."
     }
   },
-  "key of tempus gate - stokes": {
+  "stokes": {
     "name": "Key of Tempus Gate - Stokes",
     "weapon_type": "Composite Armaments",
     "rarity": 6,
@@ -647,23 +671,23 @@
       "effect_desc": "ATK increases by 10%. The amount of Abyssal Points earned increases by 100%. Pinging a Tidal Orb will trigger Matrix if it is not in cooldown."
     }
   },
-  "★black rock cannon": {
-    "name": "★Black Rock Cannon",
+  "brs cannon": {
+    "name": "Black Rock Cannon",
     "weapon_type": "Blade Cannon",
     "rarity": 6,
-    "thumbnail": "",
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/8/8a/rait6f8d1lcnkx9rybad5s2clvucs4s.png/100px-%E6%AD%A6%E5%99%A8_%E2%98%85%E9%BB%91%E5%B2%A9%E5%B7%A8%E7%82%AE.png",
     "atk": 450,
     "crit": 251,
     "effect": {
-      "effect_name": "Shooting Star★",
+      "effect_name": "Shooting Star",
       "effect_desc": "ATK increases by 10%. Base DMG of Flare Strike, Starstream Bayonet, Skyfall Blade, and Limitless increases by 100%."
     }
   },
   "night falcon": {
     "name": "Night Falcon",
-    "weapon_type": "",
+    "weapon_type": "Pioneer's Blade",
     "rarity": 6,
-    "thumbnail": "",
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/4/47/qlk6b5nbp4dc3kt1ciuu2d92602h83h.png/100px-%E6%AD%A6%E5%99%A8_%E6%9A%97%E5%A4%9C%E7%8C%8E%E9%9A%BC.png",
     "atk": 436,
     "crit": 249,
     "effect": {
@@ -671,11 +695,11 @@
       "effect_desc": "ATK increases by 10%. Gain 3 Red Orbs upon activating Paradigm: Assault; gaining at most 6 Red Orbs this way for each time Watanabe enters the battlefield. Watanabe can immediately use Infernal Eruption after pinging Red Orbs."
     }
   },
-  "dwelling will of inscription's key": {
+  "dwelling will": {
     "name": "Dwelling Will of Inscription's Key",
     "weapon_type": "Longsword",
     "rarity": 6,
-    "thumbnail": "",
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/8/88/jqufhygrj7z8nxcxvlgs9xymqkl4ce1.png/100px-%E6%AD%A6%E5%99%A8_%E9%93%AD%E9%92%A5%E9%98%99%E5%BD%B1.png",
     "atk": 467,
     "crit": 241,
     "effect": {
@@ -687,7 +711,7 @@
     "name": "Hacker's Tune",
     "weapon_type": "Tactical Headphones",
     "rarity": 6,
-    "thumbnail": "",
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/e/eb/3vtgpctsvnvtek65gyjj4pnpytqmi9r.png/100px-%E6%AD%A6%E5%99%A8_%E9%AA%87%E5%AE%A2%E9%94%90%E9%9F%B3.png",
     "atk": 436,
     "crit": 241,
     "effect": {
@@ -695,11 +719,11 @@
       "effect_desc": "ATK increases by 10%. Base DMG of Signal Orbs and Cadence Orbs increases by 30%. If the Signature Energy gauge is full when Teddy: Decryptor is swapped into the field while in Unanalyzed Mode, Teddy will automatically enter Analyzed Mode and gain 40 Analysis Points. Otherwise, Teddy will gain 100 Signature Energy."
     }
   },
-  "reconstruction of law": {
+  "reconstruction": {
     "name": "Reconstruction of Law",
     "weapon_type": "Chakram",
     "rarity": 6,
-    "thumbnail": "",
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/2/23/qj9352viwg2ffvq9qkkf4k784kh4orn.png/100px-%E6%AD%A6%E5%99%A8_%E5%BE%8B%E6%9D%A1%E9%87%8D%E5%A1%91.png",
     "atk": 436,
     "crit": 249,
     "effect": {
@@ -711,7 +735,7 @@
     "name": "Cestus",
     "weapon_type": "Tactical Tonfas",
     "rarity": 6,
-    "thumbnail": "",
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/7/75/ghodyt21c160py7juipr49wyyvx3bvs.png/100px-%E6%AD%A6%E5%99%A8_%E5%A1%9E%E6%96%AF%E7%89%B9%E6%96%AF.png",
     "atk": 436,
     "crit": 244,
     "effect": {
@@ -723,7 +747,7 @@
     "name": "Dream Roamer",
     "weapon_type": "Pipa",
     "rarity": 6,
-    "thumbnail": "",
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/0/00/mrujrh4oxi3h3vb846ylqk9613xvyex.png/100px-%E6%AD%A6%E5%99%A8_%E9%B9%8F%E6%B8%B8%E8%9D%B6%E6%A2%A6.png",
     "atk": 436,
     "crit": 249,
     "effect": {
@@ -735,7 +759,7 @@
     "name": "Hemera's Gaze",
     "weapon_type": "Revolver",
     "rarity": 6,
-    "thumbnail": "",
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/4/49/bbi1mnv58ymzlf7ylacd5wjbg649maw.png/100px-%E6%AD%A6%E5%99%A8_%E6%98%8E%E7%9E%B3%E7%BB%AD%E6%98%BC.png",
     "atk": 436,
     "crit": 249,
     "effect": {
@@ -743,11 +767,11 @@
       "effect_desc": "ATK increases by 10%. Base DMG of Gale Strike, Bullet Hail, and Frosty Ascent doubles."
     }
   },
-  "dawn's flaming feathers": {
+  "flaming feathers": {
     "name": "Dawn's Flaming Feathers",
     "weapon_type": "Lustrous Katana",
     "rarity": 6,
-    "thumbnail": "",
+    "thumbnail": "https://patchwiki.biligame.com/images/zspms/thumb/3/3a/1eggeh383ssi01sd15u7d8qeqg1rpup.png/100px-%E6%AD%A6%E5%99%A8_%E6%8B%82%E6%99%93%E7%82%8E%E7%BF%8E.png",
     "atk": 436,
     "crit": 249,
     "effect": {
