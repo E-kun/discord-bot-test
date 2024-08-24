@@ -1,38 +1,758 @@
 {
+  "lotus berserker": {
+    "name": "Lotus Berserker",
+    "weapon_type": "Katana",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3swordmd070011.webp",
+    "atk": 428,
+    "crit": 234,
+    "effect": {
+      "effect_name": "Blade of Fury",
+      "effect_desc": "Basic Attack's Extra DMG Bonus increases by 10%. Physical DMG increases by 5% for 2s after each Basic Attack. Can be stacked up to 5 times. Duration resets every time it is triggered."
+    }
+  },
+  "type zero": {
+    "name": "Type Zero",
+    "weapon_type": "Levi-Gun",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2floatmd060011.webp",
+    "atk": 415,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Original Number",
+      "effect_desc": "Laser Shot's Extra DMG Bonus increases by 50%. Gains 15% ATK after a 3-Ping for 5s. Duration resets every time it is triggered."
+    }
+  },
+  "inverse - chimera": {
+    "name": "Inverse - Chimera",
+    "weapon_type": "Saw",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3sawmd070011.webp",
+    "atk": 425,
+    "crit": 235,
+    "effect": {
+      "effect_name": "Fusion Shadow",
+      "effect_desc": "Attacks have a 20% chance to inflict Breach, dealing 2% Physical DMG per second for 3s. The chance is doubled if the enemy's DEF has been reduced. Can be stacked up to 10 times. Duration resets every time it is triggered. Physical DMG increases by 10% when attacking a Breached enemy."
+    }
+  },
+  "inverse - shadow": {
+    "name": "Inverse - Shadow",
+    "weapon_type": "Katana",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3swordmd080011.webp",
+    "atk": 445,
+    "crit": 226,
+    "effect": {
+      "effect_name": "Inverse Shadow",
+      "effect_desc": "Lightning DMG Bonus increases by 5% for 4s when dealing Lightning DMG. Can be stacked up to 4 times. Signature Move increases own Extra DMG Bonus by 10% for 10s. Both duration will reset every time it is triggered."
+    }
+  },
+  "benediction": {
+    "name": "Benediction",
+    "weapon_type": "Levi-Gun",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3floatmd080011.webp",
+    "atk": 423,
+    "crit": 245,
+    "effect": {
+      "effect_name": "Ring of Praise",
+      "effect_desc": "For every 12 orbs pinged, increases Extra DMG Bonus of the allies within 5m by 10% for 5s. Duration resets every time it is triggered. When attacking Imprisoned enemies, Extra DMG Bonus increases by 10%."
+    }
+  },
+  "wolf fang": {
+    "name": "Wolf Fang",
+    "weapon_type": "Dual Guns",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3gunmd070011.webp",
+    "atk": 458,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Predator's Maxim",
+      "effect_desc": "Extra DMG Bonus increases by 20% when attacking enemies in a burning area."
+    }
+  },
+  "soul ripper": {
+    "name": "Soul Ripper",
+    "weapon_type": "Dagger",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3daggermd070011.webp",
+    "atk": 458,
+    "crit": 261,
+    "effect": {
+      "effect_name": "Zero Pierce",
+      "effect_desc": "Dealing a Critical Hit from behind inflicts Breach, dealing 50% Physical DMG per second for 3s. Duration resets every time it is triggered. Physical DMG increases by 20% when attacking a Breached enemy."
+    }
+  },
+  "ramiel": {
+    "name": "Ramiel",
+    "weapon_type": "Bow",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3bowmd070011.webp",
+    "atk": 471,
+    "crit": 254,
+    "effect": {
+      "effect_name": "Now, I Am the Master",
+      "effect_desc": "Signature Move's Extra DMG Bonus increases by 15%. Signature Move reduces its target's Physical Resistance by 2% for 5s per hit. Can be stacked up to 8 times. Duration resets every time it is triggered."
+    }
+  },
+  "berserk fusion": {
+    "name": "Berserk Fusion",
+    "weapon_type": "Cannon",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3sleevemd070011.webp",
+    "atk": 458,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Chaos Particle",
+      "effect_desc": "Physical DMG increases by 10%. After a 3-Ping, Basic Attack's Extra DMG Bonus is increased by 30% for 5s. Duration resets every time it is triggered."
+    }
+  },
+  "dragon wind": {
+    "name": "Dragon Wind",
+    "weapon_type": "Levi-Gun",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3floatmd090011.webp",
+    "atk": 406,
+    "crit": 253,
+    "effect": {
+      "effect_name": "Storm Hunt",
+      "effect_desc": "This weapon is bad, use Type Zero instead. Basic Attacks have a 10% chance to inflict Frail, reducing the target's ATK by 10% for 5s. Duration resets every time it is triggered. Attacking a Frail enemy has a 10% chance to restore 1 Signal Orb. 6s cooldown."
+    }
+  },
+  "zero scale": {
+    "name": "Zero Scale",
+    "weapon_type": "Dual Guns",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3gunmd080011.webp",
+    "atk": 445,
+    "crit": 254,
+    "effect": {
+      "effect_name": "Cycle of Stars",
+      "effect_desc": "Increases Skill - Space Lord's Extra DMG Bonus by 10%. Physical DMG is increased by 15% for 5s after a 3-Ping. Duration resets every time it is triggered."
+    }
+  },
+  "fusion dragon": {
+    "name": "Fusion Dragon",
+    "weapon_type": "Cannon",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3sleevemd080011.webp",
+    "atk": 450,
+    "crit": 253,
+    "effect": {
+      "effect_name": "Raging Red",
+      "effect_desc": "Fire DMG increases by 10%. Pinging Red Orbs increases Fire DMG by 10% for 5s. Duration resets every time it is triggered."
+    }
+  },
+  "hydro heat": {
+    "name": "Hydro Heat",
+    "weapon_type": "Saw",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3sawmd080011.webp",
+    "atk": 436,
+    "crit": 230,
+    "effect": {
+      "effect_name": "Fire Chain",
+      "effect_desc": "Attacks have a 10% chance to reduce the target's Fire Resistance by 5% for 5s. 8s cooldown against the same target. A Signature Move increases Fire DMG by 20% and doubles the chance of reducing the target's Resistance."
+    }
+  },
+  "darkness": {
+    "name": "Darkness",
+    "weapon_type": "Greatsword",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3claymoremd080011.webp",
+    "atk": 445,
+    "crit": 226,
+    "effect": {
+      "effect_name": "Shadow Burst",
+      "effect_desc": "After a 3-Ping, Physical DMG and Dark DMG dealt increase by 20% for 5s. Duration resets every time it is triggered."
+    }
+  },
+  "sakura": {
+    "name": "Sakura",
+    "weapon_type": "Katana",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3swordmd090011.webp",
+    "atk": 447,
+    "crit": 239,
+    "effect": {
+      "effect_name": "Falling Blossoms",
+      "effect_desc": "Each Ping increases Physical DMG by 2% for 5s, stacking up to a max of 10 times and repeated trigger refreshes duration. One Sword Orb can be additionally obtained when entering Sword State. 10s cooldown."
+    }
+  },
+  "big kamui": {
+    "name": "Big Kamui",
+    "weapon_type": "Greatsword",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3claymoremd070011.webp",
+    "atk": 436,
+    "crit": 230,
+    "effect": {
+      "effect_name": "Unified Will",
+      "effect_desc": "Physical DMG increases by 15%. Upon a successful parry, Extra DMG Bonus of the next skill increases by 30%."
+    }
+  },
+  "peacemaker": {
+    "name": "Peacemaker",
+    "weapon_type": "Dagger",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3daggermd110011.webp",
+    "atk": 463,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Soul Strike",
+      "effect_desc": "Extra DMG Bonus increases by 10%. Dark DMG increases by 10% while under Cosmic Wave state."
+    }
+  },
+  "purple peony": {
+    "name": "Purple Peony",
+    "weapon_type": "Scythe",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3sickmd070011.webp",
+    "atk": 425,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Color Splash",
+      "effect_desc": "Extra DMG Bonus increases by 2% for 5s when dealing DMG to enemies with Super Armor. Can be stacked up to 3 times. Duration resets every time it is triggered. Stuns an enemy for 2s when breaking its Super Armor. 10s cooldown for the same target. Physical DMG increases by 15% for 7s when releasing Vector Cube. Duration resets every time it is triggered."
+    }
+  },
+  "tonitrus": {
+    "name": "Tonitrus",
+    "weapon_type": "Bow",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3bowmd080011.webp",
+    "atk": 476,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Raging Tempest",
+      "effect_desc": "Lightning DMG is increased by 15%. When dealing Lightning DMG caused by skills to the same target 5 times, calls down a lightning strike that deals 150% Lightning DMG. 2s cooldown."
+    }
+  },
+  "scion": {
+    "name": "Scion",
+    "weapon_type": "Dual Guns",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3gunmd090011.webp",
+    "atk": 436,
+    "crit": 244,
+    "effect": {
+      "effect_name": "Measurement Theory",
+      "effect_desc": "When picking up an Energy Ball, increases Extra DMG Bonus by 3% for 5s. Can be stacked up to 5 times. For every 5 Energy Balls picked up, gains an additional random Signal Orb and 10 Energy. 10s cooldown."
+    }
+  },
+  "st. elmo": {
+    "name": "St. Elmo",
+    "weapon_type": "Scythe",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3sickmd090011.webp",
+    "atk": 436,
+    "crit": 236,
+    "effect": {
+      "effect_name": "St. Elmo's Fire",
+      "effect_desc": "Lightning DMG increases by 10%. During Signature Move, the number of Lightning Strikes needed to activate Core Passive is reduced to 3."
+    }
+  },
+  "crimson birch": {
+    "name": "Crimson Birch",
+    "weapon_type": "Katana",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3swordmd130111p01.webp",
+    "atk": 463,
+    "crit": 234,
+    "effect": {
+      "effect_name": "Crimson Snow",
+      "effect_desc": "Ice DMG increases by 15%. DMG increases by 10% for 5s after 3-Ping."
+    }
+  },
+  "sariel": {
+    "name": "Sariel",
+    "weapon_type": "Katana",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3swordmd150111p01.webp",
+    "atk": 441,
+    "crit": 241,
+    "effect": {
+      "effect_name": "Bramble Heart",
+      "effect_desc": "Dark DMG increases by 15%. Attacks have a 15% chance to unleash a shadow wave, dealing 75% Dark DMG. 0.5s cooldown."
+    }
+  },
+  "thanatos": {
+    "name": "Thanatos",
+    "weapon_type": "Uniframe: Greatsword",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3kamumd010011.webp",
+    "atk": 493,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Solar Cleave",
+      "effect_desc": "Extra DMG Bonus increases by 15%. When Camu: Crocotta enters Berserk, Thanatos will continuously increase Dark DMG for characters on the battlefield by 10%."
+    }
+  },
+  "gungnir": {
+    "name": "Gungnir",
+    "weapon_type": "Spear Shield",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3spearmd010011p01.webp",
+    "atk": 458,
+    "crit": 230,
+    "effect": {
+      "effect_name": "Everlasting Brilliance",
+      "effect_desc": "Damaging a target will reduce their Physical DEF by 20% for 8s. The duration is refreshed each time this effect is triggered. Dealing damage with small/medium/wide-area electromagnetic beam also applies a damage over time effect for 8s, dealing Physical DMG equal to 25% / 50% / 100% of ATK every second."
+    }
+  },
+  "baji": {
+    "name": "Baji",
+    "weapon_type": "Gauntlets",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3glovemd010011.webp",
+    "atk": 467,
+    "crit": 236,
+    "effect": {
+      "effect_name": "Eight Pinnacles",
+      "effect_desc": "Ice DMG increases by 15%. Creates Mirror Crystals for 8s after casting Flowing Whirlpool or QTE skill."
+    }
+  },
+  "qinghe": {
+    "name": "Qinghe",
+    "weapon_type": "Uniframe: Glaive",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3qumd010011.webp",
+    "atk": 506,
+    "crit": 261,
+    "effect": {
+      "effect_name": "Marvel",
+      "effect_desc": "Increases Physical DMG by 20% and Huiyu's attack frequency by 50%. Huiyu gains a new skill: Curse Incarnate. Curse Incarnate: Huiyu becomes a curse attached to the target, dealing up to 420% Physical DMG. It explodes after a short while to deal 480% Physical DMG. The DMG varies based on Qu's Signature Move level."
+    }
+  },
+  "ozma": {
+    "name": "Ozma",
+    "weapon_type": "Amplifier",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3ringmd010011.webp",
+    "atk": 480,
+    "crit": 261,
+    "effect": {
+      "effect_name": "Eridani Perturbation",
+      "effect_desc": "Dark DMG increases by 15%, and the 4th spine of annihilation orb will produce additional 100% of ranged dark DMG."
+    }
+  },
+  "virtuous contract - mod": {
+    "name": "Virtuous Contract - Mod",
+    "weapon_type": "Katana & Greatsword",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e32bmd010011.webp",
+    "atk": 467,
+    "crit": 261,
+    "effect": {
+      "effect_name": "Contract - Mod",
+      "effect_desc": "Increases Physical DMG by 15% and doubles the effect of Leader Skill. Upon entering combat, gains 160 Stability and switching to Battle Stance gives 2 stacks of Data Correction."
+    }
+  },
+  "cruel oath - mod": {
+    "name": "Cruel Oath - Mod",
+    "weapon_type": "Katana",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e39smd010011p02.webp",
+    "atk": 445,
+    "crit": 254,
+    "effect": {
+      "effect_name": "Oath - Mod",
+      "effect_desc": "Increases Physical DMG and Healing effects by 15%, also doubles the effects of Leader Skill. After triggering Overclock Indicator, swapping cooldown for 2B and A2 decreases by 1s and they gain 1 random Signal Orb."
+    }
+  },
+  "type-4o lance - mod": {
+    "name": "Type-4O Lance - Mod",
+    "weapon_type": "Tactical Lance",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3a2md010011p02.webp",
+    "atk": 458,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Rebel - Mod",
+      "effect_desc": "Leader Skill effect doubled. A2 is allowed to enter Berserk Mode once POD: Shield increased to 40%. Additionally, A2 will obtain ATK Bonus by 10% under Berserk Mode. In 2s upon entering Matrix and evading, hold Attack button to unleash one enhanced attack to deal 360% Physical DMG. If the enemy was hit, hold the Attack button again to pursue the enemy, dealing a total of 700% Physical DMG (DMG changes with the level of Basic Attack). Charging will consume all Yellow Orbs for charging the lance, and each consumption of a Yellow Orb will deal 100% extra DMG (up to 300%), and provide A2 with POD: Shield of 3% Max. HP. Additionally, consuming any amount of Yellow Orb by Charge Attack will grant A2 with 10% Physical DMG Bonus for 15s."
+    }
+  },
+  "scale": {
+    "name": "Scale",
+    "weapon_type": "Gun Set",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3riflemd010011p01.webp",
+    "atk": 454,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Judgement",
+      "effect_desc": "Ice DMG increases by 15%. Gain Frost Crystal for 8s when the backstep of Blooming Shot successfully dodges an attack."
+    }
+  },
+  "waldmeister": {
+    "name": "Waldmeister",
+    "weapon_type": "Cello Blade",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3cellomd010011.webp",
+    "atk": 471,
+    "crit": 261,
+    "effect": {
+      "effect_name": "Serenade",
+      "effect_desc": "Lightning DMG increases by 20%. Roaring Thunder and Sonic Vortex can now be cast during the action of other Signal Orb skills, but cannot be cast consecutively. Leaving Chaotic M.I.N.D. will return Orbs based on the number of Orbs before entering Chaotic M.I.N.D. and rearrange them for 3-Ping."
+    }
+  },
+  "apollo": {
+    "name": "Apollo",
+    "weapon_type": "Gunblade",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3gunblademd010011p01.webp",
+    "atk": 445,
+    "crit": 254,
+    "effect": {
+      "effect_name": "Apollo's Glory",
+      "effect_desc": "Ice DMG increases by 15%, QTE and any 3-Ping skill can trigger Frost Corrosion (Reduces target's Ice Resistance)."
+    }
+  },
+  "snore": {
+    "name": "Snore",
+    "weapon_type": "Co-Bot",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3ballrobotmd010011.webp",
+    "atk": 454,
+    "crit": 251,
+    "effect": {
+      "effect_name": "Wide Energy Pressure",
+      "effect_desc": "Wide-Energy Pressure Core: Whenever No. 21: XXI performs Shadow Prism attacks, a QTE, or disrupts incoming enemy attacks, the Co-Bot unleashes a Force Wave that deals 50% AOE Dark DMG to enemies (only triggers once per second). Energy Suppression Unit: Hitting allies with Force Wave will grant them Energy Suppression for 3s. Energy Suppression: Dark DMG reduces the enemy's healing received by 100% for 3s. Impulse Fort Module: When the Force Wave detonates 6 Twilight Matrices at once, the Co-Bot enters Fortification mode, unleashing a hyper-pulse that deals Dark DMG equal to 400% of No. 21: XXI's ATK (DMG scales with Core Passive level). Inver-Resonance Unit 2.0: Increases the Extra DMG Bonus of No. 21: XXI's Twilight Matrix and Resonance Pulse by 15%."
+    }
+  },
+  "phoenix": {
+    "name": "Phoenix",
+    "weapon_type": "Banner Spear",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3lancemd010011.webp",
+    "atk": 450,
+    "crit": 254,
+    "effect": {
+      "effect_name": "Eternal Hymn",
+      "effect_desc": "Lightning DMG increases by 15%. Victorious War Flag and Signature Move Shining Piercer can create another stack of Electric Charge. When Victorious War Flag is on the field, deploying Vera: Garnet will consume all of Electric Charge to cast Lightning Fall. Create another stack of Electric Charge afterward."
+    }
+  },
+  "durendal": {
+    "name": "Durendal",
+    "weapon_type": "Uniframe: Chain Blade",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3luolanmd010011.webp",
+    "atk": 467,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Immortality",
+      "effect_desc": "Fire DMG increases by 10%. The cooldown of consecutive dodge is removed. After dodging a damage, accumulates 1 Combo 2 - Dazzling Blade, which can be cast directly toward the direction of the joystick by tapping the White Orb. Also increases Extra DMG Bonus by 10% for 8s. During Apex of Trickery, the Deception Points generated from this combo are converted into 10 Trickery Points instead."
+    }
+  },
+  "hestia": {
+    "name": "Hestia",
+    "weapon_type": "Scepter",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3wandmd010011.webp",
+    "atk": 476,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Sacred Flame Ripples",
+      "effect_desc": "Liv: Empyrea gains 10% more ATK. Every time she enters the battlefield, she gains 50% Prayer. Fire DMG Bonus of Purity Oath against enemies affected by White Oracle increases by 20% (up to 100%)."
+    }
+  },
   "sarastro": {
     "name": "Sarastro",
-    "weapon_type": "Flute-Sword",
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3fluntmd010011.webp",
+    "weapon_type": "Flute Sword",
     "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3fluntmd010011.webp",
     "atk": 463,
     "crit": 254,
     "effect": {
       "effect_name": "Mirage Light Concerto",
-      "effect_description": "Each phantom unleashed by Selena: Capriccio on the field will make Selena: Capriccio deal 5% more Extra DMG. This effect can be stacked up to 6 times. Upon casting a Reprise: Echo, Selena: Capriccio gains 12 additional Signature Energy."
+      "effect_desc": "Each phantom unleashed by Selena: Capriccio on the field will make Selena: Capriccio deal 5% more Extra DMG. This effect can be stacked up to 6 times. Upon casting a Reprise: Echo, Selena: Capriccio gains 12 additional Signature Energy."
+    }
+  },
+  "infinity": {
+    "name": "Infinity",
+    "weapon_type": "Uniframe: Dragon Axe",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3boomerangmd010011.webp",
+    "atk": 463,
+    "crit": 269,
+    "effect": {
+      "effect_name": "Dragon Boost",
+      "effect_desc": "Increases Physical DMG dealt by 15% and Base DMG of Signature - Spirit Blade Dance by 25%. CRIT Rate of Spirit Blade: Falling Stars increases by 30% for every Dragon Force Combo cast. (Can be stacked up to 2 times)"
+    }
+  },
+  "implosion": {
+    "name": "Implosion",
+    "weapon_type": "Mega Saw",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3cuttingmd010011.webp",
+    "atk": 467,
+    "crit": 236,
+    "effect": {
+      "effect_name": "Helium Flash",
+      "effect_desc": "Fire DMG increases by 15%. When Nanami: Starfarer is on standby, her teammates' every 3-Ping will restore 12 Signature Energy for her. Missiles will inflict Scorching Invasion upon hitting the target: reduces 15% Fire Resistance for 8s. When Nanami: Starfarer triggers the QTE, if there is Missile Support on the field, the duration of Missile Support will be refreshed."
+    }
+  },
+  "galatea": {
+    "name": "Galatea",
+    "weapon_type": "Scythe",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3sickmd100011.webp",
+    "atk": 480,
+    "crit": 236,
+    "effect": {
+      "effect_name": "White Sculpture",
+      "effect_desc": "Bitter Frost deals 20% more Base DMG. Bitterfrost Level's Energy acquisition speed increases by 100%."
     }
   },
   "illuminare": {
     "name": "Illuminare",
     "weapon_type": "Blast Hammer",
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2hammermd030011.webp",
     "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2hammermd030011.webp",
     "atk": 458,
     "crit": 249,
     "effect": {
       "effect_name": "Big Bang",
-      "effect_description": "The Chain Fusion effect applied by Karenina: Scire increases by 10%. Each time Karenina casts Radiant Whirlwind, she recovers 1 Energy. The Extra DMG Bonus of Leap Attack increases by 20%."
+      "effect_desc": "The Chain Fusion effect applied by Karenina: Scire increases by 10%. Each time Karenina casts Radiant Whirlwind, she recovers 1 Energy. The Extra DMG Bonus of Leap Attack increases by 20%."
+    }
+  },
+  "prometheus": {
+    "name": "Prometheus",
+    "weapon_type": "Uniframe: Rev Blade",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3nuoanmd010011.webp",
+    "atk": 482,
+    "crit": 236,
+    "effect": {
+      "effect_name": "The Liberated Avalon",
+      "effect_desc": "ATK increases by 10%. Triggering Gear-Break Combo or Assault-Rising Combo restores 10 Signature Energy. Dodge Gauge restores 100% faster."
+    }
+  },
+  "hecate": {
+    "name": "Hecate",
+    "weapon_type": "Swordstaff",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3bigswordmd010011.webp",
+    "atk": 471,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Deep Scar",
+      "effect_desc": "CRIT DMG increases by 30%. Upon entering the Sword Form, immediately gains 20 stacks of Stigmata Will and activate the Resolution status."
+    }
+  },
+  "sound of silence": {
+    "name": "Sound of Silence",
+    "weapon_type": "Mantis Blades",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3bangbinatamd010011.webp",
+    "atk": 454,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Stark Perseverance",
+      "effect_desc": "ATK increases by 10%. Bambinata: Vitrum's Pas De Chat deals 15% more Ice DMG. Every time Bambinata: Vitrum is deployed, she will forget a random color of Signal Orbs for 1 Pact of Memory."
+    }
+  },
+  "key of tempus gate - stokes": {
+    "name": "Key of Tempus Gate - Stokes",
+    "weapon_type": "Composite Armaments",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3superlimd010011.webp",
+    "atk": 484,
+    "crit": 241,
+    "effect": {
+      "effect_name": "Reverse Dimension",
+      "effect_desc": "ATK increases by 10%. Casting Realm Travel will trigger Matrix if it is not on cooldown. The first Hypermatrix Strike launched upon entering battle will generate 1 extra Sight Point."
+    }
+  },
+  "star voyager": {
+    "name": "Star Voyager",
+    "weapon_type": "Beam Gunlance",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3beamlancemd010011.webp",
+    "atk": 480,
+    "crit": 249,
+    "effect": {
+      "effect_name": "All of Nature",
+      "effect_desc": "ATK increases by 10%. Doubles the Base DMG increase effect of Ayla: Kaleido's Vibrant Brushstroke for Signature - Finishing Touch. The Ice DMG Bonus of Frost Crystal increases to 20%."
+    }
+  },
+  "nightblaze": {
+    "name": "Nightblaze",
+    "weapon_type": "Daisho",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3alphamd010011.webp",
+    "atk": 484,
+    "crit": 241,
+    "effect": {
+      "effect_name": "Shadebloom",
+      "effect_desc": "Increases ATK by 10%. When Lucia: Crimson Weave holds the odachi, her Extra DMG Bonus increases by 15%. The efficiency of acquiring Aphotic Points increases by 40%."
+    }
+  },
+  "perpetuity": {
+    "name": "Perpetuity",
+    "weapon_type": "Folding Fan",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3fanmd010011.webp",
+    "atk": 415,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Full Moon",
+      "effect_desc": "ATK increases by 10%. During the action of pinging any orb, Hanying: Zitherwoe is able to immediately cast another ping for once only. The Base DMG Increase effect of each stack of Emerald Flow increases to 40%."
+    }
+  },
+  "managarm": {
+    "name": "Managarm",
+    "weapon_type": "Claw Blades",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3clawmd010011.webp",
+    "atk": 458,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Night Hound",
+      "effect_desc": "ATK increases by 10%. Restores 1 set of random 3-Ping Orbs each time No. 21: Feral enters the battle. The Lightning DMG Bonus from Lightning Surge increases to 20%."
+    }
+  },
+  "crimson howl": {
+    "name": "Crimson Howl",
+    "weapon_type": "Robotic Arm",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3armmd010011.webp",
+    "atk": 436,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Baryon Combustion",
+      "effect_desc": "ATK increases by 10%. Upon entry or swapping in, Noctis: Indomitus gains 120 Energy. Immediately gains one Blast Orb upon activating Signature - Magnetic Blast."
+    }
+  },
+  "astraea": {
+    "name": "Astraea",
+    "weapon_type": "Bow",
+    "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3bowmd130011.webp",
+    "atk": 436,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Paradise Regained",
+      "effect_desc": "Increases ATK by 10%. Base DMG of Signature - Celestial Edge increases by 15%. Each time Splendor Points are full, one random Signal Orb and one Cipher Orb of the same color will be generated. Ultralimit Torque now increases Physical DMG by 20%."
     }
   },
   "metis": {
     "name": "Metis",
-    "weapon_type": "Xeno-Glaive",
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3lamiyamd010011.webp",
+    "weapon_type": "Halberd Blade",
     "rarity": 6,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3lamiyamd010011.webp",
     "atk": 458,
     "crit": 249,
     "effect": {
-      "effect_name": "Drowning Currents",
-      "effect_description": "ATK increases by 10%. The rate in which Lamia accumulates Abussos Points increases by 100%. When pinging a Tidal Orb, trigger Matrix if available."
+      "effect_name": "Hidden Current",
+      "effect_desc": "ATK increases by 10%. The amount of Abyssal Points earned increases by 100%. Pinging a Tidal Orb will trigger Matrix if it is not in cooldown."
+    }
+  },
+  "★black rock cannon": {
+    "name": "★Black Rock Cannon",
+    "weapon_type": "Blade Cannon",
+    "rarity": 6,
+    "thumbnail": "",
+    "atk": 450,
+    "crit": 251,
+    "effect": {
+      "effect_name": "Shooting Star★",
+      "effect_desc": "ATK increases by 10%. Base DMG of Flare Strike, Starstream Bayonet, Skyfall Blade, and Limitless increases by 100%."
+    }
+  },
+  "night falcon": {
+    "name": "Night Falcon",
+    "weapon_type": "",
+    "rarity": 6,
+    "thumbnail": "",
+    "atk": 436,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Multimodal Release",
+      "effect_desc": "ATK increases by 10%. Gain 3 Red Orbs upon activating Paradigm: Assault; gaining at most 6 Red Orbs this way for each time Watanabe enters the battlefield. Watanabe can immediately use Infernal Eruption after pinging Red Orbs."
+    }
+  },
+  "dwelling will of inscription's key": {
+    "name": "Dwelling Will of Inscription's Key",
+    "weapon_type": "Longsword",
+    "rarity": 6,
+    "thumbnail": "",
+    "atk": 467,
+    "crit": 241,
+    "effect": {
+      "effect_name": "Lucent Insight",
+      "effect_desc": "ATK increases by 10%. When activating Enter the Fray, trigger Matrix if available and additionally gain 1 point of Engravement. When performing Tor Invocation, every attack additionally grants 3 Energy."
+    }
+  },
+  "hacker's tune": {
+    "name": "Hacker's Tune",
+    "weapon_type": "Tactical Headphones",
+    "rarity": 6,
+    "thumbnail": "",
+    "atk": 436,
+    "crit": 241,
+    "effect": {
+      "effect_name": "Soundwave Permeance",
+      "effect_desc": "ATK increases by 10%. Base DMG of Signal Orbs and Cadence Orbs increases by 30%. If the Signature Energy gauge is full when Teddy: Decryptor is swapped into the field while in Unanalyzed Mode, Teddy will automatically enter Analyzed Mode and gain 40 Analysis Points. Otherwise, Teddy will gain 100 Signature Energy."
+    }
+  },
+  "reconstruction of law": {
+    "name": "Reconstruction of Law",
+    "weapon_type": "Chakram",
+    "rarity": 6,
+    "thumbnail": "",
+    "atk": 436,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Forma Obliteration",
+      "effect_desc": "ATK increases by 10%. After a 3-Ping or performing Breaking Moon with Lingering Moonlight at the maximum value, the next ping will count as a 3-Ping. The obtain rate of Lingering Moonlight increases by 50%."
+    }
+  },
+  "cestus": {
+    "name": "Cestus",
+    "weapon_type": "Tactical Tonfas",
+    "rarity": 6,
+    "thumbnail": "",
+    "atk": 436,
+    "crit": 244,
+    "effect": {
+      "effect_name": "Erect Barrier",
+      "effect_desc": "ATK increases by 10%. Base DMG of Ironflame Strike increases by 60%. When consuming Red Orbs, casting Precise Block during Ironflame Strike will immediately recover 1 Red Orb. The amount of Incendiary Points accumulated from Crimson Ignition increases by 40%."
+    }
+  },
+  "dreamer roamer": {
+    "name": "Dream Roamer",
+    "weapon_type": "Pipa",
+    "rarity": 6,
+    "thumbnail": "",
+    "atk": 436,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Endless Waxing Moon",
+      "effect_desc": "ATK increases by 10%. Piercing Strike effect applied by Hanying: Solacetune increases by 20%. DMG increase effect from consecutive casts of Azure Allure can stack up to 3 times. Triggering Phoenix Down additionally grants 50 points of Veiled Edge."
+    }
+  },
+  "hemera's gaze": {
+    "name": "Hemera's Gaze",
+    "weapon_type": "Revolver",
+    "rarity": 6,
+    "thumbnail": "",
+    "atk": 436,
+    "crit": 249,
+    "effect": {
+      "effect_name": "What Dreams May Come",
+      "effect_desc": "ATK increases by 10%. Base DMG of Gale Strike, Bullet Hail, and Frosty Ascent doubles."
+    }
+  },
+  "dawn's flaming feathers": {
+    "name": "Dawn's Flaming Feathers",
+    "weapon_type": "Lustrous Katana",
+    "rarity": 6,
+    "thumbnail": "",
+    "atk": 436,
+    "crit": 249,
+    "effect": {
+      "effect_name": "Everlasting Pyroath",
+      "effect_desc": "ATK increases by 10%. After performing Signature Move - Auxiliary Precision Slash, recovers 3 Signal Orbs. Entering Blazing Thunder Form will trigger Matrix if it is not on cooldown."
     }
   }
 }

@@ -5,7 +5,7 @@ import discord
 import typing
 import traceback
 import json
-from embedconfig import EmbedClass
+from utility.embedconfig import EmbedClass
 
 class DropdownView(discord.ui.View):
     message: discord.Message | None = None

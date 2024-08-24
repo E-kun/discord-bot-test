@@ -3,7 +3,7 @@ import os
 import json
 from discord.ext import commands
 from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
-from embedconfig import EmbedClass
+from utility.embedconfig import EmbedClass
 
 class CUBs(commands.Cog):
 
@@ -33,7 +33,7 @@ class CUBs(commands.Cog):
     async def on_ready(self):
         print('CUBs loaded.')
 
-    @commands.command()
+    @commands.command(aliases=["pet"])
     async def cub(self, ctx: commands.Context, *args) -> None:
         if len(args) > 1:
             cub_name = args[0] + " " + args[1]

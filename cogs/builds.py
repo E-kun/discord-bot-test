@@ -8,8 +8,9 @@ import os
 import json
 from discord.ext import commands
 from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
-from embedconfig import EmbedClass
-from build_dropdown import DropdownView
+from utility.embedconfig import EmbedClass
+from utility.build_dropdown import DropdownView
+from utility.nickname_checker import check_nickname
 
 from discord.ui.select import BaseSelect
 
@@ -41,41 +42,21 @@ class Builds(commands.Cog):
         print('Builds loaded.')
 
     @commands.command()
+    async def buildnotation(self, ctx: commands.Context):
+        embed = discord.Embed(title="",description="")
+        embed.set_image(url="https://media.discordapp.net/attachments/1272207225800228958/1276390658126512128/PGR_Rank_Terminology.png?ex=66c95aef&is=66c8096f&hm=dac5f98c2a9052a7634f8588155ae68c79073cb04c3a4ec44f150db6548e9827&=&format=webp&quality=lossless&width=550&height=331")
+        await ctx.send(embed=embed)
+
+    @commands.command()
     async def build(self, ctx: commands.Context, *args) -> None:
         if len(args) > 1:
             character = args[0] + " " + args[1]
         else:
             character = args[0]
+        
+        character = check_nickname(character, "character")   
 
         print(character)
-        
-        match character:
-            case "lumi":
-                character = "luminance"
-            case "evil liv" | "seggs" | "green jumper" | "<:evilliv:1272415890453041223>":
-                character = "lux"
-            case "empy" | "solaeter":
-                character = "empyrea"
-            case "daren" | "bonka" | "tsundere" | "radiant daybreak" | "trs" | "<:trs:1275701510293946482>":
-                character = "scire"
-            case "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq":
-                character = "capriccio"
-            case "uncle" | "king engine" | "kingengine" | "wata":
-                character = "epitaph"
-            case "supercar" | "hyper":
-                character = "hyperreal"
-            case "cow":
-                character = "kaleido"
-            case "lullaby" | "lost lullaby" | "feesh" | "fish":
-                character = "lamia"
-            case "weave" | "motivation" | "vergil's daughter":
-                character = "crimson weave"
-            case "awoo" | "furry":
-                character = "feral"
-            case "indomitus":
-                character = "noctis"
-            case _:
-                character = character    
 
         if(self.does_character_exist(character)):
             build = self.retrieve_build(character)

@@ -3,7 +3,8 @@ import os
 import json
 from discord.ext import commands
 from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
-from embedconfig import EmbedClass
+from utility.embedconfig import EmbedClass
+from utility.nickname_checker import check_nickname
 
 class Weapons(commands.Cog):
 
@@ -17,7 +18,10 @@ class Weapons(commands.Cog):
         return parsed_json[weapon]
 
     def does_weapon_exist(self, weapon_name):
-        weaponlist = ["sarastro", "illuminare", "metis"]
+        with open('data/weaponlist.json') as file:
+            parsed_json = json.load(file)
+
+        weaponlist = parsed_json['weaponlist']
         exists = False
 
         for i in weaponlist:
@@ -33,40 +37,14 @@ class Weapons(commands.Cog):
     async def on_ready(self):
         print('Weapons loaded.')
 
-    @commands.command()
+    @commands.command(aliases=["sig", "wep", "weap"])
     async def weapon(self, ctx: commands.Context, *args) -> None:
         if len(args) > 1:
             weapon_name = args[0] + " " + args[1]
         else:
             weapon_name = args[0]
         
-        match weapon_name:
-            # case "lumi":
-            #     weapon_name = "luminance"
-            # case "evil liv" | "seggs" | "green jumper":
-            #     weapon_name = "lux"
-            # case "empy" | "solaeter":
-            #     weapon_name = "empyrea"
-            case "daren" | "scire":
-                weapon_name = "illuminare"
-            case "capri" | "crapi" | "schizo" | "capriccio":
-                weapon_name = "sarastro"
-            # case "uncle" | "king engine" | "kingengine" | "wata":
-            #     weapon_name = "epitaph"
-            # case "supercar" | "hyper":
-            #     weapon_name = "hyperreal"
-            # case "cow":
-            #     weapon_name = "kaleido"
-            case "lullaby" | "lost lullaby" | "fish" | "lamia":
-                weapon_name = "metis"
-            # case "weave" | "motivation" | "vergil's daughter":
-            #     weapon_name = "crimson weave"
-            # case "awoo" | "furry":
-            #     weapon_name = "feral"
-            # case "indomitus":
-            #     weapon_name = "noctis"
-            case _:
-                weapon_name = weapon_name            
+        weapon_name = check_nickname(weapon_name, "weapon")  
 
         print(weapon_name)
         if(self.does_weapon_exist(weapon_name)):

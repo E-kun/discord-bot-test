@@ -126,7 +126,7 @@ class EmbedClass:
         )
         embed.add_field(
             name=f"{effect['effect_name']}",
-            value=f"{effect['effect_description']}",
+            value=f"{effect['effect_desc']}",
             inline=False
         ),
         embed.add_field(
@@ -164,8 +164,79 @@ class EmbedClass:
             )
         return embed
 
-    def create_skills_embed():
-        ""
+    def create_skills_embed(self, skill, skill_type):
+        
+
+        match skill_type:
+            case "basic" | "red" | "blue" | "yellow" | "signature":
+                embed = discord.Embed(
+                    title=f"{skill['name']}",
+                    description=f""
+                )
+
+                description = skill['description']
+                embed.add_field(
+                    name="",
+                    value=f"{description['desc']}",
+                    inline=False
+                )
+                embed.add_field(
+                    name="",
+                    value=f"{description['result']}",
+                    inline=False)
+            case "core":
+                # print(skill)
+                embed = discord.Embed(
+                    title=f"Core Passive",
+                    description=f""
+                )
+
+                for i in skill:
+                    # print(i['name'])
+                    description = i['description']
+                    result = description['result']
+
+                    embed.add_field(
+                        name=f"{i['name']}",
+                        value=f"{description['desc']}",
+                        inline=False
+                    )
+
+                    for j in result:
+                        print(j)
+                        embed.add_field(
+                            name="",
+                            value=f"{j}",
+                            inline=False
+                        )
+            case "qte" | "leader" | "class":
+                embed = discord.Embed(
+                    title=f"{skill['name']}",
+                    description=f""
+                )
+                description = skill['description']
+                embed.add_field(
+                    name="",
+                    value=f"{description['desc']}",
+                    inline=False
+                )
+            case "ss" | "sss" | "s+":
+                embed = discord.Embed(
+                    title=f"{skill['name']}",
+                    description=f""
+                )
+
+                levels = skill['levels']
+
+                for i in levels:
+                    print(i)
+                    embed.add_field(
+                        name=f"{i['rank']}",
+                        value=f"{i['desc']}",
+                        inline=False
+                    )
+        
+        return embed
 
     def create_list_embed(self, list, type):
         match type:
@@ -188,8 +259,9 @@ class EmbedClass:
         )
         embed.add_field(
             name = "",
-            value = f"List"
+            value = f"{list}"
         )
+        return embed
 
     def create_about_embed(self):
         embed = discord.Embed(

@@ -3,7 +3,7 @@ import os
 import json
 from discord.ext import commands
 from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
-from embedconfig import EmbedClass
+from utility.embedconfig import EmbedClass
 
 class Memories(commands.Cog):
 

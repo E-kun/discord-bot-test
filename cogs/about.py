@@ -2,7 +2,7 @@ import discord
 import os
 from discord.ext import commands
 from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
-from embedconfig import EmbedClass
+from utility.embedconfig import EmbedClass
 
 class About(commands.Cog):
 
