@@ -15,7 +15,7 @@ class Help(commands.Cog):
 
     @commands.command()
     async def help(self, ctx):
-        commands = ["- build", "- weapon", "- basic, red, yellow, blue, core, signature/ult, leader, qte, class, ss, sss, s+", "- cub"]
+        commands = ["- build", "- weapon/wep/weap/sig", "- basic, red, yellow, blue, core, signature/ult, leader, qte, class, ss, sss, s+", "- cub/pet", "- time/ppc", "- help", "about"]
         # content="List of commands"
         embed = discord.Embed(
             title=f"Celica Bot Command List",

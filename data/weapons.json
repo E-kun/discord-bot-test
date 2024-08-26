@@ -131,6 +131,30 @@
       "effect_desc": ""
     }
   },
+  "atoll": {
+    "name": "Atoll",
+    "weapon_type": "Halberd Blade",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2lamiyamd010011.webp",
+    "atk": 235,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Ebbing Tide",
+      "effect_desc": "ATK increases by 5%."
+    }
+  },
+  "reversal node": {
+    "name": "Reversal Node",
+    "weapon_type": "Halberd Blade",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2lamiyamd020011.webp",
+    "atk": 372,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Raging Tide",
+      "effect_desc": "Dark DMG increases by 10%."
+    }
+  },
   "lotus berserker": {
     "name": "Lotus Berserker",
     "weapon_type": "Katana",

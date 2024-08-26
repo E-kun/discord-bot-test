@@ -24,8 +24,13 @@ class Builds(commands.Cog):
             parsed_json = json.load(file)
         return parsed_json[character]
 
+    def retrieve_characterlist(self):
+        with open('data/characterlist.json') as file:
+            parsed_json = json.load(file)
+        return parsed_json['characterlist']
+
     def does_character_exist(self, character):
-        framelist = ["lotus", "eclipse", "storm", "dawn", "lux", "palefire", "nightblade", "zero", "blast", "luminance", "entropy","ember", "pulse", "tenebrion","crimson abyss", "bastion", "astral", "brilliance", "veritas", "sophia", "arclight", "plume", "rozen", "camu", "rigor", "changyu", "pavo", "laurel","2b", "9s", "a2", "hypnos", "tempest", "glory", "xxi", "garnet", "roland", "empyrea", "capriccio", "pulao", "starfarer", "haicma", "scire", "noan", "bambinata", "balter", "kaleido", "hyperreal", "crimson weave", "zitherwoe", "feral", "noctis", "alisa", "lamia", "brs", "epitaph"]
+        framelist = self.retrieve_characterlist()
         exists = False
 
         for i in framelist:
@@ -44,7 +49,7 @@ class Builds(commands.Cog):
     @commands.command()
     async def buildnotation(self, ctx: commands.Context):
         embed = discord.Embed(title="",description="")
-        embed.set_image(url="https://media.discordapp.net/attachments/1272207225800228958/1276390658126512128/PGR_Rank_Terminology.png?ex=66c95aef&is=66c8096f&hm=dac5f98c2a9052a7634f8588155ae68c79073cb04c3a4ec44f150db6548e9827&=&format=webp&quality=lossless&width=550&height=331")
+        embed.set_image(url='https://pgr-discord-bot.s3.ap-southeast-2.amazonaws.com/cnnotationguide4.png')
         await ctx.send(embed=embed)
 
     @commands.command()

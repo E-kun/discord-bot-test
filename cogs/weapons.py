@@ -5,6 +5,7 @@ from discord.ext import commands
 from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
 from utility.embedconfig import EmbedClass
 from utility.nickname_checker import check_nickname
+from utility.wep_pagination import WeaponPageView
 
 class Weapons(commands.Cog):
 
@@ -16,6 +17,11 @@ class Weapons(commands.Cog):
         with open('data/weapons.json') as file:
             parsed_json = json.load(file)
         return parsed_json[weapon]
+
+    def retrieve_weapontype(self, weapontype):
+        with open('data/weapontypes.json') as file:
+            parsed_json = json.load(file)
+        return parsed_json[weapontype]
 
     def does_weapon_exist(self, weapon_name):
         with open('data/weaponlist.json') as file:
@@ -33,6 +39,19 @@ class Weapons(commands.Cog):
 
         return exists
 
+    # def identify_rarity(self, weapon):
+    #     match weapon['rarity']:
+    #         case 2:
+    #             print("Two Star")
+    #         case 3:
+    #             print("Three Star")
+    #         case 4:
+    #             print("Four Star")
+    #         case 5:
+    #             print("Five Star")
+    #         case 6:
+    #             print("Six Star")
+
     @commands.Cog.listener()
     async def on_ready(self):
         print('Weapons loaded.')
@@ -40,6 +59,8 @@ class Weapons(commands.Cog):
     @commands.command(aliases=["sig", "wep", "weap"])
     async def weapon(self, ctx: commands.Context, *args) -> None:
         weapon_name = ""
+        weapon_box = []
+
         if len(args) > 1:
             for idx, arg in enumerate(args):
                 if(idx) == 0:
@@ -53,12 +74,17 @@ class Weapons(commands.Cog):
 
         weapon_name = check_nickname(weapon_name, "weapon")  
 
-        # print(weapon_name)
         if(self.does_weapon_exist(weapon_name)):
-            # print(weapon_name)
             weapon = self.retrieve_weapon(weapon_name)
+            weapontype = weapon['weapon_type']
+            same_type_weapons_list = self.retrieve_weapontype(weapontype.lower())
+
+            for i in same_type_weapons_list:
+                weapon_box.append(self.retrieve_weapon(i))
+
             embed = self.embedconf.create_weapon_embed(weapon)
-            await ctx.send(embed=embed)
+            view = WeaponPageView(ctx.author, weapon_box=weapon_box)
+            await ctx.send(view=view, embed=embed)
         else:
             content = "This weapon does not exist. Please try again."
             await ctx.send(content=content)

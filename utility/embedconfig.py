@@ -134,8 +134,6 @@ class EmbedClass:
             case 6:
                 stars = "★★★★★★"
                 colour = 0xfc5f21
-        
-        print(colour)
 
         embed = discord.Embed(
             title=f"{weapon['name']} {stars}",
@@ -183,8 +181,6 @@ class EmbedClass:
         return embed
 
     def create_skills_embed(self, skill, skill_type):
-        
-
         match skill_type:
             case "basic" | "red" | "blue" | "yellow" | "signature":
                 embed = discord.Embed(
@@ -320,6 +316,11 @@ class EmbedClass:
                     MstrPikachu
                     trs
 
+                The ones who helped with figuring out the EXPPC score equation:
+                    Nova(blacknovatech)
+                    CryoZero
+                    Frustal
+                    
                 (This list is not limited btw. If your name is not on here and you have helped with this please send me a DM and I'll add you here. Otherwise if you helped but don't want to be mentioned thank you as well.)
 
                 Huge thanks to Nova(Creator of the Huaxu site) for letting me reference his assets(images) for everything on this bot.
