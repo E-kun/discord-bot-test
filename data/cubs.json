@@ -3,6 +3,15 @@
     "name": "Cetus",
     "cub_type": "Damage, Crowd Control",
     "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3dolphinoffmd010011.webp",
+    "skills_list": [
+      "Terrifying Vortex",
+      "Raging Waves",
+      "Dolphin Tactic: Patrol",
+      "Dolphin Tactic: Escort",
+      "Dolphin Tactic: Raid",
+      "Submerged Rock",
+      "Old Illusions"
+    ],
     "active_skills": [
       {
         "skill_name": "Terrifying Vortex",
@@ -40,6 +49,991 @@
         "skill_name": "Old Illusions",
         "skill_number": "Passive Skill 5",
         "skill_desc": "When Lamia: Lost Lullaby casts Signature - Sunken finale with Cetus equipped, base DMG will increase by 80%. Casting Blue Orb Skill - Ocean Break and Basic Attack - Abyssal Currents will summon Cetus to launch a joint attack dealing 2500% Dark DMG. "
+      }
+    ]
+  },
+  "seeshell": {
+    "name": "Seeshell",
+    "cub_type": "Area, Freeze",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet2beionmd010011.webp",
+    "skills_list": [
+      "Grenade Carnivale",
+      "Grenade Carnivale - Ice",
+      "Rapid Quartet",
+      "Rapid Quartet - Ice",
+      "Modified Barrel",
+      "Fire Support",
+      "Saturation Bombing",
+      "LN2 Dispersion",
+      "Seamless Reload"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Grenade Carnivale",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Tapping it will make Seeshell expand its shells to launch 1 grenade from the turret. Each time Seeshell fires a grenade, there is a 78% chance to fire 1 additional grenade, up to a total of 9 grenades. Each grenade deals 250% Area DMG."
+      },
+      {
+        "skill_name": "Grenade Carnivale - Ice",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Tapping it will make Seeshell expand its shells to launch 1 grenade from the turret. Each time Seeshell fires a grenade, there is a 78% chance to fire 1 additional grenade, up to a total of 9 grenades. Each grenade deals 250% Ice Area DMG and slows the enemies it hits. Hitting an enemy again will renew the slow duration. The grenades also cause Data Attack."
+      },
+      {
+        "skill_name": "Rapid Quartet",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Tapping it will make Seeshell expand its shells to launch 4 grenades from the turret, dealing 1000% Area DMG in total."
+      },
+      {
+        "skill_name": "Rapid Quartet - Ice",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Tapping it will make Seeshell expand its shells to launch 4 grenades from the turret, dealing 1000% Ice Area DMG in total and slowing the enemies hit for 5s. Also causes Data Attack."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Modified Barrel",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Seeshell's active skill deals 60% more DMG."
+      },
+      {
+        "skill_name": "Fire Support",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the carrier's Attack by 60."
+      },
+      {
+        "skill_name": "Saturation Bombing",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Each time the carrier makes a 3-ping, their Extra DMG Bonus increases by 4% for 5s, stacking up to 3 times."
+      },
+      {
+        "skill_name": "LN2 Dispersion",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Ice DMG by 10%."
+      },
+      {
+        "skill_name": "Old Illusions",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "After the carrier obtains 8 basic Signal Orbs, they will gain one extra basic Orb the next time they gain a basic Orb. 1.4s cooldown."
+      }
+    ]
+  },
+  "thorny": {
+    "name": "Thorny",
+    "cub_type": "Charge",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet2ciweionmd010011.webp",
+    "skills_list": [
+      "Needle Gyro Orb",
+      "Piercing Field",
+      "Needle Polishing",
+      "Thorn: Sharpenen",
+      "Thorn: Stack",
+      "Thorn: Physical",
+      "Thorn Mark"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Needle Gyro Orb",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "The CUB button will be activated after pinging 6 basic Signal Orbs. Upon casting, Thorny will dash toward the enemy. On hit, Thorny will spin attack 10 times with each time dealing 100% Physical DMG to the enemy."
+      },
+      {
+        "skill_name": "Piercing Field",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "The CUB button will be activated after pinging 6 basic Signal Orbs. Upon casting, Thorny will dash toward the enemy and shoot needles at other enemies around, dealing 500% Physical DMG and gaining a shield equal to 10% of the carrier's max HP for 2s. Each time a needle hits an enemy, Thorny's next attack will gain 15% Extra DMG (up to 75%)."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Needle Polishing",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Thorny's Active Skills deal 60% more DMG."
+      },
+      {
+        "skill_name": "Thorn: Sharpenen",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the carrier's ATK by 60."
+      },
+      {
+        "skill_name": "Thorn: Stack",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Each time Thorny casts an active skill, the carrier's ATK increases by 5% for 5s. Triggering this effect again will renew its duration."
+      },
+      {
+        "skill_name": "Thorn: Physical",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Physical DMG by 10%."
+      },
+      {
+        "skill_name": "Thorn Mark",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "Thorney will mark an enemy upon dealing DMG to the enemy via an Active Skill. When the marked enemy receives DMG, the mark will be removed and the enemy will take Physical DMG equal to 200% of the carrier's ATK. This effect can only be triggered once every 2s."
+      }
+    ]
+  },
+  "yuan ye": {
+    "name": "Yuan Ye",
+    "cub_type": "Stun",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet2niuonmd010011.webp",
+    "skills_list": [
+      "Loaded Charge",
+      "Loaded Charge - Fire",
+      "Feint Attack",
+      "Feint Attack - Fire",
+      "Preparation",
+      "Stacked Calculation",
+      "Relentless",
+      "Combustion",
+      "Cunning"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Loaded Charge",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Tapping it will make Yuan Ye charge toward the target, dealing 500% DMG. If Yuan Ye hits the enemy, it will knock the enemy again to deal 1000% DMG and stun the enemy for 2s."
+      },
+      {
+        "skill_name": "Loaded Charge - Fire",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Tapping it will make Yuan Ye charge toward the target, dealing 500% Fire DMG. If Yuan Ye hits the enemy, it will knock the enemy again to deal 1000% Fire DMG and stun the enemy for 2s. Also causes Data Attack."
+      },
+      {
+        "skill_name": "Feint Attack",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Tapping it will make Yuan Ye charge toward the target, dealing 250% DMG. If Yuan Ye hits the enemy, it will knock the enemy again to deal 500% DMG and stun the enemy for 5s."
+      },
+      {
+        "skill_name": "Feint Attack - Fire",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Tapping it will make Yuan Ye charge toward the target, dealing 250% DMG. If Yuan Ye hits the enemy, it will knock the enemy again to deal 500% DMG and stun the enemy for 5s. Also causes Data Attack."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Preparation",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Yuan Ye's active skill deals 60% more DMG."
+      },
+      {
+        "skill_name": "Stacked Calculation",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the attack of Yuan Ye's carrier by 60."
+      },
+      {
+        "skill_name": "Relentless",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "After Yuan Ye casts a skill, its carrier's ATK increases by 25. Stacks up to 3 times."
+      },
+      {
+        "skill_name": "Combustion",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Yuan Ye's carrier's Fire DMG increases by 10%."
+      },
+      {
+        "skill_name": "Cunning",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "Enemies stunned by Yuan Ye take 10% Extra DMG."
+      }
+    ]
+  },
+  "lingya": {
+    "name": "Lingya",
+    "cub_type": "DMG",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet2yangonmd010011.webp",
+    "skills_list": [
+      "Precise Volt Charge",
+      "Precise Volt Charge - Lightning",
+      "Wild Volt Charge",
+      "Wild Volt Charge - Lightning",
+      "Generator Retrofit",
+      "Magnet Impulse",
+      "High-Voltage Relay",
+      "Magnetic Sensor",
+      "Voltage Transformer"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Precise Volt Charge",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "The CUB button will be activated after 6 random pings. After casting, Lingya will shoot an electric ball that flies in a straight line at medium speed, dealing 800% DMG to hit enemies."
+      },
+      {
+        "skill_name": "Precise Volt Charge - Lightning",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "The CUB button will be activated after 6 random pings. After casting, Lingya will shoot an electric ball that flies in a straight line at medium speed, dealing 800% Lightning DMG to hit enemies and applying Charge to them. Lingya will accumulate 10% Lightning DMG its carrier has dealt to them. Once the accumulated DMG reaches 12000 or has lasted 5s, Lingya inflicts the accumulated DMG on the enemy."
+      },
+      {
+        "skill_name": "Wild Volt Charge",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "The CUB button will be activated after 6 random pings. After casting, Lingya will shoot an electric ball that flies at high speed and explodes when hitting the enemy, dealing 1200% DMG."
+      },
+      {
+        "skill_name": "Wild Volt Charge - Lightning",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "The CUB button will be activated after 6 random pings. After casting, Lingya will shoot an electric ball that flies at high speed and explodes when hitting the enemy, dealing 1200% Lightning DMG and applying Charge to them. Lingya will accumulate 10% Lightning DMG its carrier has dealt to them. Once the accumulated DMG reaches 12000 or has lasted 5s, Lingya inflicts the accumulated DMG on the enemy."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Generator Retrofit",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Lingya's Active Skills deal 60% more DMG."
+      },
+      {
+        "skill_name": "Magnet Impulse",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the ATK of Lingya's carrier by 60."
+      },
+      {
+        "skill_name": "High-Voltage Relay",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "After performing Lingya's Active Skills, the next switched-in member's Extra DMG Bonus will increase by 8% for 8s."
+      },
+      {
+        "skill_name": "Magnetic Sensor",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Lightning DMG by 10%."
+      },
+      {
+        "skill_name": "Voltage Transformer",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "The carrier's ATK increases by 30 for 5s after pinging basic Signal Orbs 3 times. It can be stacked up to 2 times. After it reaches max stacks, the duration will refresh whenever it is triggered. The next switched-in member will also gain an extra Blue Orb."
+      }
+    ]
+  },
+  "dawn chorus": {
+    "name": "Dawn Chorus",
+    "cub_type": "DMG",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3griffonoffmd010011.webp",
+    "skills_list": [
+      "Night Laser",
+      "Flash Assault",
+      "Blade Wings",
+      "Powerful Escort",
+      "Fogbow Wings",
+      "Free Soaring",
+      "Twilight Hour"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Night Laser",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Dawn Chorus will fire a laser at the Enemy, dealing 1500% Physical DMG."
+      },
+      {
+        "skill_name": "Flash Assault",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Dawn Chorus will charge toward the enemy from a distance in mid-air, dealing 1250% Physical DMG while granting the equipped character super armor for 3s, and shield equal to 200% of the CUB's ATK for 10s."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Blade Wings",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Dawn Chorus's Active Skill deals 70% more DMG."
+      },
+      {
+        "skill_name": "Powerful Escort",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the carrier's ATK by 100."
+      },
+      {
+        "skill_name": "Fogbow Wings",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Each time Dawn Chorus casts an Active Skill, the carrier's Extra DMG Bonus increases by 5% for 8s. Triggering this effect again will renew its duration."
+      },
+      {
+        "skill_name": "Free Soaring",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Physical DMG by 10%."
+      },
+      {
+        "skill_name": "Twilight Hour",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When Alisa: Echo casts Signature-Celestial Edge with Dawn Chorus equipped, Crit DMG increases by 75%. Casting Imprisoning Co-Strike or Soulbreacking Co-Strike, will summon Dawn Chorus to launch a joint attack, dealing 2500% Physical DMG."
+      }
+    ]
+  },
+  "toniris": {
+    "name": "Toniris",
+    "cub_type": "Pull, Charge",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3heonmd010011.webp",
+    "skills_list": [
+      "Awakening Flash",
+      "Awakening Flash - Lightning",
+      "Surging Thunderbolt",
+      "Surging Thunderbolt - Lightning",
+      "Particle Relay",
+      "Matching Electrode",
+      "Bi-Magnetic Stimulation",
+      "Thunder Apocalypse",
+      "Voltage Overload"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Awakening Flash",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Tapping it will make Toniris charge forward, dealing 1500% DMG and pulling the enemies toward its charging path, while inflicting them with Explosion for 8s. Attacks can detonate the Explosion and cause 600% Area DMG. Also causes Data Attack"
+      },
+      {
+        "skill_name": "Awakening Flash - Lightning",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Tapping it will make Toniris charge forward, dealing 1500% DMG and pulling the enemies toward its charging path, while inflicting them with Explosion for 8s. Attacks can detonate the Explosion and cause 600% Lightning Area DMG. Also causes Advanced Data Attack."
+      },
+      {
+        "skill_name": "Surging Thunderbolt",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After tapping it, Toniris and the carrier will charge forward together, dealing 1500% DMG and pulling the enemies toward its charging path, while inflicting them with Explosion for 8s. Attacks can detonate the Explosion and cause 600% Area DMG. The character is invincible while charging with Toniris. Also causes Data Attack"
+      },
+      {
+        "skill_name": "Surging Thunderbolt - Lightning",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After tapping it, Toniris and the carrier will charge forward together, dealing 1500% DMG and pulling the enemies toward its charging path, while inflicting them with Explosion for 8s. Attacks can detonate the Explosion and cause 600% Lightning Area DMG. The character is invincible while charging with Toniris. Also causes Advanced Data Attack"
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Particle Relay",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Toniris's active skill deals 70% more damage."
+      },
+      {
+        "skill_name": "Matching Electrode",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the carrier's Attack by 100."
+      },
+      {
+        "skill_name": "Bi-magnetic Stimulation",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "After Toniris casts a skill, its carrier gains 40 Attack, up to 3 stacks."
+      },
+      {
+        "skill_name": "Thunder Apocalypse",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "The skill damage of Bianca: Veritas' Critical Moment increases by 12.5%."
+      },
+      {
+        "skill_name": "Voltage Overload",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "Each time the carrier deals Lightning DMG, their Lightning DMG increases by 5% for 8s, stacking up to 2 times. Triggering this effect again will renew its duration."
+      }
+    ]
+  },
+  "jet jaeger": {
+    "name": "Jet Jaeger",
+    "cub_type": "Slice",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3huonmd010011.webp",
+    "skills_list": [
+      "Earthshattering Driller",
+      "Earthshattering Driller - Fire",
+      "Flaming Slash",
+      "Flaming Slash - Fire",
+      "Firestar's Shadowguard",
+      "Champion's Battlecry",
+      "Molten Fangs",
+      "Breaching Blaster",
+      "Blazing Wildfire"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Earthshattering Driller",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "The CUB button will be activated after pinging 6 basic Signal Orbs. Upon casting, Jet Jaeger will charge toward the target, pulling in surrounding enemies and performing a spinning slash that deals 1500% DMG."
+      },
+      {
+        "skill_name": "Earthshattering Driller - Fire",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "The CUB button will be activated after pinging 6 basic Signal Orbs. Upon casting, Jet Jaeger will charge toward the target, pulling in surrounding enemies and performing a spinning slash that deals 1500% Fire DMG. If Nanami: Starfarer triggers branch attacks during its spinning slash, it will launch a claw attack to deal 250% Fire DMG."
+      },
+      {
+        "skill_name": "Flaming Slash",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "The CUB button will be activated after pinging 6 basic Signal Orbs. Upon casting, Jet Jaeger will charge toward the target and perform a spinning slash, dealing 1000% DMG and inflicting a laceration that deals DMG equal to 100% of Jet Jaeger's ATK every second for 8s. (Triggering this effect again will renew its duration.)"
+      },
+      {
+        "skill_name": "Flaming Slash - Fire",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "The CUB button will be activated after pinging 6 basic Signal Orbs. Upon casting, Jet Jaeger will charge toward the target and perform a spinning slash, dealing 1000% Fire DMG and inflicting a laceration that deals Fire DMG equal to 100% of Jet Jaeger's ATK every second for 8s. (Triggering this effect again will renew its duration.) If Nanami: Starfarer triggers branch attacks during its spinning slash it will launch a claw attack to deal 600% Fire DMG and trigger the laceration to deal all of its DMG at once."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Firestar's Shadowguard",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Jet Jaeger fires homing lasers alongside Nanami: Starfarer when she enters Slide Mode, dealing 50% Fire DMG. Fire DMG Bonus will increase by 5% during \"Thunderer\" Mode. Jet Jaeger will cast Earthshattering Driller/ Flaming Slash during \"Bzzz\" Mode, dealing 500% Fire DMG."
+      },
+      {
+        "skill_name": "Champion's Battlecry",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Jet Jaeger's Active Skills deal 70% more DMG."
+      },
+      {
+        "skill_name": "Molten Fangs",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Increases the carrier's ATK by 100."
+      },
+      {
+        "skill_name": "Breaching Blaster",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Fire DMG by 10%."
+      },
+      {
+        "skill_name": "Blazing Wildfire",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "Each time Jet Jaeger casts an Active Skill, the carrier's ATK increases by 5% for 8s. Triggering this effect again will renew its duration."
+      }
+    ]
+  },
+  "frost oath": {
+    "name": "Frost Oath",
+    "cub_type": "Crowd Control, Protection",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3maonmd010011.webp",
+    "skills_list": [
+      "Landing Stomp",
+      "Landing Stomp - Physical",
+      "Empowered Strike",
+      "Empowered Strike - Physical",
+      "Forest Guard Volley",
+      "Order - Aid",
+      "Order - Landing Rain",
+      "Snow Forest Ambush",
+      "Passage Aid"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Landing Stomp",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "The CUB button will light up after any 6 basic orbs have been pinged. Frost Oath will stomp from above, dealing 750% DMG and applying Rigidness to the target and generate a Snowthorn Forest field, dealing 125% Physical DMG for 4s. Adds Data ATK. Rigidness: Enemies will be snared for 2s."
+      },
+      {
+        "skill_name": "Landing Stomp - Physical",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "The CUB button will light up after any 6 basic orbs have been pinged. Frost Oath will stomp from above, dealing 750% Physical DMG and applying Rigidness to the target and generate a Snowthorn Forest field, dealing 125% DMG for 4s. Adds Advanced Data ATK. Rigidness: Enemies will be snared for 2s."
+      },
+      {
+        "skill_name": "Empowered Strike",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "The CUB button will light up after any 6 basic orbs have been pinged. Frost Oath will defend the active character, blocking attacks for 0.3s and stomping the enemy, dealing 500% DMG and 1000% DMG upon a successful block. Applies Rigidness to the target and generate a Snowthorn Forest field, dealing 125% DMG for 8s. Adds Data ATK. Rigidness: Enemies will be snared for 2s."
+      },
+      {
+        "skill_name": "Empowered Strike - Physical",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "The CUB button will light up after any 6 basic orbs have been pinged. Frost Oath will defend the active character, blocking attacks for 0.3s and stomping the enemy, dealing 500% Physical DMG and 1000% Physical DMG upon a successful block. Applies Rigidness to the target and generate a Snowthorn Forest field, dealing 125% Physical DMG for 8s. Adds Advanced Data ATK. Rigidness: Enemies will be snared for 2s."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Forest Guard Volley",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Rosetta: Rigor summons the Forest Guard to perform a clustered attack when she charges the Small/Medium Electromagnetic Beam, dealing 100%/100% DMG to enemies in front, and slow down the enemies. Unleashing the Wide-area Electromagnetic Beam will summon the Forest Guard to fire a volley on the target's location in a large area, dealing 2000%> DMG."
+      },
+      {
+        "skill_name": "Order - Aid",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Frost Oath's active skill deals 70% more DMG."
+      },
+      {
+        "skill_name": "Order - Landing Rain",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Increases the carrier's ATK by 100."
+      },
+      {
+        "skill_name": "Snow Forest Ambush",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Physical DMG dealt by characters in the Snowthorn Forest field increases by 7.5%"
+      },
+      {
+        "skill_name": "Passage Aid",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "After Frost Oath casts a skill, its carrier gains 110 ATK for 8s."
+      }
+    ]
+  },
+  "nitor": {
+    "name": "Nitor",
+    "cub_type": "Damage",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3maoonmd010011.webp",
+    "skills_list": [
+      "Blazing Blitz",
+      "Flare Spark",
+      "Pyro Resonance",
+      "Blast Booster",
+      "Fighting Spirit",
+      "Rising Inferno",
+      "Heatwave"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Blazing Blitz",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "The CUB button will be activated after 6 random pings. After casting, Nitor will rush toward the enemy, attack with continuous swiping and trigger one explosion, dealing 1500% DMG."
+      },
+      {
+        "skill_name": "Flare Spark",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "The CUB button will be activated after 6 random pings. After casting, the character will retreat, while commanding Nitor to attack nearby enemies with continuous swiping and trigger one explosion, dealing 1500% DMG."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Pyro Resonance",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "When Karenina: Ember is in Thermal Enhanced State, Extra DMG increases by 30%. When Wingman Support's flying laser cannons are on the field, Flare Spark/Blazing Blitz will trigger extra laser shots, dealing 1500% Fire DMG."
+      },
+      {
+        "skill_name": "Blast Booster",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Nitor's Active Skill DMG increases by 70%.."
+      },
+      {
+        "skill_name": "Fighting Spirit",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Increases the carrier's ATK by 100."
+      },
+      {
+        "skill_name": "Rising Inferno",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Each time the carrier deals Fire DMG, their Fire DMG increases by 5% for 8s, stacking up to 2 times. Triggering this effect again will renew its duration."
+      },
+      {
+        "skill_name": "Heatwave",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "After Nitor casts a skill, its carrier gains 40 ATK, up to 3 stacks."
+      }
+    ]
+  },
+  "motorbolt": {
+    "name": "Motorbolt",
+    "cub_type": "Pull, Damage",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3motoroffmd010011.webp",
+    "skills_list": [
+      "Sparking Assault",
+      "Drifting Gale",
+      "Burst Booster",
+      "Thrill of Accel",
+      "Light Streaks",
+      "Wedged Lightning",
+      "Unquenchable Fortitude"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Sparking Assault",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Motorbolt will rush to the enemy and bump the target, dealing 450% DMG and leaving behind a Pulling Current that keeps pulling enemies within range and deals 350% DMG 3 times."
+      },
+      {
+        "skill_name": "Drifting Gale",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon casting, Motorbolt will rush to the enemy and drift, knocking enemies within range airborne and dealing 2000% DMG.\n\nWhen Motorbolt is equipped by Lucia: Crimson Weave, it will enter Standby Mode upon casting the Active Skill. Afterward, Lucia: Crimson Weave will ride Motorbolt upon casting Resolute Blow with the kodachi, sprinting to the target before pulling enemies within range and knocking them airborne. Motorbolt deals 500% Lightning DMG to the enemies within range during so."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Burst Booster",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Motorbolt's Active Skill deals 70% more DMG."
+      },
+      {
+        "skill_name": "Thrill of Accel",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the carrier's ATK by 100."
+      },
+      {
+        "skill_name": "Light Streaks",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Each time Motorbolt casts an Active Skill, the carrier's ATK increases by 5% for 8s. Triggering this effect again will renew its duration."
+      },
+      {
+        "skill_name": "Wedged Lightning",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Lightning DMG by 10%."
+      },
+      {
+        "skill_name": "Unquenchable Fortitude",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When Lucia: Crimson Weave casts Unquenchable Flare with Motorbolt equipped, Base DMG increases by 100%. Casting Weave: Splashing Thunder will summon Motorbolt to assist with its basic Active Skill. Cooldown: 8s."
+      }
+    ]
+  },
+  "punchy": {
+    "name": "Punchy",
+    "cub_type": "Damage",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3quanonmd010011.webp",
+    "skills_list": [
+      "Downward Punch",
+      "Upward Punch",
+      "Mark of Overlapping Void Matrix",
+      "Thermal Galvanization",
+      "Guided Conversion",
+      "Potential Synchronization",
+      "Flame Blast"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Downward Punch",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Punchy will open a portal and then quickly throw an Ultralimit Punch downward, dealing 1750% DMG to all enemies across the screen."
+      },
+      {
+        "skill_name": "Upward Punch",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Punchy will open a portal and then quickly throw an Ultralimit Punch upward, dealing 500% DMG 5 times to enemies in a small area."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Mark of Overlapping Void Matrix",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "When Lee: Hyperreal is equipped with Punchy, the Base DMG of Hypermatrix Strike and Collapsing Realm increases by 25%.\n\nCasting Realm Travel or Retribution will summon Punchy to throw a Downward Punch to assist Lee, dealing damage based on the Skill Level of Punchy's Active Skill Downward Punch."
+      },
+      {
+        "skill_name": "Thermal Galvanization",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Punchy's Active Skill deals 70% more DMG."
+      },
+      {
+        "skill_name": "Guided Conversion",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Increases the carrier's ATK by 100."
+      },
+      {
+        "skill_name": "Potential Synchronization",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Each time Punchy casts an Active Skill, the carrier's ATK increases by 120 for 8s."
+      },
+      {
+        "skill_name": "Flame Blast",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "Increases the carrier's Fire DMG by 10%."
+      }
+    ]
+  },
+  "moonhopper": {
+    "name": "Moonhopper",
+    "cub_type": "Control",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3tuonmd010011.webp",
+    "skills_list": [
+      "Supergravity Eclipse: Dark",
+      "Super Moonfall Field: Dark",
+      "High Jumping",
+      "Foot-stamping",
+      "Smashing",
+      "Paw-licking",
+      "Bye-bye Home Run"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Supergravity Eclipse: Dark",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "The CUB button will be activated after pinging 6 basic Signal Orbs. Upon casting, Moonhopper will teleport into the air and smash to the ground, interrupting enemy skills, dealing 1000% Dark DMG, and creating an Anti-gravity Field that deals 100% Dark DMG to all enemies inside every 0.5s for 4s. Enemies inside the Anti-gravity field will be slowed down and unable to use their skills."
+      },
+      {
+        "skill_name": "Super Moonfall Field: Dark",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "The CUB button will be activated after pinging 6 basic Signal Orbs. Upon casting, Moonhopper will teleport into the air and smash to the ground, interrupting enemy skills, dealing 1000% Dark DMG, and creating an Anti-gravity Field that deals 500% Dark DMG upon its creation. The Anti-gravity Field lasts 2s, in which enemies will be slowed down and unable to use their skills."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "High Jumping",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Moonhopper's Active Skills deal 70% more DMG."
+      },
+      {
+        "skill_name": "Foot-stamping",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the carrier's ATK by 100."
+      },
+      {
+        "skill_name": "Smashing",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Each time Moonhopper casts an Active Skill, the Extra DMG Bonus of the carrier's Signature Move increases by 5%. Can be stacked up to 3 times."
+      },
+      {
+        "skill_name": "Paw-licking",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Dark DMG by 10%."
+      },
+      {
+        "skill_name": "Bye-bye Home Run",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When Karenina: Scire performs her Signature Move while carrying Moonhopper, Moonhopper will be swung to the enemy, increasing the Signature Move's Base DMG Bonus by 100%. While Karenina: Scire is charging up by holding the Basic Attack button, Moonhopper will pull in surrounding enemies and unleash Super Moonfall Field."
+      }
+    ]
+  },
+  "hades fangs": {
+    "name": "Hades Fangs",
+    "cub_type": "Control, Damage",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3wolfoffmd010011.webp",
+    "skills_list": [
+      "Fangs Crash",
+      "Ion Realm",
+      "Dazing Thunder Claws",
+      "Wild Order",
+      "Moon Howl",
+      "Electro Mark",
+      "Kerberos"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Fangs Crash",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Hades Fangs will dash forward and leap up, penetrating and knocking enemies in its path into the air while dealing 850% DMG 3 times."
+      },
+      {
+        "skill_name": "Ion Realm",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Hades Fangs will spin in mid-air and slam the enemy, dealing 500% DMG and applying Rigidity to the enemy. Generates a purple lightning zone on hit that lasts for 2.4s and deals 75% DMG to the enemies in it once every 0.2s. Rigidity: Immobilizes the enemy for 2s."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Dazing Thunder Claws",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Hades Fangs's Active Skill deals 70% more DMG."
+      },
+      {
+        "skill_name": "Wild Order",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the carrier's ATK by 100."
+      },
+      {
+        "skill_name": "Moon Howl",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Each time Hades Fangs casts an Active Skill, the carrier's Extra DMG Bonus increases by 5% for 8s. Triggering this effect again will renew its duration."
+      },
+      {
+        "skill_name": "Electro Mark",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Lightning DMG by 10%."
+      },
+      {
+        "skill_name": "Kerberos",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When No. 21: Feral casts Dusk Fluorescence and Sky-ripping Arcflash with Hades Fangs equipped, the Base DMG will increase by 30%. Casting Dusk Fluorescence, will summon Hades Fangs to assist, dealing 2000% Lightning DMG. Cooldown: 6s."
+      }
+    ]
+  },
+  "rainbow": {
+    "name": "Rainbow",
+    "cub_type": "Pull, Damage",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3wuzeioffmd010011.webp",
+    "skills_list": [
+      "Refraction Siphon",
+      "Ripple Dash",
+      "Inner Storm",
+      "Colorful Touch",
+      "Chain of Dreams",
+      "Over the Rainbow",
+      "Diamond Star"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Refraction Siphon",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Upon casting, Rainbow will swim to the target, pull enemies within range, and deal 500% DMG. Then, Rainbow will unleash a dazzling energy explosion, dealing 1000% DMG to enemies within range."
+      },
+      {
+        "skill_name": "Ripple Dash",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Rainbow will swiftly swim forward and deal 325% DMG to the enemies ahead 3 times. Then, Rainbow will immediately return and deal 450% DMG to the enemies on the path 3 times."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Inner Storm",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "When Ayla: Kaleido casts Pure Color: Theme Emphasis or Color Mix: Clash of Concepts with Rainbow equipped, Base DMG will increase by 30%, and Rainbow will pull nearby enemies and deal 100% Ice DMG 3 times.\n\nCasting Vibrant Brushstroke, will increase her Base DMG by 30%, and summon Rainbow to assist with its basic Active Skill. Cooldown: 2s."
+      },
+      {
+        "skill_name": "Colorful Touch",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Rainbow's Active Skill deals 70% more DMG."
+      },
+      {
+        "skill_name": "Chain of Dreams",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Increases the carrier's ATK by 100."
+      },
+      {
+        "skill_name": "Over the Rainbow",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Each time Rainbow casts an Active Skill, the carrier's Extra DMG Bonus increases by 4%. Can be stacked up to 3 times."
+      },
+      {
+        "skill_name": "Diamond Star",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "Increases the carrier's Ice DMG by 10%."
+      }
+    ]
+  },
+  "noctua": {
+    "name": "Noctua",
+    "cub_type": "Super Armor",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3xiaoonmd010011.webp",
+    "skills_list": [
+      "Radiative Shock - Barrier",
+      "Radiative Shock - Field",
+      "Paramagnetic Resonance",
+      "Resonating Cavity",
+      "Resonance",
+      "Radiative Jump",
+      "Collisional Jump"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Radiative Shock - Barrier",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Tapping it will make Noctua fly one circle around the character currently in control, dealing 800% DMG to the enemies nearby while granting the character Super Armor for 3s and a shield with capacity equal to 200% of the CUB'S Attack for 10s."
+      },
+      {
+        "skill_name": "Radiative Shock - Field",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. Tapping it will make Noctua fly one circle around the character currently in control, dealing 1000% DMG to the enemies nearby while granting the character Super Armor for 5s."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Paramagnetic Resonance",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Increases the carrier's Dark DMG by 10%."
+      },
+      {
+        "skill_name": "Resonating Cavity",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Noctua's active skill deals 60% more damage."
+      },
+      {
+        "skill_name": "Resonance",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Increases the carrier's ATK by 60."
+      },
+      {
+        "skill_name": "Radiative Jump",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Each time the carrier hits the enemy with a Basic Attack, their ATK increases by 20 for 5s, stacking up to 4 times. Once this effect reaches max stack, triggering it again will renew its duration."
+      },
+      {
+        "skill_name": "Collisional Jump",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "Each time the carrier casts a 3-Ping skill, their Extra DMG Bonus increases by 3% for 5s. Triggering this effect again will renew its duration."
+      }
+    ]
+  },
+  "boreas": {
+    "name": "Boreas",
+    "cub_type": "Charge",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3yingonmd010011.webp",
+    "skills_list": [
+      "Azure Blast",
+      "Azure Blast - Ice",
+      "Frigid Wings",
+      "Frigid Wings - Ice",
+      "Glorious Hawk",
+      "Frosty Howl",
+      "Arctic Knowledge",
+      "Frost Emblem",
+      "Hypercharge Cooling"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Azure Blast",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "The CUB button will be activated after 6 random pings. After casting, Boreas will fly toward the enemy to deal 1500% DMG."
+      },
+      {
+        "skill_name": "Azure Blast - Ice",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "The CUB button will be activated after 6 random pings. After casting, Boreas will fly toward the enemy to deal 750% Ice DMG and apply a Weakness Mark on the target that increases the Extra DMG Bonus by 3% for 8s upon taking Ice DMG. Triggering this effect again will renew its duration."
+      },
+      {
+        "skill_name": "Frigid Wings",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "The CUB button will be activated after 6 random pings. After casting, Boreas will fly toward the enemy along with the carrier to deal 1500% DMG."
+      },
+      {
+        "skill_name": "Frigid Wings - Ice",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "The CUB button will be activated after 6 random pings. After casting, Boreas will fly toward the enemy along with the carrier to deal 750% Ice DMG and apply a Weakness Mark on the target that increases the Extra DMG Bonus by 3% for 8s upon taking Ice DMG. Triggering this effect again will renew its duration."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Glorious Hawk",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Upon activating Frost Spirit, Chrome: Glory immediately receives Boreas's support, gaining 30% more Basic Attack DMG. Boreas will also continuously create frost hawks that fly toward the enemy, dealing Ice DMG equal to 500% of Chrome: Glory's ATK over 8s. When Condensed Frost is triggered, Boreas will also cast Azure Blast; this effect can be triggered once every 2.5s."
+      },
+      {
+        "skill_name": "Frosty Howl",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Boreas's Active Skill DMG increases by 70%."
+      },
+      {
+        "skill_name": "Arctic Knowledge",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "Increases the carrier's ATK by 100."
+      },
+      {
+        "skill_name": "Frost Emblem",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Ice DMG by 10%."
+      },
+      {
+        "skill_name": "Hypercharge Cooling",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "After each time Boreas casts an active skill, the carrier's ATK increases by 5% for 8s. Triggering this effect again will renew its duration."
+      }
+    ]
+  },
+  "shimmer": {
+    "name": "Shimmer",
+    "cub_type": "Pull, Charge",
+    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3yuonmd010011.webp",
+    "skills_list": [
+      "Swirl Blast",
+      "Gliding Barrage",
+      "Photons Surge",
+      "Guardian's Patrol",
+      "Luster Splitter",
+      "Empowered Cyclone",
+      "Voidrays Convergence"
+    ],
+    "active_skills": [
+      {
+        "skill_name": "Swirl Blast",
+        "skill_number": "Active Skill 1",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Shimmer will dash toward the target for 1000% DMG and pull in the enemies with a beam to inflict 500% DMG on enemies within range using its laser cannon."
+      },
+      {
+        "skill_name": "Gliding Barrage",
+        "skill_number": "Active Skill 2",
+        "skill_desc": "After pinging a total of 6 basic Signal Orbs, the CUB button will become available. After casting, Shimmer will dash toward the target for 1000% DMG and shoot 3 laser beams, each dealing 500% DMG to enemies within range."
+      }
+    ],
+    "passive_skills": [
+      {
+        "skill_name": "Photons Surge",
+        "skill_number": "Passive Skill 1",
+        "skill_desc": "Shimmer's Active Skills deal 70% more DMG."
+      },
+      {
+        "skill_name": "Guardian's Patrol",
+        "skill_number": "Passive Skill 2",
+        "skill_desc": "Increases the carrier's ATK by 100."
+      },
+      {
+        "skill_name": "Luster Splitter",
+        "skill_number": "Passive Skill 3",
+        "skill_desc": "After Shimmer casts its Active Skill, its carrier's ATK increases by 75. Can be stacked up to 2 times."
+      },
+      {
+        "skill_name": "Empowered Cyclone",
+        "skill_number": "Passive Skill 4",
+        "skill_desc": "Increases the carrier's Physical DMG by 10%."
+      },
+      {
+        "skill_name": "Voidrays Convergence",
+        "skill_number": "Passive Skill 5",
+        "skill_desc": "When Bianca: Stigmata is carrying Shimmer and Luminous Realm is activated, CRIT DMG increases by 50%; Base DMG of Sword Dance in Sword Form increases by 30%; Bianca: Stigmata's upward thrust attack will summon Shimmer to cast its basic Active Skill for a combination strike."
       }
     ]
   }

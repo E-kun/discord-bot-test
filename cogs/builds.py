@@ -25,7 +25,7 @@ class Builds(commands.Cog):
         return parsed_json[character]
 
     def does_character_exist(self, character):
-        framelist = ["lotus", "eclipse", "storm", "dawn", "lux", "palefire", "nightblade", "zero", "blast", "luminance", "entropy","ember", "pulse", "tenebrion","crimson abyss", "bastion", "astral", "brilliance", "veritas", "sophia", "arclight", "plume", "rozen", "camu", "rosetta", "changyu", "pavo", "laurel","2b", "9s", "a2", "hypnos", "tempest", "glory", "xxi", "garnet", "roland", "empyrea", "capriccio", "pulao", "starfarer", "haicma", "scire", "noan", "bambinata", "balter", "kaleido", "hyperreal", "crimson weave", "zitherwoe", "feral", "noctis", "alisa", "lamia", "brs", "epitaph"]
+        framelist = ["lotus", "eclipse", "storm", "dawn", "lux", "palefire", "nightblade", "zero", "blast", "luminance", "entropy","ember", "pulse", "tenebrion","crimson abyss", "bastion", "astral", "brilliance", "veritas", "sophia", "arclight", "plume", "rozen", "camu", "rigor", "changyu", "pavo", "laurel","2b", "9s", "a2", "hypnos", "tempest", "glory", "xxi", "garnet", "roland", "empyrea", "capriccio", "pulao", "starfarer", "haicma", "scire", "noan", "bambinata", "balter", "kaleido", "hyperreal", "crimson weave", "zitherwoe", "feral", "noctis", "alisa", "lamia", "brs", "epitaph"]
         exists = False
 
         for i in framelist:
@@ -49,8 +49,13 @@ class Builds(commands.Cog):
 
     @commands.command()
     async def build(self, ctx: commands.Context, *args) -> None:
+        character = ""
         if len(args) > 1:
-            character = args[0] + " " + args[1]
+            for idx, arg in enumerate(args):
+                if(idx) == 0:
+                    character =  character + args[idx]
+                else:
+                    character =  character + " " + args[idx]
         else:
             character = args[0]
         
@@ -63,7 +68,10 @@ class Builds(commands.Cog):
             data = build['set_list']
             view = DropdownView(ctx.author, data=data, build=build)
             embed = self.embedconf.create_build_embed(build, data[0])
-            await ctx.send(view=view, embed=embed)
+            if len(data) == 1:
+                await ctx.send(embed=embed)
+            else:
+                await ctx.send(view=view, embed=embed)
         else:
             content = "This character does not exist. Please try again."
             await ctx.send(content=content)

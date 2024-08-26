@@ -2,6 +2,14 @@
   "weaponlist": [
     "standard knife",
     "levitator",
+    "standard pistol",
+    "combat knife",
+    "semi-auto turret",
+    "practice bow",
+    "chainsaw",
+    "greatsword",
+    "bazooka",
+    "machete",
     "lotus berserker",
     "type zero",
     "inverse chimera",
@@ -47,7 +55,7 @@
     "illuminare",
     "prometheus",
     "hecate",
-    "soundof silence",
+    "sound of silence",
     "stokes",
     "star voyager",
     "nightblaze",
@@ -56,14 +64,14 @@
     "crimson howl",
     "astraea",
     "metis",
-    "brs cannon",
+    "black rock cannon",
     "night falcon",
     "dwelling will",
     "hacker's tune",
-    "reconstruction",
+    "reconstruction of law",
     "cestus",
     "dreamer roamer",
     "hemera's gaze",
-    "flaming feathers"
+    "dawn's flaming feathers"
   ]
 }

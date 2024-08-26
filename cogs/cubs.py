@@ -4,6 +4,7 @@ import json
 from discord.ext import commands
 from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
 from utility.embedconfig import EmbedClass
+from utility.nickname_checker import check_nickname
 
 class CUBs(commands.Cog):
 
@@ -17,7 +18,7 @@ class CUBs(commands.Cog):
         return parsed_json[cub]
 
     def does_cub_exist(self, cub_name):
-        cublist = ["cetus"]
+        cublist = ["cetus", "seeshell", "thorny", "yuan ye", "lingya", "dawn chorus", "toniris", "jet jaeger", "frost oath", "nitor", "motorbolt", "punchy", "moonhopper", "hades fangs", "rainbow", "noctua", "boreas", "shimmer"]
         exists = False
 
         for i in cublist:
@@ -35,38 +36,17 @@ class CUBs(commands.Cog):
 
     @commands.command(aliases=["pet"])
     async def cub(self, ctx: commands.Context, *args) -> None:
+        cub_name = ""
         if len(args) > 1:
-            cub_name = args[0] + " " + args[1]
+            for idx, arg in enumerate(args):
+                if(idx) == 0:
+                    cub_name =  cub_name + args[idx]
+                else:
+                    cub_name =  cub_name + " " + args[idx]
         else:
             cub_name = args[0]
         
-        match cub_name:
-            # case "lumi":
-            #     weapon_name = "luminance"
-            # case "evil liv" | "seggs" | "green jumper":
-            #     weapon_name = "lux"
-            # case "empy" | "solaeter":
-            #     weapon_name = "empyrea"
-            # case "daren" | "scire":
-            #     cub_name = "boone"
-            # case "capri" | "crapi" | "schizo" | "capriccio":
-            #     cub_name = "seraphine"
-            # case "uncle" | "king engine" | "kingengine" | "wata":
-            #     weapon_name = "epitaph"
-            # case "supercar" | "hyper":
-            #     weapon_name = "hyperreal"
-            # case "cow":
-            #     weapon_name = "kaleido"
-            case "lullaby" | "lost lullaby" | "fish" | "lamia":
-                cub_name = "cetus"
-            # case "weave" | "motivation" | "vergil's daughter":
-            #     weapon_name = "crimson weave"
-            # case "awoo" | "furry":
-            #     weapon_name = "feral"
-            # case "indomitus":
-            #     weapon_name = "noctis"
-            case _:
-                cub_name = cub_name            
+        cub_name = check_nickname(cub_name, "cub")           
 
         print(cub_name)
         if(self.does_cub_exist(cub_name)):

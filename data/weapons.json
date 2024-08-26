@@ -23,6 +23,114 @@
       "effect_desc": ""
     }
   },
+  "standard pistol": {
+    "name": "Standard Pistol",
+    "weapon_type": "Dual Guns",
+    "rarity": 3,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1gunmd030011.webp",
+    "atk": 109,
+    "crit": 61,
+    "effect": {
+      "effect_name": "",
+      "effect_desc": ""
+    }
+  },
+  "combat knife": {
+    "name": "Combat Knife",
+    "weapon_type": "Katana",
+    "rarity": 3,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1swordmd030011.webp",
+    "atk": 104,
+    "crit": 55,
+    "effect": {
+      "effect_name": "",
+      "effect_desc": ""
+    }
+  },
+  "semi-auto turret": {
+    "name": "Semi-Auto Turret",
+    "weapon_type": "Levi-Gun",
+    "rarity": 3,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1floatmd030011.webp",
+    "atk": 99,
+    "crit": 61,
+    "effect": {
+      "effect_name": "",
+      "effect_desc": ""
+    }
+  },
+  "practice bow": {
+    "name": "Practice Bow",
+    "weapon_type": "Bow",
+    "rarity": 3,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1bowmd030011.webp",
+    "atk": 112,
+    "crit": 64,
+    "effect": {
+      "effect_name": "",
+      "effect_desc": ""
+    }
+  },
+  "chainsaw": {
+    "name": "Chainsaw",
+    "weapon_type": "Saw",
+    "rarity": 3,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1sawmd030011.webp",
+    "atk": 101,
+    "crit": 55,
+    "effect": {
+      "effect_name": "",
+      "effect_desc": ""
+    }
+  },
+  "greatsword": {
+    "name": "Greatsword",
+    "weapon_type": "Greatsword",
+    "rarity": 3,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1claymoremd030011.webp",
+    "atk": 104,
+    "crit": 55,
+    "effect": {
+      "effect_name": "",
+      "effect_desc": ""
+    }
+  },
+  "bazooka": {
+    "name": "Bazooka",
+    "weapon_type": "Cannon",
+    "rarity": 3,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1sleevemd030011.webp",
+    "atk": 109,
+    "crit": 61,
+    "effect": {
+      "effect_name": "",
+      "effect_desc": ""
+    }
+  },
+  "machete": {
+    "name": "Machete",
+    "weapon_type": "Dagger",
+    "rarity": 3,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1daggermd030011.webp",
+    "atk": 109,
+    "crit": 64,
+    "effect": {
+      "effect_name": "",
+      "effect_desc": ""
+    }
+  },
+  "standard scythe": {
+    "name": "Standard Scythe",
+    "weapon_type": "Scythe",
+    "rarity": 3,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e1sickmd030011.webp",
+    "atk": 101,
+    "crit": 61,
+    "effect": {
+      "effect_name": "",
+      "effect_desc": ""
+    }
+  },
   "lotus berserker": {
     "name": "Lotus Berserker",
     "weapon_type": "Katana",
@@ -563,7 +671,7 @@
       "effect_desc": "CRIT DMG increases by 30%. Upon entering the Sword Form, immediately gains 20 stacks of Stigmata Will and activate the Resolution status."
     }
   },
-  "soundof silence": {
+  "sound of silence": {
     "name": "Sound of Silence",
     "weapon_type": "Mantis Blades",
     "rarity": 6,
@@ -671,7 +779,7 @@
       "effect_desc": "ATK increases by 10%. The amount of Abyssal Points earned increases by 100%. Pinging a Tidal Orb will trigger Matrix if it is not in cooldown."
     }
   },
-  "brs cannon": {
+  "black rock cannon": {
     "name": "Black Rock Cannon",
     "weapon_type": "Blade Cannon",
     "rarity": 6,
@@ -719,7 +827,7 @@
       "effect_desc": "ATK increases by 10%. Base DMG of Signal Orbs and Cadence Orbs increases by 30%. If the Signature Energy gauge is full when Teddy: Decryptor is swapped into the field while in Unanalyzed Mode, Teddy will automatically enter Analyzed Mode and gain 40 Analysis Points. Otherwise, Teddy will gain 100 Signature Energy."
     }
   },
-  "reconstruction": {
+  "reconstruction of law": {
     "name": "Reconstruction of Law",
     "weapon_type": "Chakram",
     "rarity": 6,
@@ -767,7 +875,7 @@
       "effect_desc": "ATK increases by 10%. Base DMG of Gale Strike, Bullet Hail, and Frosty Ascent doubles."
     }
   },
-  "flaming feathers": {
+  "dawn's flaming feathers": {
     "name": "Dawn's Flaming Feathers",
     "weapon_type": "Lustrous Katana",
     "rarity": 6,

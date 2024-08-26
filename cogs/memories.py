@@ -35,10 +35,15 @@ class Memories(commands.Cog):
     async def on_ready(self):
         print('Memory loaded.')
 
-    @commands.command()
+    @commands.command(aliases=["mem", "memo"])
     async def memory(self, ctx: commands.Context, *args) -> None:
+        memory_name = ""
         if len(args) > 1:
-            memory_name = args[0] + " " + args[1]
+            for idx, arg in enumerate(args):
+                if(idx) == 0:
+                    memory_name =  memory_name + args[idx]
+                else:
+                    memory_name =  memory_name + " " + args[idx]
         else:
             memory_name = args[0]
         

@@ -25,7 +25,7 @@ def check_nickname(nickname, caller):
             weapon = "benediction"
             cub = ""
             memory = "n/a"
-        case "palefire":
+        case "palefire" | "firegod":
             character = "palefire"
             weapon = "wolf fang"
             cub = "n/a"
@@ -36,110 +36,110 @@ def check_nickname(nickname, caller):
             cub = "n/a"
             memory = "n/a"
         case "zero":
-            character = "nightblade"
+            character = "zero"
             weapon = ""
             cub = "n/a"
             memory = "n/a"
         case "blast":
-            character = "nightblade"
+            character = "blast"
             weapon = ""
             cub = "n/a"
             memory = "n/a"
         case "lumi" | "luminance":
             character = "luminance"
             weapon = ""
-            cub = ""
+            cub = "n/a"
             memory = "n/a"
-        case "entropy":
-            character = "nightblade"
+        case "entropy" | "entrobrick":
+            character = "entropy"
             weapon = ""
             cub = "n/a"
             memory = "n/a"
         case "ember":
-            character = "nightblade"
-            weapon = ""
-            cub = "n/a"
+            character = "ember"
+            weapon = "fusion dragon"
+            cub = "nitor"
             memory = "n/a"
         case "pulse":
-            character = "nightblade"
-            weapon = ""
+            character = "pulse"
+            weapon = "hydro heat"
             cub = "n/a"
             memory = "n/a"
-        case "tenebrion":
-            character = "nightblade"
-            weapon = ""
+        case "tenebrion" | "teneb" | "terb":
+            character = "tenebrion"
+            weapon = "darkness"
             cub = "n/a"
             memory = "n/a"
-        case "crimson abyss":
-            character = "nightblade"
-            weapon = ""
+        case "crimson abyss" | "abyss" | "crimson brick":
+            character = "crimson abyss"
+            weapon = "sakura"
             cub = "n/a"
             memory = "n/a"
-        case "bastion":
-            character = "nightblade"
-            weapon = ""
+        case "bastion" | "kimochiyokatta" | "kimochi yokatta":
+            character = "bastion"
+            weapon = "big kamui"
             cub = "n/a"
             memory = "n/a"
-        case "astral":
-            character = "nightblade"
+        case "astral" | "asstral":
+            character = "astral"
             weapon = ""
             cub = "n/a"
             memory = "n/a"
         case "brilliance":
-            character = "nightblade"
+            character = "brilliance"
             weapon = ""
             cub = "n/a"
             memory = "n/a"
         case "veritas":
-            character = "nightblade"
-            weapon = ""
+            character = "veritas"
+            weapon = "tonitris"
             cub = "n/a"
             memory = "n/a"
-        case "sophia":
-            character = "nightblade"
+        case "sophia" | "s*phia":
+            character = "sophia"
             weapon = ""
             cub = "n/a"
             memory = "n/a"
         case "arclight":
-            character = "nightblade"
-            weapon = ""
+            character = "arclight"
+            weapon = "st. elmo"
             cub = "n/a"
             memory = "n/a"
-        case "plume":
-            character = "nightblade"
-            weapon = ""
-            cub = "n/a"
+        case "plume" | "ploom":
+            character = "plume"
+            weapon = "crimson birch"
+            cub = "seeshell"
             memory = "n/a"
         case "rozen":
-            character = "nightblade"
-            weapon = ""
+            character = "rozen"
+            weapon = "sariel"
             cub = "n/a"
             memory = "n/a"
-        case "camu":
-            character = "nightblade"
+        case "camu" | "crocotta":
+            character = "camu"
             weapon = ""
             cub = "n/a"
-            memory = "n/a"
-        case "rosetta":
-            character = "nightblade"
-            weapon = ""
-            cub = "n/a"
-            memory = "n/a"
-        case "changyu":
-            character = "nightblade"
+            memory = "koya"
+        case "rosetta" | "juan" | "rigor":
+            character = "rigor"
+            weapon = "gungnir"
+            cub = "frost oath"
+            memory = "leeuwenhoek"
+        case "changyu" | "changwho":
+            character = "changyu"
             weapon = ""
             cub = "n/a"
             memory = "n/a"
         case "pavo":
-            character = "nightblade"
+            character = "pavo"
             weapon = ""
             cub = "n/a"
             memory = "n/a"
         case "laurel":
-            character = "nightblade"
-            weapon = ""
-            cub = "n/a"
-            memory = "n/a"
+            character = "laurel"
+            weapon = "ozma"
+            cub = "noctua"
+            memory = "flamel"
         case "2b":
             character = "nightblade"
             weapon = ""
@@ -155,40 +155,40 @@ def check_nickname(nickname, caller):
             weapon = ""
             cub = "n/a"
             memory = "n/a"
-        case "hypnos":
-            character = "nightblade"
+        case "hypnos" | "sleepyboi" | "sleepyhead" | "sleepyboy" | "time to sleep" | "sleepytime":
+            character = "hypnos"
             weapon = ""
             cub = "n/a"
             memory = "n/a"
         case "tempest":
-            character = "nightblade"
+            character = "tempest"
             weapon = ""
             cub = "n/a"
-            memory = "n/a"
+            memory = "lucrezia"
         case "glory":
-            character = "nightblade"
-            weapon = ""
-            cub = "n/a"
+            character = "glory"
+            weapon = "apollo"
+            cub = "boreas"
             memory = "n/a"
-        case "xxi":
-            character = "nightblade"
-            weapon = ""
+        case "xxi" | "21":
+            character = "xxi"
+            weapon = "snore"
             cub = "n/a"
             memory = "n/a"
         case "garnet":
-            character = "nightblade"
-            weapon = ""
+            character = "garnet"
+            weapon = "phoenix"
             cub = "n/a"
-            memory = "n/a"
-        case "roland":
-            character = "nightblade"
-            weapon = ""
+            memory = "tifa"
+        case "roland" | "kuraimaksu" | "clown":
+            character = "roland"
+            weapon = "durendal"
             cub = "n/a"
-            memory = "n/a"
-        case "empy" | "solaeter" | "empyrea":
+            memory = "jack"
+        case "empy" | "solaeter" | "empyrea" | "flashbang":
             character = "empyrea"
-            weapon = ""
-            cub = ""
+            weapon = "hestia"
+            cub = "n/a"
             memory = "elizabeth"
         case "capri" | "crapi" | "schizo" | "cappuccino" | "soup" | "pwowq":
             character = "capriccio"
@@ -200,50 +200,50 @@ def check_nickname(nickname, caller):
             weapon = ""
             cub = "n/a"
             memory = "n/a"
-        case "starfarer":
-            character = "nightblade"
-            weapon = ""
-            cub = "n/a"
-            memory = "n/a"
+        case "starfarer" | "nanamech" | "nanamecha":
+            character = "starfarer"
+            weapon = "implosion"
+            cub = "jet jaeger"
+            memory = "unimate"
         case "haicma":
             character = "nightblade"
             weapon = ""
             cub = "n/a"
             memory = "n/a"
-        case "daren" | "bonka" | "tsundere" | "radiant daybreak" | "trs" | "<:trs:1275701510293946482>" | "bunny" | "bnnuy" | "scire":
+        case "daren" | "bonka" | "tsundere" | "radiant daybreak" | "trs" | "<:trs:1275701510293946482>" | "bunny" | "bnnuy" | "scire" | "best girl" | "bestgirl":
             character = "scire"
             weapon = "illuminare"
-            cub = ""
+            cub = "moonhopper"
             memory = "boone"
-        case "noan":
-            character = "nightblade"
-            weapon = ""
+        case "noan" | "deadweight":
+            character = "noan"
+            weapon = "prometheus"
             cub = "n/a"
             memory = "n/a"
-        case "balter":
-            character = "nightblade"
-            weapon = ""
-            cub = "n/a"
-            memory = "n/a"
-        case "bambinata":
-            character = "nightblade"
-            weapon = ""
+        case "balter" | "stigmata":
+            character = "stigmata"
+            weapon = "hecate"
+            cub = "shimmer"
+            memory = "charlotte"
+        case "bambinata" | "bambi":
+            character = "bambinata"
+            weapon = "soundof silence"
             cub = "n/a"
             memory = "n/a"
         case "supercar" | "car" | "hyper" | "hyperreal":
             character = "hyperreal"
-            weapon = ""
-            cub = ""
+            weapon = "stokes"
+            cub = "punchy"
             memory = "turing"
         case "cow" | "kale" | "kaleido":
             character = "kaleido"
             weapon = ""
-            cub = ""
+            cub = "rainbow"
             memory = "aline"       
-        case "weave" | "motivation" | "vergil's daughter" | "crimson weave":
+        case "weave" | "motivation" | "vergil's daughter" | "crimson weave" | "cw":
             character = "crimson weave"
-            weapon = ""
-            cub = ""
+            weapon = "nightblaze"
+            cub = "motorbolt"
             memory = "diesel"
         case "zitherwoe":
             character = "nightblade"
@@ -253,27 +253,27 @@ def check_nickname(nickname, caller):
         case "awoo" | "furry" | "feral" | "feral: 21" | "feral:21":
             character = "feral"
             weapon = "managarm"
-            cub = ""
-            memory = ""
+            cub = "hades fangs"
+            memory = "fran"
         case "indomitus" | "noctis":
             character = "noctis"
             weapon = ""
-            cub = ""
+            cub = "n/a"
             memory = "n/a"
         case "alisa" | "noctis":
             character = "noctis"
-            weapon = ""
-            cub = ""
-            memory = "n/a"
+            weapon = "astraea"
+            cub = "dawn chorus"
+            memory = "signa"
         case "lullaby" | "lost lullaby" | "feesh" | "fish" | "lamia":
             character = "lamia"
             weapon = "metis"
             cub = "cetus"
             memory = "derketo"
         case "brs":
-            character = "noctis"
+            character = "brs"
             weapon = ""
-            cub = ""
+            cub = "n/a"
             memory = "n/a"
         case "uncle" | "king engine" | "kingengine" | "wata" | "epitaph":
             character = "epitaph"

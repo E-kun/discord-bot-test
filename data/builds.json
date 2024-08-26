@@ -1,50 +1,19 @@
 {
-  "luminance": {
-    "unit_name": "Liv",
-    "frame_name": "Luminance",
-    "thumbnail_url": "https://assets.huaxu.app/browse/glb/image/rolecharacter/lifuyongzhuangnormal01.256.webp",
-    "set_list": [
-      "4 Da Vinci 2 Philip II",
-      "4 Patton 2 Darwin",
-      "4 Hanna 2 Cottie"
-    ],
+  "lotus": {
+    "unit_name": "Lucia",
+    "frame_name": "Lotus",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadluxiya2.256.webp",
+    "set_list": ["2 Patton 2 Leeuwenhoek 2 Signa"],
     "builds": [
       {
-        "set_name": "4 Da Vinci 2 Philip II",
-        "set_type": "Awakening",
-        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
-        "description": [
-          "Requires Leap",
-          "QTE support set, best physical support option."
-        ],
-        "memories": ["4x Da Vinci", "2x Philip II"],
+        "set_name": "2 Patton 2 Leeuwenhoek 2 Signa",
+        "set_type": "Main",
+        "game_modes": "Story Mode",
+        "description": ["Used at all ranks", "General DPS set"],
+        "memories": ["2X Patton", "2x Leeuwenhoek", "2x Signa"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Signature"
-        ],
-        "harmony_rec": "N/A"
-      },
-      {
-        "set_name": "4 Patton 2 Darwin",
-        "set_type": "DPS",
-        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
-        "description": ["Niche", "DPS Set for Leap"],
-        "memories": ["4x Patton", "2x Darwin"],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Signature"
-        ],
-        "harmony_rec": "N/A"
-      },
-      {
-        "set_name": "4 Hanna 2 Cottie",
-        "set_type": "Awakening",
-        "game_modes": "",
-        "description": ["High difficulty", "Physical Support set", "No Harmo"],
-        "memories": ["4x Hanna", "2x Cottie"],
-        "memory_resonance": [
-          "Top Slot   : 6x Any ATK+15 Variant",
-          "Bottom Slot: 6x Any ATK+15 Variant"
+          "Bottom Slot: 6x Core"
         ],
         "harmony_rec": "N/A"
       }
@@ -53,12 +22,15 @@
   "eclipse": {
     "unit_name": "Liv",
     "frame_name": "Eclipse",
-    "thumbnail_url": "https://assets.huaxu.app/browse/glb/image/rolecharacter/lifunormal01.256.webp",
-    "set_list": ["4 Da Vinci 2 Philip II", "4 Darwin 2 Leeuwenhoek"],
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/lifunormal01.256.webp",
+    "set_list": [
+      "4 Da Vinci 2 Philip II",
+      "2 Phillip II 2 Voltaire 2 Richelieu"
+    ],
     "builds": [
       {
         "set_name": "4 Da Vinci 2 Philip II",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
         "description": ["Recommended for all ranks", "QTE support set."],
         "memories": ["4x Da Vinci", "2x Philip II"],
@@ -69,11 +41,51 @@
         "harmony_rec": "N/A"
       },
       {
-        "set_name": "4 Darwin 2 Leeuwenhoek",
-        "set_type": "Awakening",
-        "game_modes": "High Difficulty",
-        "description": ["Recommended for all ranks", "Niche build"],
-        "memories": ["4x Darwin", "2x Leeuwenhoek"],
+        "set_name": "2 Phillip II 2 Voltaire 2 Richelieu",
+        "set_type": "Niche",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": ["Niche build"],
+        "memories": ["2X Phillip II", "2x Voltaire", "2x Richelieu"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "storm": {
+    "unit_name": "Nanami",
+    "frame_name": "Storm",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadyongyechao2.256.webp",
+    "set_list": ["4 Da Vinci 2 Catherine"],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Catherine",
+        "set_type": "Main",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": ["Used at all ranks", "General QTE Bot set"],
+        "memories": ["4x Da Vinci", "2x Catherine"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "dawn": {
+    "unit_name": "Lucia",
+    "frame_name": "Dawn",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadluxiya2s.256.webp",
+    "set_list": ["4 Heisen 2 Darwin"],
+    "builds": [
+      {
+        "set_name": "4 Heisen 2 Darwin",
+        "set_type": "Main",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": ["Used at all ranks", "General DPS/sub-DPS set"],
+        "memories": ["4x Heisen", "2x Darwin"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Core"
@@ -86,11 +98,11 @@
     "unit_name": "Liv",
     "frame_name": "Lux",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadlifu2s.256.webp",
-    "set_list": ["4 Da Vinci 2 Guinevere", "4 Guinevere 2 Lantern"],
+    "set_list": ["4 Da Vinci 2 Guinevere", "4 Guinevere 2 Gloria"],
     "builds": [
       {
         "set_name": "4 Da Vinci 2 Guinevere",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
         "description": [
           "Recommended for all ranks",
@@ -105,22 +117,710 @@
         "harmony_rec": "N/A"
       },
       {
-        "set_name": "4 Guinevere 2 Lantern",
-        "set_type": "Awakening",
+        "set_name": "4 Guinevere 2 Gloria",
+        "set_type": "Niche",
         "game_modes": "Pain Cage, Norman, High Difficulty",
         "description": [
-          "Recommended for all ranks",
           "QTE Support, used for supporting a solo DPS",
-          "Better heals and higher buffs, paired with Davinci lightning tank.",
+          "Better heals and higher buffs, paired with a lightning tank holding 4x Da Vinci.",
           "Lux can activate Guinevere Drone in a single QTE",
-          "Use Samantha if no Lantern."
+          "Use 2x Lantern over 2x Gloria if you have it."
         ],
-        "memories": ["4x Guinevere", "2x Lantern"],
+        "memories": ["4x Guinevere", "2x Gloria"],
         "memory_resonance": [
           "Top Slot   : 6x Any ATK+15 Variant",
           "Bottom Slot: 6x Any ATK+15 Variant"
         ],
         "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "palefire": {
+    "unit_name": "Lee",
+    "frame_name": "Palefire",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadli2.256.webp",
+    "set_list": ["4 Shakespeare 2 Darwin"],
+    "builds": [
+      {
+        "set_name": "4 Shakespeare 2 Darwin",
+        "set_type": "Main",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Used at all ranks",
+          "General DPS/sub-DPS set",
+          "Getting his leap is worth if you do not have a fire attacker and there are no upcoming fire unit banners within a year."
+        ],
+        "memories": ["4x Shakespeare", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "nightblade": {
+    "unit_name": "Watanabe",
+    "frame_name": "Nightblade",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheaddubian2.256.webp",
+    "set_list": ["2 Leeuwenhoek 2 Signa 2 Darwin"],
+    "builds": [
+      {
+        "set_name": "2 Leeuwenhoek 2 Signa 2 Darwin",
+        "set_type": "Main",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": ["Used at all ranks", "General DPS/sub-DPS set"],
+        "memories": ["2x Leeuwenhoek", "2x Signa", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "zero": {
+    "unit_name": "Bianca",
+    "frame_name": "Zero",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadaolisuo2.256.webp",
+    "set_list": ["2 Cottie 2 Signa 2 Darwin"],
+    "builds": [
+      {
+        "set_name": "2 Cottie 2 Signa 2 Darwin",
+        "set_type": "Main",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": ["Used at all ranks", "General DPS/sub-DPS set"],
+        "memories": ["2x Leeuwenhoek", "2x Signa", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "blast": {
+    "unit_name": "Karenina",
+    "frame_name": "Blast",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadkalienina2.256.webp",
+    "set_list": ["4 Hanna 2 Darwin"],
+    "builds": [
+      {
+        "set_name": "4 Hanna 2 Darwin",
+        "set_type": "Main",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": ["Used at all ranks", "General DPS/sub-DPS set"],
+        "memories": ["4x Hanna", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "luminance": {
+    "unit_name": "Liv",
+    "frame_name": "Luminance",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/lifuyongzhuangnormal01.256.webp",
+    "set_list": ["4 Da Vinci 2 Philip II"],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Philip II",
+        "set_type": "Main",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": [
+          "Requires Leap",
+          "QTE support set, best physical support build option for Luminance."
+        ],
+        "memories": ["4x Da Vinci", "2x Philip II"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "entropy": {
+    "unit_name": "Lee",
+    "frame_name": "Entropy",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadli2ss.256.webp",
+    "set_list": ["2 Leeuwenhoek 2 Signa 2 Darwin"],
+    "builds": [
+      {
+        "set_name": "2 Leeuwenhoek 2 Signa 2 Darwin",
+        "set_type": "Main",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["General DPS/sub-DPS set", "Used at all ranks"],
+        "memories": ["2x Leeuwenhoek", "2x Signa", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "ember": {
+    "unit_name": "Karenina",
+    "frame_name": "Ember",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadkalienina2ss.256.webp",
+    "set_list": ["4 Hanna 2 Darwin"],
+    "builds": [
+      {
+        "set_name": "4 Hanna 2 Darwin",
+        "set_type": "Main",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["General DPS/sub-DPS set", "Used at all ranks"],
+        "memories": ["4x Hanna", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Red/Yellow Orb",
+          "Bottom Slot: 6x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "pulse": {
+    "unit_name": "Nanami",
+    "frame_name": "Pulse",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadyongyechao2ss.256.webp",
+    "set_list": ["4 Da Vinci 2 Einsteina", "4 Shakespeare 2 Einsteina"],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_type": "Main",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["Recommended for all ranks", "QTE Bot Tank set."],
+        "memories": ["4x Da Vinci", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Shakespeare 2 Einsteina",
+        "set_type": "Alternate",
+        "game_modes": "High Difficulty",
+        "description": [
+          "Alternate build",
+          "Used if another team member is already holding 4x Da Vinci"
+        ],
+        "memories": ["4x Shakespeare", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "tenebrion": {
+    "unit_name": "Kamui",
+    "frame_name": "Tenebrion",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadshenwei2ss.256.webp",
+    "set_list": ["4 Da Vinci 2 Einsteina"],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_type": "QTE Bot",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": [
+          "QTE Bot Tank Set.",
+          "Used at all ranks.",
+          "Not worth building if you already have XXI at SSS rank and beyond."
+        ],
+        "memories": ["4x Da Vinci", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "crimson abyss": {
+    "unit_name": "Lucia",
+    "frame_name": "Crimson Abyss",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadluxiyaaerfa2ss.256.webp",
+    "set_list": ["4 Frederick 2 Darwin"],
+    "builds": [
+      {
+        "set_name": "4 Frederick 2 Darwin",
+        "set_type": "Main",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": [
+          "General DPS/sub-DPS set",
+          "Used at all ranks.",
+          "If you're wondering whether she's good, no. She has been powercrept by Stigmata. And yes, this includes her with a leap."
+        ],
+        "memories": ["4x Frederick", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "bastion": {
+    "unit_name": "Kamui",
+    "frame_name": "Bastion",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadshenwei2.256.webp",
+    "set_list": ["4 Hanna 2 Darwin", "4 Da Vinci 2 Catherine"],
+    "builds": [
+      {
+        "set_name": "4 Hanna 2 Darwin",
+        "set_type": "Main",
+        "game_modes": "Story Mode",
+        "description": ["Recommended for all ranks", "General DPS set"],
+        "memories": ["4x Hanna", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Da Vinci 2 Catherine",
+        "set_type": "Alternate",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": ["Alternate build", "QTE Bot Tank Set."],
+        "memories": ["4x Da Vinci", "2x Catherine"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "astral": {
+    "unit_name": "Watanabe",
+    "frame_name": "Astral",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheaddubian2ss.256.webp",
+    "set_list": ["4 Bathlon 2 Cottie"],
+    "builds": [
+      {
+        "set_name": "4 Bathlon 2 Cottie",
+        "set_type": "Main",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["General DPS/sub-DPS set", "Used at all ranks."],
+        "memories": ["4x Bathlon", "2x Cottie"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "brilliance": {
+    "unit_name": "Ayla",
+    "frame_name": "Brilliance",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadaila2.256.webp",
+    "set_list": ["4 Da Vinci 2 Catherine"],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Catherine",
+        "set_type": "Main",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["QTE Bot Tank Set.", "Used at all ranks."],
+        "memories": ["4x Da Vinci", "2x Catherine"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "veritas": {
+    "unit_name": "Bianca",
+    "frame_name": "Veritas",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadbianka2ss.256.webp",
+    "set_list": ["4 Heisen 2 Frederick"],
+    "builds": [
+      {
+        "set_name": "4 Heisen 2 Frederick",
+        "set_type": "Main",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["General DPS/sub-DPS set", "Used at all ranks."],
+        "memories": ["4x Heisen", "2x Frederick"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "sophia": {
+    "unit_name": "Sophia",
+    "frame_name": "Silverfang",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadsufeiya2.256.webp",
+    "set_list": ["4 Da Vinci 2 Guinevere"],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Guinevere",
+        "set_type": "QTE Bot",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["General Support Set", "Used at all ranks."],
+        "memories": ["4x Da Vinci", "2x Guinevere"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "arclight": {
+    "unit_name": "Chrome",
+    "frame_name": "Arclight",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadkuluomu2.256.webp",
+    "set_list": ["4 Da Vinci 2 Einsteina"],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_type": "QTE Bot",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["Tank QTE Bot Set", "Used at all ranks."],
+        "memories": ["4x Da Vinci", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "plume": {
+    "unit_name": "Lucia",
+    "frame_name": "Plume",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr4luxiya2.256.webp",
+    "set_list": ["4 Hanna 2 Darwin"],
+    "builds": [
+      {
+        "set_name": "4 Hanna 2 Darwin",
+        "set_type": "Main",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["General DPS/sub-DPS set", "Used at all ranks."],
+        "memories": ["4x Hanna", "2x Darwin"],
+        "memory_resonance": [
+          "Top Slot   : 6x Red Orb",
+          "Bottom Slot: 6x Signature"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "rozen": {
+    "unit_name": "Vera",
+    "frame_name": "Rozen",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadweila2.256.webp",
+    "set_list": ["4 Da Vinci 2 Guinevere"],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Guinevere",
+        "set_type": "QTE Bot",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["QTE support set", "Used at all ranks."],
+        "memories": ["4x Da Vinci", "2x Guinevere"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "camu": {
+    "unit_name": "Camu",
+    "frame_name": "Crocotta",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadkamu2.256.webp",
+    "set_list": ["6 Koya"],
+    "builds": [
+      {
+        "set_name": "6 Koya",
+        "set_type": "Uniframe",
+        "game_modes": "Project: Uniframe, Babel, Norman",
+        "description": ["Uniframe Set", "Used at all ranks."],
+        "memories": ["6x Koya"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "rigor": {
+    "unit_name": "Rosetta",
+    "frame_name": "Rigor",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadluosaita2.256.webp",
+    "set_list": ["4 Leeuwenhoek 2 Catherine", "4 Da Vinci 2 Catherine"],
+    "builds": [
+      {
+        "set_name": "4 Leeuwenhoek 2 Catherine",
+        "set_type": "Main",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": ["Used at all ranks", "General tank set"],
+        "memories": ["4x Leeuwenhoek", "2x Catherine"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Da Vinci 2 Catherine",
+        "set_type": "Niche",
+        "game_modes": "Pain Cage",
+        "description": ["Only used in PPC.", "Requires SSS Stigmata or higher"],
+        "memories": ["4x Da Vinci", "2x Catherine"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "changyu": {
+    "unit_name": "Changyu",
+    "frame_name": "Qilin",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadchangyu2.256.webp",
+    "set_list": ["4 Da Vinci 2 Einsteina"],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_type": "QTE Bot",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": ["Used at all ranks", "General tank set"],
+        "memories": ["4x Da Vinci", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "pavo": {
+    "unit_name": "Qu",
+    "frame_name": "Pavo",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadqu2.256.webp",
+    "set_list": ["6 Wu'an"],
+    "builds": [
+      {
+        "set_name": "6 Wu'an",
+        "set_type": "Uniframe",
+        "game_modes": "Project: Uniframe, Babel, Norman",
+        "description": ["Uniframe Set", "Used at all ranks."],
+        "memories": ["6x Wu'an"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Core"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "laurel": {
+    "unit_name": "Luna",
+    "frame_name": "Laurel",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadluna2.256.webp",
+    "set_list": ["4 Flamel 2 Darwin"],
+    "builds": [
+      {
+        "set_name": "4 Flamel 2 Darwin",
+        "set_type": "Main",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["General DPS/sub-DPS set", "Used at all ranks."],
+        "memories": ["4x Flamel", "2x Darwin"],
+        "memory_resonance": ["Top Slot   : 6x Atk", "Bottom Slot: 6x Core"],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "hypnos": {
+    "unit_name": "Wanshi",
+    "frame_name": "Hypnos",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadwanshi2.webp",
+    "set_list": ["4 Da Vinci 2 Guinevere", "2 Guinevere, 2 Gloria, 2 Samantha"],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Guinevere",
+        "set_type": "QTE Bot",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["General QTE Bot set", "Used at all ranks."],
+        "memories": ["4x Da Vinci", "2x Guinevere"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "2 Guinevere, 2 Gloria, 2 Samantha",
+        "set_type": "Alternate",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": [
+          "Alternate Set",
+          "Used if ice tank is already holding Da Vinci.",
+          "**Replace Samantha with 2x Lantern if you have it.**"
+        ],
+        "memories": ["2x Guinevere", "2x Gloria", "2x Samantha"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "tempest": {
+    "unit_name": "Selena",
+    "frame_name": "Tempest",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadsailinna2.256.webp",
+    "set_list": ["6 Lucrezia"],
+    "builds": [
+      {
+        "set_name": "6 Lucrezia",
+        "set_type": "Uniframe",
+        "game_modes": "Project: Uniframe, Babel, Norman",
+        "description": ["Uniframe Set", "Used at all ranks."],
+        "memories": ["6x Lucrezia"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Any ATK+15 Variant"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "glory": {
+    "unit_name": "Chrome",
+    "frame_name": "Glory",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3kuluomu2.256.webp",
+    "set_list": ["4 Da Vinci 2 Einsteina", "4 Chen JiYuan 2 Einsteina"],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_type": "QTE Bot",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": ["Used at all ranks", "General tank set"],
+        "memories": ["4x Da Vinci", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Chen JiYuan 2 Einsteina",
+        "set_type": "Niche",
+        "game_modes": "Pain Cage",
+        "description": [
+          "High difficulty PPC use only",
+          "Used only for PPC with Wanshi: Hypnos holding 4x Da Vinci to nuke boss."
+        ],
+        "memories": ["4x Chen JiYuan", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "xxi": {
+    "unit_name": "No. 21",
+    "frame_name": "XXI",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadtwentyone2.256.webp",
+    "set_list": ["4 Da Vinci 2 Einsteina", "4 Bathlon 2 Einstina"],
+    "builds": [
+      {
+        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_type": "QTE Bot",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": ["Used at all ranks", "General tank set"],
+        "memories": ["4x Da Vinci", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Bathlon 2 Einstina",
+        "set_type": "Alternate",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": [
+          "Alternate Set",
+          "Used if teammate is already holding Da Vinci."
+        ],
+        "memories": ["2x Guinevere", "2x Gloria", "2x Samantha"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      }
+    ]
+  },
+  "garnet": {
+    "unit_name": "Vera",
+    "frame_name": "Garnet",
+    "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3weila2.256.webp",
+    "set_list": [
+      "4 Tifa 2 Einsteina",
+      "4 Da Vinci 2 Einsteina",
+      "4 Tifa 4 Heisen Harmo"
+    ],
+    "builds": [
+      {
+        "set_name": "4 Tifa 2 Einsteina",
+        "set_type": "Main",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": ["Used at all ranks", "General tank set"],
+        "memories": ["4x Tifa", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Da Vinci 2 Einsteina",
+        "set_type": "Alternate Set",
+        "game_modes": "Pain Cage",
+        "description": [
+          "Used in PPC only",
+          "Alternative tank set used at all ranks",
+          "Used when needing to manually apply resistance reduction with core passive, used for better damage in Pain Cage paired with support/amplifier unit with support memories."
+        ],
+        "memories": ["4x Da Vinci", "2x Einsteina"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
+        "set_name": "4 Tifa 4 Heisen Harmo",
+        "set_type": "Main + Harmony",
+        "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
+        "description": ["Harmony Set", "Used at all ranks."],
+        "memories": ["4x Tifa", "4x Heisen"],
+        "memory_resonance": [
+          "Top Slot   : 6x Any ATK+15 Variant",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "Heisen"
       }
     ]
   },
@@ -141,7 +841,7 @@
     "builds": [
       {
         "set_name": "4 Da Vinci 2 Guinevere 2 Einsteina Harmo",
-        "set_type": "Awakening + Harmony",
+        "set_type": "Main + Harmony",
         "game_modes": "Warzone",
         "description": ["Recommended for all ranks", "Support set"],
         "memories": ["4x Da Vinci", "2x Guinevere", "2x Einsteina"],
@@ -153,7 +853,7 @@
       },
       {
         "set_name": "4 Da Vinci 4 Guinevere Harmo",
-        "set_type": "Awakening + Harmony",
+        "set_type": "Main + Harmony",
         "game_modes": "Pain Cage",
         "description": ["Recommended for all ranks", "Support set"],
         "memories": ["4x Da Vinci", "4x Guinevere"],
@@ -165,7 +865,7 @@
       },
       {
         "set_name": "4 Guinevere 2 Einsteina 2 Samantha Harmo",
-        "set_type": "Awakening + Harmony",
+        "set_type": "Main + Harmony",
         "game_modes": "Pain Cage",
         "description": ["Recommended for all ranks", "Non-fire Support set"],
         "memories": ["4x Da Vinci", "2x Einsteina", "2x Samantha"],
@@ -177,7 +877,7 @@
       },
       {
         "set_name": "4 Elizabeth 2 Cottie",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "game_modes": "Pain Cage, Warzone, Norman, High Difficulty",
         "description": ["SSS or lower", "General DPS/sub-DPS set"],
         "memories": ["4x Elizabeth", "2x Cottie"],
@@ -189,7 +889,7 @@
       },
       {
         "set_name": "4 Elizabeth 2 Darwin",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "game_modes": "Pain Cage, Norman, High Difficulty",
         "description": [
           "Primary set before timestop buff",
@@ -204,7 +904,7 @@
       },
       {
         "set_name": "4 Da Vinci 2 Guinevere",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "game_modes": "Pain Cage, Warzone",
         "description": [
           "Recommended for all ranks",
@@ -219,7 +919,7 @@
       },
       {
         "set_name": "4 Da Vinci 2 Philip II",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "game_modes": "Pain Cage, Warzone",
         "description": ["Recommended for all ranks", "Physical Support set"],
         "memories": ["4x Da Vinci", "2x Philip II"],
@@ -231,7 +931,7 @@
       },
       {
         "set_name": "4 Guinevere 2 Gloria",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "game_modes": "Pain Cage",
         "description": [
           "Recommended for all ranks",
@@ -249,7 +949,6 @@
     ]
   },
   "starfarer": {},
-  "rigor": {},
   "stigmata": {},
   "hyperreal": {
     "unit_name": "Lee",
@@ -259,7 +958,7 @@
     "builds": [
       {
         "set_name": "4 Turing 2 Cottie",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "description": ["Used at SSO or below", "General DPS set"],
         "memories": ["4x Turing", "2x Cottie"],
         "memory_resonance": [
@@ -270,7 +969,7 @@
       },
       {
         "set_name": "4 Turing 2 Darwin",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "description": ["Used at SS3 or above", "General DPS set"],
         "memories": ["4x Turing", "2x Darwin"],
         "memory_resonance": [
@@ -289,7 +988,7 @@
     "builds": [
       {
         "set_name": "4 Aline 2 Cottie",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "description": ["General DPS set"],
         "memories": ["4x Aline", "2x Cottie"],
         "memory_resonance": [
@@ -322,7 +1021,7 @@
     "builds": [
       {
         "set_name": "4 Diesel 2 Cottie SSS Harmo",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "description": [
           "General DPS set",
           "For SS3 and above",
@@ -337,7 +1036,7 @@
       },
       {
         "set_name": "4 Diesel 2 Cottie S-SS3 Harmo",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "description": [
           "General DPS set",
           "For SS0 and below",
@@ -366,7 +1065,7 @@
     "builds": [
       {
         "set_name": "4 Fran 2 Guinevere Harmo",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "description": ["General DPS set"],
         "memories": ["4x Fran", "2x Guinevere"],
         "memory_resonance": [
@@ -402,7 +1101,7 @@
       },
       {
         "set_name": "4 Fran 2 Guinevere",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "description": [
           "General DPS set",
           "Mainly used for Warzone.",
@@ -440,7 +1139,7 @@
     "builds": [
       {
         "set_name": "4 Seraphine 2 Cottie Harmo",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "description": ["Recommended for all ranks", "Dark Support Set"],
         "memories": ["4x Seraphine", "2x Cottie"],
         "memory_resonance": [
@@ -451,7 +1150,7 @@
       },
       {
         "set_name": "4 Seraphine 2 Cottie",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "description": [
           "Recommended for all ranks",
           "Dark Support Set",
@@ -479,7 +1178,7 @@
     "builds": [
       {
         "set_name": "4 Boone 2 Bathlon Harmo",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "description": ["Used at SS3 or higher"],
         "memories": ["4x Boone", "2x Bathlon"],
         "memory_resonance": [
@@ -501,7 +1200,7 @@
       },
       {
         "set_name": "4 Boone 2 Condelina",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "description": ["General DPS set", "SS3 or higher", "No Harmo"],
         "memories": ["4x Boone", "2x Condelina"],
         "memory_resonance": [
@@ -531,7 +1230,7 @@
     "builds": [
       {
         "set_name": "4 Heisen 2 Cottie",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Heisen", "2x Cottie"],
         "memory_resonance": [
@@ -554,7 +1253,7 @@
     "builds": [
       {
         "set_name": "4 Signa 2 Da Vinci Harmo",
-        "set_type": "Awakening + Harmony",
+        "set_type": "Main + Harmony",
         "game_modes": "",
         "description": ["Recommended for all ranks", "Physical Support set"],
         "memories": ["4x Signa", "2x Da Vinci"],
@@ -578,7 +1277,7 @@
       },
       {
         "set_name": "4 Signa 2 Da Vinci",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "game_modes": "",
         "description": [
           "Recommended for all ranks",
@@ -606,7 +1305,7 @@
     "builds": [
       {
         "set_name": "4 Derketo 2 Cottie Harmo",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "game_modes": "",
         "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Derketo", "2x Cottie"],
@@ -618,7 +1317,7 @@
       },
       {
         "set_name": "4 Derketo 2 Cottie",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "game_modes": "",
         "description": [
           "Recommended for all ranks",
@@ -655,7 +1354,7 @@
     "builds": [
       {
         "set_name": "4 Alphonse 2 Cottie Harmo",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "game_modes": "",
         "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Alphonse", "2x Cottie"],
@@ -667,7 +1366,7 @@
       },
       {
         "set_name": "4 Alphonse 2 Cottie",
-        "set_type": "Awakening",
+        "set_type": "Main",
         "game_modes": "",
         "description": [
           "Recommended for all ranks",

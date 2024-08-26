@@ -16,7 +16,6 @@ class EmbedClass:
                 build = i
         return build
 
-
     def create_build_embed(self, build, choice): 
         #Split build object here into 2 parts; first being the unchanging data fields (name + frame) and the second being the build choice
 
@@ -32,10 +31,10 @@ class EmbedClass:
 
         embed = discord.Embed(
             title=f"{name}: {frame}",
-            description=f"{selection['set_type']}",
+            description=f"{selection['set_type'] + " " + "Set"}"
         )
-        embed.add_field(name="Usage", value="Main")
-        embed.add_field(name="Game Modes", value="Pain Cage, Warzone, Norman, Clash Reflection, High Difficulty")
+        embed.add_field(name="Usage", value=selection['set_type'])
+        embed.add_field(name="Game Modes", value=selection['game_modes'])
         embed.add_field(
             name="Description", 
             value=description,
@@ -289,7 +288,7 @@ class EmbedClass:
         )
         embed.add_field(
             name="Disclaimer",
-            value=f"This bot is a community project initiated by Ek(#ek3970). It is not in any way affiliated with Kuro Games or their staff. If you would like to ask questions about the bot, please send me a DM or ping me on the Punishing: Gray Raven Official Discord.",
+            value=f"This bot is a community project initiated by Ek(#ek3970). It is not in any way affiliated with Kuro Games or their staff. If you would like to ask questions about the bot, please send me a DM or ping me on the Punishing: Gray Raven Official Discord. (Also Scire is not best girl. I was just held at gunpoint to give her that nickname.)",
             inline=False
         )
         embed.add_field(

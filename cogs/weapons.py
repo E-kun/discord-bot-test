@@ -39,11 +39,18 @@ class Weapons(commands.Cog):
 
     @commands.command(aliases=["sig", "wep", "weap"])
     async def weapon(self, ctx: commands.Context, *args) -> None:
+        weapon_name = ""
         if len(args) > 1:
-            weapon_name = args[0] + " " + args[1]
+            for idx, arg in enumerate(args):
+                if(idx) == 0:
+                    weapon_name =  weapon_name + args[idx]
+                else:
+                    weapon_name =  weapon_name + " " + args[idx]
         else:
             weapon_name = args[0]
         
+        print(weapon_name)
+
         weapon_name = check_nickname(weapon_name, "weapon")  
 
         # print(weapon_name)
