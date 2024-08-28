@@ -1135,11 +1135,12 @@
     "unit_name": "Selena",
     "frame_name": "Capriccio",
     "thumbnail_url": "https://assets.huaxu.app/glb/image/rolecharacter/roleheadr3sailinna2.256.webp",
-    "set_list": ["4 Seraphine 2 Cottie"],
+    "set_list": ["4 Seraphine 2 Cottie Harmo", "4 Seraphine 2 Cottie"],
     "builds": [
       {
         "set_name": "4 Seraphine 2 Cottie Harmo",
         "set_type": "Main",
+        "game_modes": "Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "Dark Support Set"],
         "memories": ["4x Seraphine", "2x Cottie"],
         "memory_resonance": [
@@ -1150,7 +1151,8 @@
       },
       {
         "set_name": "4 Seraphine 2 Cottie",
-        "set_type": "Main",
+        "set_type": "Main (No Harmo)",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "Dark Support Set",
@@ -1179,6 +1181,7 @@
       {
         "set_name": "4 Boone 2 Bathlon Harmo",
         "set_type": "Main",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Used at SS3 or higher"],
         "memories": ["4x Boone", "2x Bathlon"],
         "memory_resonance": [
@@ -1190,6 +1193,7 @@
       {
         "set_name": "4 Bathlon 2 Einstina Harmo",
         "set_type": "QTE Bot",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["QTE Bot Set", "For SS0 and below"],
         "memories": ["4x Bathlon", "2x Einstina"],
         "memory_resonance": [
@@ -1201,6 +1205,7 @@
       {
         "set_name": "4 Boone 2 Condelina",
         "set_type": "Main",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["General DPS set", "SS3 or higher", "No Harmo"],
         "memories": ["4x Boone", "2x Condelina"],
         "memory_resonance": [
@@ -1212,6 +1217,7 @@
       {
         "set_name": "4 Bathlon 2 Einstina",
         "set_type": "QTE Bot",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["QTE Bot Set", "For SS0 and below", "No Harmo"],
         "memories": ["4x Boone", "2x Bathlon"],
         "memory_resonance": [
@@ -1231,6 +1237,7 @@
       {
         "set_name": "4 Heisen 2 Cottie",
         "set_type": "Main",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Heisen", "2x Cottie"],
         "memory_resonance": [
@@ -1254,7 +1261,7 @@
       {
         "set_name": "4 Signa 2 Da Vinci Harmo",
         "set_type": "Main + Harmony",
-        "game_modes": "",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "Physical Support set"],
         "memories": ["4x Signa", "2x Da Vinci"],
         "memory_resonance": [
@@ -1266,7 +1273,7 @@
       {
         "set_name": "4 Da Vinci 2 Guin Harmo",
         "set_type": "Off Element",
-        "game_modes": "",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "Off-element set, "],
         "memories": ["4x Da Vinci", "2x Guinevere"],
         "memory_resonance": [
@@ -1278,7 +1285,7 @@
       {
         "set_name": "4 Signa 2 Da Vinci",
         "set_type": "Main",
-        "game_modes": "",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "Physical Support set",
@@ -1306,7 +1313,7 @@
       {
         "set_name": "4 Derketo 2 Cottie Harmo",
         "set_type": "Main",
-        "game_modes": "",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Recommended for all ranks", "General DPS set"],
         "memories": ["4x Derketo", "2x Cottie"],
         "memory_resonance": [
@@ -1318,7 +1325,7 @@
       {
         "set_name": "4 Derketo 2 Cottie",
         "set_type": "Main",
-        "game_modes": "",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "General DPS set",
@@ -1334,7 +1341,7 @@
       {
         "set_name": "4 Derketo 2 Frederick",
         "set_type": "Niche",
-        "game_modes": "",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": ["Niche DPS set"],
         "memories": ["4x Derketo", "2x Frederick"],
         "memory_resonance": [
@@ -1350,13 +1357,22 @@
     "unit_name": "Watanabe",
     "frame_name": "Epitaph",
     "thumbnail_url": "https://cdn.discordapp.com/attachments/1275421020949446748/1275429806976270336/800px-Dialogue-Epitaph-Awaken-Icon.png?ex=66c5dc12&is=66c48a92&hm=9f180c00eede6fa901f27e6eda40e15cd8c24fc8c738c4362dc17f9f46bb5249&",
-    "set_list": ["4 Alphonse 2 Cottie Harmo", "4 Alphonse 2 Cottie"],
+    "set_list": [
+      "4 Alphonse 2 Cottie Harmo",
+      "4 Alphonse 2 Shakespeare Harmo",
+      "4 Alphonse 2 Shakespeare",
+      "4 Alphonse 2 Cottie"
+    ],
     "builds": [
       {
         "set_name": "4 Alphonse 2 Cottie Harmo",
         "set_type": "Main",
-        "game_modes": "",
-        "description": ["Recommended for all ranks", "General DPS set"],
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "General DPS set",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
         "memories": ["4x Alphonse", "2x Cottie"],
         "memory_resonance": [
           "Top Slot   : 6x Red Orb",
@@ -1365,13 +1381,51 @@
         "harmony_rec": "Cottie"
       },
       {
+        "set_name": "4 Alphonse 2 Shakespeare Harmo",
+        "set_type": "Alternate",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "Used with Luna: Oblivion for all Void content",
+          "Used with Lucia: Pyroath for all Fire content",
+          "Requires DLT weapon resonance.",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Alphonse", "2x Shakespeare"],
+        "memory_resonance": [
+          "Top Slot   : 6x Red Orb",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "Shakespeare"
+      },
+      {
+        "set_name": "4 Alphonse 2 Shakespeare",
+        "set_type": "Alternate",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
+        "description": [
+          "Recommended for all ranks",
+          "Used with Luna: Oblivion for all Void content",
+          "Used with Lucia: Pyroath for all Fire content",
+          "Requires DLT weapon resonance.",
+          "No Harmo",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
+        ],
+        "memories": ["4x Alphonse", "2x Shakespeare"],
+        "memory_resonance": [
+          "Top Slot   : 6x Red Orb",
+          "Bottom Slot: 6x Class"
+        ],
+        "harmony_rec": "N/A"
+      },
+      {
         "set_name": "4 Alphonse 2 Cottie",
         "set_type": "Main",
-        "game_modes": "",
+        "game_modes": "High Difficulty, Pain Cage, Warzone, Clash Reflection, Norman",
         "description": [
           "Recommended for all ranks",
           "General DPS set",
-          "No Harmo"
+          "No Harmo",
+          "**This unit has not been released on Global yet. Please take these builds with a grain of salt as they are subject to change.**"
         ],
         "memories": ["4x Alphonse", "2x Cottie"],
         "memory_resonance": [

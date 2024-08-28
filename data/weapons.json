@@ -131,11 +131,347 @@
       "effect_desc": ""
     }
   },
+  "tokarev": {
+    "name": "Tokarev",
+    "weapon_type": "Dual Gun",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2gunmd040011.webp",
+    "atk": 235,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Resonance Vibration",
+      "effect_desc": "Physical DMG increases by 15% when combo is greater than 50."
+    }
+  },
+  "unbranded blade": {
+    "name": "Unbranded Blade",
+    "weapon_type": "Katana",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2swordmd040011.webp",
+    "atk": 224,
+    "crit": 121,
+    "effect": {
+      "effect_name": "Unbranded Slash",
+      "effect_desc": "Extra DMG Bonus of Red Orb skills increases by 15%."
+    }
+  },
+  "fish mount": {
+    "name": "Fish Mount",
+    "weapon_type": "Levi-Gun",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2floatmd040011.webp",
+    "atk": 213,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Deep Pursuit",
+      "effect_desc": "Basic Attack's Extra DMG Bonus increases by 10%."
+    }
+  },
+  "pulley bow": {
+    "name": "Pulley Bow",
+    "weapon_type": "Bow",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2bowmd040011.webp",
+    "atk": 242,
+    "crit": 135,
+    "effect": {
+      "effect_name": "Concentrated Neutralization",
+      "effect_desc": "Physical DMG increased by 15% if you attack the same target for 5s."
+    }
+  },
+  "noise": {
+    "name": "Noise",
+    "weapon_type": "Saw",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2sawmd100011.webp",
+    "atk": 218,
+    "crit": 124,
+    "effect": {
+      "effect_name": "Shed Excess",
+      "effect_desc": "Physical DMG increased by 10% for 3s when switching targets."
+    }
+  },
+  "suppressor": {
+    "name": "Suppressor",
+    "weapon_type": "Greatsword",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2claymoremd040011.webp",
+    "atk": 224,
+    "crit": 121,
+    "effect": {
+      "effect_name": "Precision Suppression",
+      "effect_desc": "The first Basic Attack hit on target is guaranteed to be a Critical Hit. 15s cooldown against the same target."
+    }
+  },
+  "rifled gun": {
+    "name": "Rifled Gun",
+    "weapon_type": "Cannon",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2sleevemd040011.webp",
+    "atk": 235,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Broken Helix",
+      "effect_desc": "Basic Attack's Extra DMG Bonus increases by 10%."
+    }
+  },
+  "hunter knife": {
+    "name": "Hunter Knife",
+    "weapon_type": "Dagger",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2daggermd040011.webp",
+    "atk": 235,
+    "crit": 135,
+    "effect": {
+      "effect_name": "Silent Hunter",
+      "effect_desc": "Movement Speed is increased by 30% and ATK is increased by 10% for 3s after a 3-Ping. Duration resets every time it is triggered."
+    }
+  },
+  "bleak scythe": {
+    "name": "Bleak Scythe",
+    "weapon_type": "Scythe",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2sickmd040011.webp",
+    "atk": 218,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Color of Bleakness",
+      "effect_desc": "Extra DMG Bonus increases by 7% when attacking enemies with Super Armor."
+    }
+  },
+  "astray explorer": {
+    "name": "Astray Explorer",
+    "weapon_type": "Spear Shield",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2spearmd010011.webp",
+    "atk": 235,
+    "crit": 121,
+    "effect": {
+      "effect_name": "Split Road",
+      "effect_desc": "Basic Attack's Extra DMG Bonus increases by 10%."
+    }
+  },
+  "armor break type ix": {
+    "name": "Armor Break Type IX",
+    "weapon_type": "Gauntlets",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2glovemd010011.webp",
+    "atk": 240,
+    "crit": 124,
+    "effect": {
+      "effect_name": "Star-Piercing Punch",
+      "effect_desc": "After an Entrance Skill Extra DMG Bonus increases by 5% for 8s."
+    }
+  },
+  "genesis": {
+    "name": "Genesis",
+    "weapon_type": "Amplifier",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2ringmd010011.webp",
+    "atk": 247,
+    "crit": 135,
+    "effect": {
+      "effect_name": "Eternal Starting",
+      "effect_desc": "Impending Pain's Extra DMG Bonus increases by 10%."
+    }
+  },
+  "bullet ant": {
+    "name": "Bullet Ant",
+    "weapon_type": "Gun Set",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2riflemd010011.webp",
+    "atk": 233,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Heavy Barrel",
+      "effect_desc": "Extra DMG Bonus of Frost Spin increases by 10%."
+    }
+  },
+  "standard gunblade": {
+    "name": "Standard Gunblade",
+    "weapon_type": "Gunblade",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2gunblademd010011.webp",
+    "atk": 229,
+    "crit": 133,
+    "effect": {
+      "effect_name": "Ice Modification",
+      "effect_desc": "Extra DMG Bonus of Glacial Slash increases by 15%."
+    }
+  },
+  "collaborator": {
+    "name": "Collaborator",
+    "weapon_type": "Co-Bot",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2ballrobotmd010011.webp",
+    "atk": 233,
+    "crit": 132,
+    "effect": {
+      "effect_name": "Magnetic Wave Field",
+      "effect_desc": "Temporary Core: Whenever No. 21: XXI performs Shadow Prism attacks, the Co-Bot unleashes a Force Wave that deals 50% AOE Dark DMG to enemies (only triggers once per second)."
+    }
+  },
+  "fringe": {
+    "name": "Fringe",
+    "weapon_type": "Banner Spear",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2lancemd010011.webp",
+    "atk": 231,
+    "crit": 133,
+    "effect": {
+      "effect_name": "Sharp Cut",
+      "effect_desc": "DMG from Red Orbs Reaper Sweep increases by 10%."
+    }
+  },
+  "apocalypse": {
+    "name": "Apocalypse",
+    "weapon_type": "Scepter",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2wandmd010011.webp",
+    "atk": 244,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Mediation Melody",
+      "effect_desc": "Extra DMG Bonus of pings increases by 10%."
+    }
+  },
+  "standard mode": {
+    "name": "Standard Mode",
+    "weapon_type": "Flute Sword",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2fluntmd010011.webp",
+    "atk": 238,
+    "crit": 133,
+    "effect": {
+      "effect_name": "Minuet Variation",
+      "effect_desc": "Red Orbs deals 15% more damage."
+    }
+  },
+  "rage": {
+    "name": "Rage",
+    "weapon_type": "Mega Saw",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2cuttingmd010011.webp",
+    "atk": 240,
+    "crit": 126,
+    "effect": {
+      "effect_name": "Overload Muzzle",
+      "effect_desc": "Fire DMG increases by 5%. 'Perfect!' deals 10% more damage."
+    }
+  },
+  "blast hammer prototype": {
+    "name": "Blast Hammer Prototype",
+    "weapon_type": "Blast Hammer",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2hammermd010011.webp",
+    "atk": 235,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Test Circuit",
+      "effect_desc": "Extra DMG Bonus of Radiant Whirlwind increases by 10%."
+    }
+  },
+  "dusk mirage": {
+    "name": "Dusk Mirage",
+    "weapon_type": "Swordstaff",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2beamlancemd010011.webp",
+    "atk": 242,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Sharp Blade",
+      "effect_desc": "Increases CRIT DMG by 10%."
+    }
+  },
+  "heartless blades": {
+    "name": "Heartless Blades",
+    "weapon_type": "Mantis Blades",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2bangbinatamd010011.webp",
+    "atk": 233,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Overlaid Bladedge",
+      "effect_desc": "ATK increases by 5%."
+    }
+  },
+  "composite armaments prototype": {
+    "name": "Composite Armaments Prototype",
+    "weapon_type": "Composite Armaments",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2superlimd010011.webp",
+    "atk": 249,
+    "crit": 128,
+    "effect": {
+      "effect_name": "Kinetic Bonus",
+      "effect_desc": "Fire DMG increases by 5%."
+    }
+  },
+  "'paintbrush' prototype": {
+    "name": "'Paintbrush' Prototype",
+    "weapon_type": "Beam Gunlance",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2beamlancemd010011.webp",
+    "atk": 247,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Heart of Kaleidoscope",
+      "effect_desc": "ATK increases by 5%."
+    }
+  },
+  "swiftplume": {
+    "name": "Swiftplume",
+    "weapon_type": "Daisho",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2alphamd010011.webp",
+    "atk": 249,
+    "crit": 128,
+    "effect": {
+      "effect_name": "Bladevore",
+      "effect_desc": "ATK increases by 5%."
+    }
+  },
+  "severed rain": {
+    "name": "Severed Rain",
+    "weapon_type": "Folding Fan",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2fanmd010011.webp",
+    "atk": 213,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Lone Light",
+      "effect_desc": "ATK increases by 5%."
+    }
+  },
+  "lightning devourer": {
+    "name": "Lightning Devourer",
+    "weapon_type": "Claw Blades",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2clawmd010011.webp",
+    "atk": 235,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Scorching Lightning",
+      "effect_desc": "ATK increases by 5%."
+    }
+  },
+  "heart of gold": {
+    "name": "Heart of Gold",
+    "weapon_type": "Robotic Arm",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2armmd010011.webp",
+    "atk": 224,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Infinite Impossibility",
+      "effect_desc": "ATK increases by 5%."
+    }
+  },
   "atoll": {
     "name": "Atoll",
     "weapon_type": "Halberd Blade",
     "rarity": 4,
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2lamiyamd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2lamiyamd010011.webp",
     "atk": 235,
     "crit": 131,
     "effect": {
@@ -143,16 +479,568 @@
       "effect_desc": "ATK increases by 5%."
     }
   },
+  "photophage": {
+    "name": "Photophage",
+    "weapon_type": "Uniframe: Greatsword",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2kamumd010011.webp",
+    "atk": 253,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Photophange Phantom",
+      "effect_desc": "Basic Attack's Extra DMG Bonus increases by 10%."
+    }
+  },
+  "iron star type vi": {
+    "name": "Iron Star Type VI",
+    "weapon_type": "Uniframe: Glaive",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2qumd010011.webp",
+    "atk": 260,
+    "crit": 137,
+    "effect": {
+      "effect_name": "Transcendence",
+      "effect_desc": "Physical DMG increases by 10% for 5s upon entering Matrix."
+    }
+  },
+  "overture": {
+    "name": "Overture",
+    "weapon_type": "Uniframe: Cello Blade",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2cellomd010011.webp",
+    "atk": 242,
+    "crit": 137,
+    "effect": {
+      "effect_name": "Prologue",
+      "effect_desc": "Attack increases by 8%. After dodging an Attack, movement speed increases by 8% for 4s."
+    }
+  },
+  "pioneer": {
+    "name": "Pioneer",
+    "weapon_type": "Uniframe: Chain Blade",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2luolanmd010011.webp",
+    "atk": 240,
+    "crit": 131,
+    "effect": {
+      "effect_name": "Pioneer Blade",
+      "effect_desc": "Basic Attack's Extra DMG Bonus increases by 10%."
+    }
+  },
+  "gray iron": {
+    "name": "Gray Iron",
+    "weapon_type": "Uniframe: Dragon Axe",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2boomerangmd010011.webp",
+    "atk": 238,
+    "crit": 138,
+    "effect": {
+      "effect_name": "Change of Stars",
+      "effect_desc": "DMG Bonus increases by 10% upon the activation of Dragon Axe."
+    }
+  },
+  "hope of the village": {
+    "name": "Hope of the Village",
+    "weapon_type": "Uniframe: Rev Blade",
+    "rarity": 4,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2nuoanmd010011.webp",
+    "atk": 247,
+    "crit": 126,
+    "effect": {
+      "effect_name": "'Reinforcement Level +15'",
+      "effect_desc": "DMG Bonus of Basic Attack increases by 15%."
+    }
+  },
+  "gloomlight": {
+    "name": "Gloomlight",
+    "weapon_type": "Dual Guns",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2gunmd050011.webp",
+    "atk": 372,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Saturated Loading",
+      "effect_desc": "Pinging all 3 types of Signal Orbs within 5s increases Extra DMG Bonus by 15% for 5s. Duration resets every time it is triggered."
+    }
+  },
+  "kuji no sada": {
+    "name": "Kuji no Sada",
+    "weapon_type": "Katana",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2swordmd050011.webp",
+    "atk": 354,
+    "crit": 186,
+    "effect": {
+      "effect_name": "Phantom Sword",
+      "effect_desc": "Attack have a 20% chance to call down a lightning strike that deals 50% Physical DMG. 3s cooldown."
+    }
+  },
+  "guardian mount": {
+    "name": "Guardian Mount",
+    "weapon_type": "Levi-Gun",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2floatmd050011.webp",
+    "atk": 336,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Chain Combo",
+      "effect_desc": "Gains 1 random Signal Orb every 30 combos. 8s cooldown."
+    }
+  },
+  "falcon e-3320": {
+    "name": "Falcon E-3320",
+    "weapon_type": "Bow",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2bowmd050011.webp",
+    "atk": 382,
+    "crit": 206,
+    "effect": {
+      "effect_name": "Sharpshooter",
+      "effect_desc": "CRIT Rate and CRIT DMG increased by 10% if there are no enemies within 2m."
+    }
+  },
+  "lightning spark": {
+    "name": "Lightning Spark",
+    "weapon_type": "Saw",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2sawmd050011.webp",
+    "atk": 345,
+    "crit": 190,
+    "effect": {
+      "effect_name": "Echo Halls",
+      "effect_desc": "Attacks have a 30% chance to inflict Broken Armor, reducing an enemy0s DEF by 5% for 3s. Can be stacked up to 5 times. Duration resets every time it is triggered."
+    }
+  },
+  "dynamo greatsword": {
+    "name": "Dynamo Greatsword",
+    "weapon_type": "Greatsword",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2claymoremd050011.webp",
+    "atk": 354,
+    "crit": 186,
+    "effect": {
+      "effect_name": "Variable Arms",
+      "effect_desc": "Attacks have a 10% chance to unleash a schockwave, dealing 100% Physical DMG to enemies in the area."
+    }
+  },
+  "star of bethlehem": {
+    "name": "Star of Bethlehem",
+    "weapon_type": "Greatsword",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2claymoremd110011.webp",
+    "atk": 363,
+    "crit": 183,
+    "effect": {
+      "effect_name": "Merry Christmas!",
+      "effect_desc": "3-Ping skills create a Christmas aura that increases the Movement Speed and ATK by 8% for 15s. 30s cooldown."
+    }
+  },
+  "magma pillar": {
+    "name": "Magma Pillar",
+    "weapon_type": "Cannon",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2sleevemd050011.webp",
+    "atk": 372,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Unquenchable",
+      "effect_desc": "ATK increases by 12% for 4s after a 3-Ping. Duration resets every time it is triggered."
+    }
+  },
+  "firecrackers": {
+    "name": "Firecrackers",
+    "weapon_type": "Cannon",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2sleevemd110011.webp",
+    "atk": 365,
+    "crit": 205,
+    "effect": {
+      "effect_name": "Light Firecracker",
+      "effect_desc": "When Artillery Tactics or Thermal Armament is active, dealing damage causes a firecracker explosion at the target location, inflicting a total of 250% Physical DMG. 10s cooldown."
+    }
+  },
+  "stone heart": {
+    "name": "stone heart",
+    "weapon_type": "Dagger",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2daggermd050011.webp",
+    "atk": 372,
+    "crit": 209,
+    "effect": {
+      "effect_name": "Heart of Gravel",
+      "effect_desc": "Extra DMG Bonus increases by 15% for 5s after performing a 3-Ping consecutively. Duration resets every time it is triggered."
+    }
+  },
+  "yuan night": {
+    "name": "Yuan Night",
+    "weapon_type": "Dagger",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2daggermd090011.webp",
+    "atk": 368,
+    "crit": 213,
+    "effect": {
+      "effect_name": "Fallen Yuanxiao",
+      "effect_desc": "Dealing DMG has a 20% chance to release a Yuanxiao that deals 15% Physical DMG. 1s cooldown."
+    }
+  },
+  "faded color": {
+    "name": "Faded Color",
+    "weapon_type": "Scythe",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2sickmd050011.webp",
+    "atk": 345,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Line Drawing",
+      "effect_desc": "Extra DMG Bonus increases by 10% for 4s when performing a QTE or 3-Ping skill. Duration resets every time it is triggered."
+    }
+  },
+  "rl-03c black spike": {
+    "name": "RL-03C Spike",
+    "weapon_type": "Spear Shield",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2spearmd020011.webp",
+    "atk": 372,
+    "crit": 186,
+    "effect": {
+      "effect_name": "Collapsing Edge",
+      "effect_desc": "Increases ATK by 10% for 3s after casting small/medium/wide-area eletromagnetic beam. Duration resets every time it is triggered."
+    }
+  },
+  "white qilin": {
+    "name": "White Qilin",
+    "weapon_type": "Gauntlets",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2glovemd020011.webp",
+    "atk": 379,
+    "crit": 191,
+    "effect": {
+      "effect_name": "Formless Palm",
+      "effect_desc": "After a dodge, Extra DMG Bonus is increased by 8% for 4s."
+    }
+  },
+  "solar ring": {
+    "name": "Solar Ring",
+    "weapon_type": "Amplifier",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2ringmd020011.webp",
+    "atk": 390,
+    "crit": 211,
+    "effect": {
+      "effect_name": "Lunar Eclipse",
+      "effect_desc": "Full DMG increases by 15% for 8s if 3 signal orbs in different colors are pinged in 6s."
+    }
+  },
+  "virtuous contract": {
+    "name": "Virtuous Contract",
+    "weapon_type": "Katana & Greatsword",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e22bmd010011.webp",
+    "atk": 379,
+    "crit": 211,
+    "effect": {
+      "effect_name": "Contract",
+      "effect_desc": "Physical DMG in Battle Stance increases by 10%."
+    }
+  },
+  "type-4o lance": {
+    "name": "Type-4O Lance",
+    "weapon_type": "Tactical Lance",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e3a2md010011.webp",
+    "atk": 372,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Rebel",
+      "effect_desc": "Upon deploying POD: Shield, A2 gains a 10% Physical DMG boost. Slide for 1s to increase the boost from POD: Shield by an extra 5%."
+    }
+  },
+  "cruel oath": {
+    "name": "Cruel Oath",
+    "weapon_type": "Katana",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e39smd010011.webp",
+    "atk": 361,
+    "crit": 205,
+    "effect": {
+      "effect_name": "Oath",
+      "effect_desc": "DMG for Overclock Indicator increases by 10%."
+    }
+  },
+  "fa2d-ap": {
+    "name": "FA2D-AP",
+    "weapon_type": "Gun Set",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2riflemd020011.webp",
+    "atk": 368,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Second Explosion",
+      "effect_desc": "Ice DMG increases by 10%."
+    }
+  },
+  "kara type i gunblade": {
+    "name": "Kara Type I Gunblade",
+    "weapon_type": "Gunblade",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2gunblademd020011.webp",
+    "atk": 361,
+    "crit": 205,
+    "effect": {
+      "effect_name": "Efficient Conversion",
+      "effect_desc": "All DMG increases by 5% after 3-Ping for 5s."
+    }
+  },
+  "animus": {
+    "name": "Animus",
+    "weapon_type": "Co-Bot",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2ballrobotmd020011.webp",
+    "atk": 368,
+    "crit": 203,
+    "effect": {
+      "effect_name": "Memories Resonance",
+      "effect_desc": "Experimental Core: Whenever No. 21: XXI performs Shadow Prism attacks or disrupts incoming enemy attacks, the Co-Bot unleashes a Force Wave that deals 50% AOE Dark DMG to enemies. This effect can only be triggered once per second.\nInver-Resonance Unit: Increases the Extra DMG Bonus of No. 21: XXI's Twilight Matrix and Resonance Pulse by 10%."
+    }
+  },
+  "glorious knight": {
+    "name": "Glorious Knight",
+    "weapon_type": "Banner Spear",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2lancemd020011.webp",
+    "atk": 365,
+    "crit": 205,
+    "effect": {
+      "effect_name": "Forged with Lightning",
+      "effect_desc": "Lightning DMG increases by 10%."
+    }
+  },
+  "bipolar star rift": {
+    "name": "Bipolar Star Rift",
+    "weapon_type": "Scepter",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2wandmd020011.webp",
+    "atk": 386,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Faithful Oath",
+      "effect_desc": "Upon making a Prayer, gains 15% Extra DMG Bonus for 10s."
+    }
+  },
+  "neapolitan solo": {
+    "name": "Neapolitan Solo",
+    "weapon_type": "Flute Sword",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2fluntmd020011.webp",
+    "atk": 375,
+    "crit": 205,
+    "effect": {
+      "effect_name": "Dark Spring Solo",
+      "effect_desc": "Dark DMG increases by 10%."
+    }
+  },
+  "red shift": {
+    "name": "Red Shift",
+    "weapon_type": "Mega Saw",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2cuttingmd020011.webp",
+    "atk": 379,
+    "crit": 191,
+    "effect": {
+      "effect_name": "Star Burst",
+      "effect_desc": "Fire DMG increases by 10%."
+    }
+  },
+  "despair breaker": {
+    "name": "Despair Breaker",
+    "weapon_type": "Blast Hammer",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2hammermd020011.webp",
+    "atk": 372,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Darkstar Convergence",
+      "effect_desc": "Dark DMG increases by 10%."
+    }
+  },
+  "polar night": {
+    "name": "Polar Night",
+    "weapon_type": "Swordstaff",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2bigswordmd020011.webp",
+    "atk": 382,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Candlelight",
+      "effect_desc": "ATK increases by 5%. CRIT DMG increases by 10%."
+    }
+  },
+  "comet's edge": {
+    "name": "Comet's Edge",
+    "weapon_type": "Mantis Blades",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2bangbinatamd020011.webp",
+    "atk": 368,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Chilling Evisceration",
+      "effect_desc": "Ice DMG increases by 10%."
+    }
+  },
+  "nuclear meltdown": {
+    "name": "Nuclear Meltdown",
+    "weapon_type": "Composite Armaments",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2superlimd020011.webp",
+    "atk": 393,
+    "crit": 195,
+    "effect": {
+      "effect_name": "Critical Fusion",
+      "effect_desc": "Fire DMG increases by 10%."
+    }
+  },
+  "dual rainbows": {
+    "name": "Dual Rainbows",
+    "weapon_type": "Beam Gunlance",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2beamlancemd020011.webp",
+    "atk": 390,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Parhelion Halo",
+      "effect_desc": "Ice DMG increases by 10%."
+    }
+  },
+  "red sprite": {
+    "name": "Red Sprite",
+    "weapon_type": "Daisho",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2alphamd020011.webp",
+    "atk": 393,
+    "crit": 195,
+    "effect": {
+      "effect_name": "Thundict",
+      "effect_desc": "Lightning DMG increases by 10%."
+    }
+  },
+  "returning wind": {
+    "name": "Returning Wind",
+    "weapon_type": "Folding Fan",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2fanmd020011.webp",
+    "atk": 336,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Green Zephyr",
+      "effect_desc": "Physical DMG increases by 10%."
+    }
+  },
+  "trio-claws": {
+    "name": "Trio-Claws",
+    "weapon_type": "Claw Blades",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2clawmd020011.webp",
+    "atk": 372,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Hunting Instinct",
+      "effect_desc": "Lightning DMG increases by 10%."
+    }
+  },
+  "fpt-ii - mod": {
+    "name": "FPT-II - Mod",
+    "weapon_type": "Robotic Arm",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2armmd020011.webp",
+    "atk": 354,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Turbocharged",
+      "effect_desc": "Lightning DMG increases by 10%."
+    }
+  },
   "reversal node": {
     "name": "Reversal Node",
     "weapon_type": "Halberd Blade",
     "rarity": 5,
-    "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e2lamiyamd020011.webp",
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2lamiyamd020011.webp",
     "atk": 372,
     "crit": 201,
     "effect": {
       "effect_name": "Raging Tide",
       "effect_desc": "Dark DMG increases by 10%."
+    }
+  },
+  "glimpse": {
+    "name": "Glimpse",
+    "weapon_type": "Uniframe: Greatsword",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2kamumd020011.webp",
+    "atk": 400,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Rageful Abyss",
+      "effect_desc": "After a 3-Ping, Extra DMG Bonus is increased by 12% for 4s."
+    }
+  },
+  "guiyun": {
+    "name": "Guiyun",
+    "weapon_type": "Uniframe: Glaive",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2qumd020011.webp",
+    "atk": 411,
+    "crit": 211,
+    "effect": {
+      "effect_name": "Cleansing",
+      "effect_desc": "After casting a Blue Orb skill, Physical DMG increases by 10% for 5s. Duration resets every time it is triggered."
+    }
+  },
+  "odette": {
+    "name": "Odette",
+    "weapon_type": "Uniframe: Cello Blade",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2cellomd020011.webp",
+    "atk": 382,
+    "crit": 211,
+    "effect": {
+      "effect_name": "Swan Lake",
+      "effect_desc": "After a 3-Ping, ATK increases by 3% for 5s, stacking up to 5 times. Duration resets every time it is triggered."
+    }
+  },
+  "blooming rose": {
+    "name": "Blooming Rose",
+    "weapon_type": "Uniframe: Chain Blade",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2luolanmd020011.webp",
+    "atk": 379,
+    "crit": 201,
+    "effect": {
+      "effect_name": "Opening Fireworks",
+      "effect_desc": "After casting valid combo twice withing 6s, all damage increases by 10% for 5s. Duration resets every time it is triggered."
+    }
+  },
+  "whitefrost ruler": {
+    "name": "Whitefrosst Ruler",
+    "weapon_type": "Uniframe: Dragon Axe",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2boomerangmd020011.webp",
+    "atk": 375,
+    "crit": 217,
+    "effect": {
+      "effect_name": "Falling Moon",
+      "effect_desc": "Base DMG of Signature - Spirit Blade Dance increases by 20%."
+    }
+  },
+  "progressive knife": {
+    "name": "Progressive Knife",
+    "weapon_type": "Uniframe: Rev Blade",
+    "rarity": 5,
+    "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2nuoanmd020011.webp",
+    "atk": 390,
+    "crit": 191,
+    "effect": {
+      "effect_name": "Energy Berserk",
+      "effect_desc": "DMG from pinging Signal Orbs increases by 20%."
     }
   },
   "lotus berserker": {
@@ -491,7 +1379,7 @@
       "effect_desc": "Dark DMG increases by 15%, and the 4th spine of annihilation orb will produce additional 100% of ranged dark DMG."
     }
   },
-  "virtuous contract": {
+  "virtuous contract - mod": {
     "name": "Virtuous Contract - Mod",
     "weapon_type": "Katana & Greatsword",
     "rarity": 6,
@@ -503,7 +1391,7 @@
       "effect_desc": "Increases Physical DMG by 15% and doubles the effect of Leader Skill. Upon entering combat, gains 160 Stability and switching to Battle Stance gives 2 stacks of Data Correction."
     }
   },
-  "cruel oath": {
+  "cruel oath - mod": {
     "name": "Cruel Oath - Mod",
     "weapon_type": "Katana",
     "rarity": 6,
@@ -515,7 +1403,7 @@
       "effect_desc": "Increases Physical DMG and Healing effects by 15%, also doubles the effects of Leader Skill. After triggering Overclock Indicator, swapping cooldown for 2B and A2 decreases by 1s and they gain 1 random Signal Orb."
     }
   },
-  "type-4o lance": {
+  "type-4o lance - mod": {
     "name": "Type-4O Lance - Mod",
     "weapon_type": "Tactical Lance",
     "rarity": 6,
@@ -541,7 +1429,7 @@
   },
   "waldmeister": {
     "name": "Waldmeister",
-    "weapon_type": "Cello Blade",
+    "weapon_type": "Uniframe: Cello Blade",
     "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e3cellomd010011.webp",
     "atk": 471,
@@ -827,7 +1715,7 @@
       "effect_desc": "ATK increases by 10%. Gain 3 Red Orbs upon activating Paradigm: Assault; gaining at most 6 Red Orbs this way for each time Watanabe enters the battlefield. Watanabe can immediately use Infernal Eruption after pinging Red Orbs."
     }
   },
-  "dwelling will": {
+  "dwelling will of inscription's key": {
     "name": "Dwelling Will of Inscription's Key",
     "weapon_type": "Longsword",
     "rarity": 6,

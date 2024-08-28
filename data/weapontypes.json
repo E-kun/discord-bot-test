@@ -1,4 +1,116 @@
 {
-  "katana": [],
-  "halberd blade": ["atoll", "reversal node", "metis"]
+  "katana": [
+    "standard knife",
+    "combat knife",
+    "unbranded blade",
+    "kuji no sada",
+    "lotus berserker",
+    "inverse shadow",
+    "sakura",
+    "crimson birch",
+    "sariel"
+  ],
+  "levi-gun": [
+    "levitator",
+    "semi-auto turret",
+    "fish mount",
+    "guardian mount",
+    "type zero",
+    "benediction",
+    "dragon wind"
+  ],
+  "dual gun": [
+    "standard pistol",
+    "tokarev",
+    "gloomlight",
+    "wolf fang",
+    "zero scale",
+    "scion"
+  ],
+  "bow": [
+    "practice bow",
+    "pulley bow",
+    "falcon e-3320",
+    "ramiel",
+    "tonitrus",
+    "astraea"
+  ],
+  "saw": [
+    "chainsaw",
+    "noise",
+    "lightning spark",
+    "inverse chimera",
+    "hydro heat"
+  ],
+  "greatsword": [
+    "greatsword",
+    "suppressor",
+    "dynamo greatsword",
+    "darkness",
+    "big kamui"
+  ],
+  "cannon": [
+    "bazooka",
+    "rifled gun",
+    "magma pillar",
+    "berserk fusion",
+    "fusion dragon"
+  ],
+  "dagger": [
+    "machete",
+    "hunter knife",
+    "stone heart",
+    "soul ripper",
+    "peacemaker"
+  ],
+  "scythe": [
+    "standard scythe",
+    "bleak scythe",
+    "faded color",
+    "purple peony",
+    "st. elmo",
+    "galatea"
+  ],
+  "spear shield": ["astray explorer", "rl-03c black spike", "gungnir"],
+  "gauntlets": ["armor break type ix", "white qilin", "baji"],
+  "amplifier": ["genesis", "solar ring", "ozma"],
+  "gun set": ["bullet ant", "virtuous contract", "fa2d-ap", "scale"],
+  "gunblade": ["standard gunblade", "kara type i gunblade", "apollo"],
+  "co-bot": ["collaborator", "animus", "snore"],
+  "banner spear": ["fringe", "glorious knight", "phoenix"],
+  "scepter": ["apocalypse", "bipolar star rift", "hestia"],
+  "flute sword": ["standard mode", "neapolitan solo", "sarastro"],
+  "mega saw": ["rage", "red shift", "implosion"],
+  "blast hammer": ["blast hammer prototype", "despair breaker", "illuminare"],
+  "swordstaff": ["dusk mirage", "polar night", "hecate"],
+  "mantis blades": ["heartless blades", "comet's edge", "sound of silence"],
+  "composite armaments": [
+    "composite armaments prototype",
+    "nuclear meltdown",
+    "stokes"
+  ],
+  "beam gunlance": ["'paintbrush' prototype", "dual rainbows", "star voyager"],
+  "daisho": ["swiftplume", "red sprite", "nightblaze"],
+  "folding fan": ["severed rain", "returning wind", "perpetuity"],
+  "claw blades": ["lightning devourer", "trio-claws", "managarm"],
+  "robotic arm": ["heart of gold", "fpt-ii - mod", "crimson howl"],
+  "halberd blade": ["atoll", "reversal node", "metis"],
+  "pioneer's blade": ["night falcon"],
+  "longsword": ["dwelling will of inscription's key"],
+  "tactical headphones": ["hacker's tune"],
+  "chakram": ["reconstruction of law"],
+  "tactical tonfas": ["cestus"],
+  "pipa": ["dreamer roamer"],
+  "revolver": ["hemera's gaze"],
+  "lustrous katana": ["dawn's flaming feathers"],
+  "uniframe: greatsword": ["photophage", "glimpse", "thanatos"],
+  "uniframe: glaive": ["iron star type vi", "guiyun", "qinghe"],
+  "uniframe: cello blade": ["overture", "odette", "waldmeister"],
+  "uniframe: chain blade": ["pioneer", "blooming rose", "durendal"],
+  "uniframe: dragon axe": ["gray iron", "whitefrost ruler", "infinity"],
+  "uniframe: rev blade": [
+    "hope of the village",
+    "progressive knife",
+    "prometheus"
+  ]
 }

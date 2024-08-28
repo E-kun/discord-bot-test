@@ -39,19 +39,6 @@ class Weapons(commands.Cog):
 
         return exists
 
-    # def identify_rarity(self, weapon):
-    #     match weapon['rarity']:
-    #         case 2:
-    #             print("Two Star")
-    #         case 3:
-    #             print("Three Star")
-    #         case 4:
-    #             print("Four Star")
-    #         case 5:
-    #             print("Five Star")
-    #         case 6:
-    #             print("Six Star")
-
     @commands.Cog.listener()
     async def on_ready(self):
         print('Weapons loaded.')
@@ -72,19 +59,29 @@ class Weapons(commands.Cog):
         
         print(weapon_name)
 
-        weapon_name = check_nickname(weapon_name, "weapon")  
-
         if(self.does_weapon_exist(weapon_name)):
             weapon = self.retrieve_weapon(weapon_name)
-            weapontype = weapon['weapon_type']
-            same_type_weapons_list = self.retrieve_weapontype(weapontype.lower())
-
-            for i in same_type_weapons_list:
-                weapon_box.append(self.retrieve_weapon(i))
-
             embed = self.embedconf.create_weapon_embed(weapon)
-            view = WeaponPageView(ctx.author, weapon_box=weapon_box)
-            await ctx.send(view=view, embed=embed)
+            await ctx.send(embed=embed)
+        elif(not(self.does_weapon_exist(weapon_name))):
+            weapon_name = check_nickname(weapon_name, "weapon")  
+            if(self.does_weapon_exist(weapon_name)):
+                weapon = self.retrieve_weapon(weapon_name)
+                weapontype = weapon['weapon_type']
+                same_type_weapons_list = self.retrieve_weapontype(weapontype.lower())
+
+                for i in same_type_weapons_list:
+                    if(self.retrieve_weapon(i)['rarity'] < 6):
+                        weapon_box.append(self.retrieve_weapon(i))
+
+                weapon_box.append(weapon)
+
+                embed = self.embedconf.create_weapon_embed(weapon)
+                view = WeaponPageView(ctx.author, weapon_box=weapon_box)
+                await ctx.send(view=view, embed=embed)
+            else:
+                content = "This weapon does not exist. Please try again."
+                await ctx.send(content=content)
         else:
             content = "This weapon does not exist. Please try again."
             await ctx.send(content=content)
