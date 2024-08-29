@@ -78,6 +78,8 @@ class Weapons(commands.Cog):
 
                 embed = self.embedconf.create_weapon_embed(weapon)
                 view = WeaponPageView(ctx.author, weapon_box=weapon_box)
+                view.current_page = "6★"
+                view.update_buttons()
                 await ctx.send(view=view, embed=embed)
             else:
                 content = "This weapon does not exist. Please try again."

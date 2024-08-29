@@ -30,7 +30,6 @@ class WeaponPageView(discord.ui.View):
             else:
                 self.add_item(self.six_star)
 
-
     # checks for the view's interactions
     async def interaction_check(self, interaction: discord.Interaction) -> bool:
         

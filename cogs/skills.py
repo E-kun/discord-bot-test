@@ -11,6 +11,7 @@ from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
 from utility.embedconfig import EmbedClass
 from utility.build_dropdown import DropdownView
 from utility.nickname_checker import check_nickname
+from utility.core_pagination import CorePaginationView
 
 from discord.ui.select import BaseSelect
 
@@ -77,11 +78,17 @@ class Skills(commands.Cog):
                 case 's+':
                     skill = skillset['s+_rank']
                     skill_type = 's+'
-            # print(skill)
+            
             # data = build['set_list']
             # view = DropdownView(ctx.author, data=data, build=build)
-            embed = self.embedconf.create_skills_embed(skill, skill_type)
-            await ctx.send(embed=embed)
+            if skill_type == 'core':
+                # print(skill)
+                embed = self.embedconf.create_corepassive_embed(skill, 0)
+                corepageview = CorePaginationView(ctx.author, data=skill)
+                await ctx.send(embed=embed, view=corepageview)
+            else:
+                embed = self.embedconf.create_skills_embed(skill, skill_type)
+                await ctx.send(embed=embed)
         else:
             content = "This character does not exist. Please try again."
             await ctx.send(content=content)
@@ -98,7 +105,11 @@ class Skills(commands.Cog):
         else:
             character = args[0]
         
+        print(character)
+
         character = check_nickname(character, "character")
+
+        print(character)
 
         await self.grab_skill(ctx, character, 'basic')
     
@@ -109,9 +120,11 @@ class Skills(commands.Cog):
         else:
             character = args[0]
 
-        # print(character)
+        print(character)
         
         character = check_nickname(character, "character")
+
+        print(character)
 
         await self.grab_skill(ctx, character, 'red')
     
@@ -122,9 +135,11 @@ class Skills(commands.Cog):
         else:
             character = args[0]
 
-        # print(character)
+        print(character)
         
         character = check_nickname(character, "character")
+
+        print(character)
 
         await self.grab_skill(ctx, character, 'yellow')
 
@@ -135,9 +150,11 @@ class Skills(commands.Cog):
         else:
             character = args[0]
 
-        # print(character)
+        print(character)
         
         character = check_nickname(character, "character")
+
+        print(character)
 
         await self.grab_skill(ctx, character, 'blue')
 
@@ -148,9 +165,11 @@ class Skills(commands.Cog):
         else:
             character = args[0]
 
-        # print(character)
+        print(character)
         
         character = check_nickname(character, "character")
+
+        print(character)
 
         await self.grab_skill(ctx, character, 'core')
         
@@ -161,9 +180,11 @@ class Skills(commands.Cog):
         else:
             character = args[0]
 
-        # print(character)
+        print(character)
         
         character = check_nickname(character, "character")
+
+        print(character)
 
         await self.grab_skill(ctx, character, 'signature')
 
@@ -174,9 +195,11 @@ class Skills(commands.Cog):
         else:
             character = args[0]
 
-        # print(character)
+        print(character)
         
         character = check_nickname(character, "character")
+
+        print(character)
 
         await self.grab_skill(ctx, character, 'qte')
 
@@ -187,9 +210,11 @@ class Skills(commands.Cog):
         else:
             character = args[0]
 
-        # print(character)
+        print(character)
         
         character = check_nickname(character, "character")
+
+        print(character)
 
         await self.grab_skill(ctx, character, 'leader')
 
@@ -200,9 +225,11 @@ class Skills(commands.Cog):
         else:
             character = args[0]
 
-        # print(character)
+        print(character)
         
         character = check_nickname(character, "character")
+
+        print(character)
 
         await self.grab_skill(ctx, character, 'class')
 
@@ -213,9 +240,11 @@ class Skills(commands.Cog):
         else:
             character = args[0]
 
-        # print(character)
+        print(character)
         
         character = check_nickname(character, "character")
+
+        print(character)
 
         await self.grab_skill(ctx, character, 'ss')
 
@@ -226,9 +255,11 @@ class Skills(commands.Cog):
         else:
             character = args[0]
 
-        # print(character)
+        print(character)
         
         character = check_nickname(character, "character")
+
+        print(character)
 
         await self.grab_skill(ctx, character, 'sss')
 
@@ -239,9 +270,11 @@ class Skills(commands.Cog):
         else:
             character = args[0]
 
-        # print(character)
+        print(character)
         
         character = check_nickname(character, "character")
+
+        print(character)
 
         await self.grab_skill(ctx, character, 's+')
 

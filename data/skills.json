@@ -1,24 +1,294 @@
 {
   "noctis": {
-    "basic_attack": {
-      "name": "Engine Vortex",
+    "basic_attack": [
+      {
+        "name": "Engine Vortex",
+        "button_press": "Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Noctis strikes the target multiple times with martial arts, dealing Lightning DMG.",
+          "result": ["- Deals 820% Lightning DMG in total."]
+        }
+      },
+      {
+        "name": "Revving Charge",
+        "button_press": "Press and hold Basic Attack to charge.",
+        "switch_in": "no",
+        "description": {
+          "desc": "Press and hold Basic Attack to charge and gain Energy. Getting attacked while charging will trigger Arm Block automatically.",
+          "result": ["- Gains 30 Energy every second while charging."]
+        }
+      },
+      {
+        "name": "Revving Burst",
+        "button_press": "Charge + Release Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Releasing Basic Attack while charging will hit the enemy in front with a powerful punch, dealing Lightning DMG based on the charge level. Noctis can dodge during the attack, and dodging successfully will trigger Perfect Arm Block.",
+          "result": [
+            "- Deals 260% Lightning DMG with an incomplete charge.",
+            "- Deals 400% Lightning DMG with a complete charge. "
+          ]
+        }
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "Reddening Flash",
+        "button_press": "Ping Red Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Dashes in and throws a punch to knock the target into mid-air, dealing Lightning DMG.",
+          "result": [
+            "- Deals 120% / 240% / 380% Lightning DMG in total based on the number of orbs pinged."
+          ]
+        }
+      },
+      {
+        "name": "Lightning Smash",
+        "button_press": "Thunder Burst Form + During a Red Orb 3-Ping + Press and hold Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Leaps up in a follow-up and strikes before smashing downward, dealing Lightning DMG. Noctis gains Super Armor during the attack.",
+          "result": [
+            "- Deals 560% Lightning DMG in total based on the number of orbs pinged. "
+          ]
+        }
+      }
+    ],
+    "yellow_orb": [
+      {
+        "name": "Bursting Plunge",
+        "button_press": "Ping Yellow Orb",
+        "switch_in": "yes",
+        "description": {
+          "desc": "Leaps up and thrusts forward before striking down, dealing Lightning DMG to the target in front.",
+          "result": [
+            "- Deals 120%/240%/360% Lightning DMG in total based on the number of orbs pinged."
+          ]
+        }
+      },
+      {
+        "name": "Lightning Punch",
+        "button_press": "Thunder Burst Form + During a Yellow Orb 3-Ping + Press and hold Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Punches upward in a follow-up, dealing Lightning DMG. Noctis gains Super Armor during the attack.",
+          "result": [
+            "- Deals 530% Lightning DMG in total based on the number of orbs pinged. "
+          ]
+        }
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "Shattering Kick",
+        "button_press": "Ping Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Kicks forward twice, dealing Lightning DMG to the target in front.",
+          "result": [
+            "- Deals 110%/220%/340% Lightning DMG in total based on the number of orbs pinged."
+          ]
+        }
+      },
+      {
+        "name": "Lightning Sweep",
+        "button_press": "Thunder Burst Form + During a Blue Orb 3-Ping + Press and hold Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Performs a sliding strike at the target in a follow-up, dealing Lightning DMG. Noctis gains Super Armor during the attack.",
+          "result": [
+            "- Deals 500% Lightning DMG in total based on the number of orbs pinged. "
+          ]
+        }
+      }
+    ],
+    "core_passive": {
+      "name": "Powered Roar",
+      "skills": [
+        {
+          "name": "Cipher of Synergy",
+          "button_press": "Tap Dodge",
+          "description": {
+            "desc": [
+              "Noctis enters a defense stance and can dodge attacks in this state. Dodging successfully will trigger Arm Block.",
+              "When performing a precise dodge, Noctis will trigger Perfect Arm Block to counterattack."
+            ],
+            "result": [
+              "- Restores 60 Energy after triggering Arm Block.",
+              "- Restores 120 Energy after triggering Perfect Arm Block, entering Matrix and gaining 1 random Signal Orb.",
+              "- The counterattack deals 500% Lightning DMG."
+            ]
+          }
+        },
+        {
+          "name": "Heat Blast",
+          "button_press": "Thunder Burst Form + A Single Orb",
+          "description": {
+            "desc": [
+              "In the Thunder Burst Form, the rightmost single orb will be converted into an Overload Orb.",
+              "The Overload Orb will be converted into a Blast Orb 2.5s later."
+            ],
+            "result": []
+          }
+        },
+        {
+          "name": "Energy Overload",
+          "button_press": "Thunder Burst Form + A Single Orb + Ping Overload Orb",
+          "description": {
+            "desc": [
+              "The Overload Orb will mark a single orb. Pinging the Overload Orb will ping the marked orb as well and cast Thunderous Fury afterward, dealing Lightning DMG."
+            ],
+            "result": ["- Deals 380% Lightning DMG in total."]
+          }
+        },
+        {
+          "name": "Thunderous Fury",
+          "button_press": "Thunder Burst Form + Ping Blast Orb",
+          "description": {
+            "desc": [
+              "Launches a violent attack at the target in front, dealing Lightning DMG."
+            ],
+            "result": ["- Deals 380% Lightning DMG in total."]
+          }
+        },
+        {
+          "name": "Thunderclap Strike",
+          "button_press": "During Thunderous Fury + Press and hold Basic Attack",
+          "description": {
+            "desc": [
+              "Press and hold Basic Attack while casting Thunderous Fury to perform Thunderclap Strike, gaining Super Armor, dealing Lightning DMG, and receiving 1 Engine Point. Engine Points will amplify the Base DMG of Skull Crush."
+            ],
+            "result": [
+              "- Each stack of Engine Points amplifies Base DMG of Skull Crush by 80%. Stacks up to 3 times.",
+              "- Deals 600% Lightning DMG in total."
+            ]
+          }
+        }
+      ]
+    },
+    "signature": {
+      "name": "Magnetic Blast",
+      "skills": [
+        {
+          "name": "Signature Move",
+          "button_press": "120 Energy + Tap Signature",
+          "description": {
+            "desc": "Throws out an explosive grenade that deals Lightning DMG to the targets within range, then enters Thunder Burst Form for 10s. Press and hold Basic Attack when Noctis performs any 3-Ping Skill in the Thunder Burst Form to execute a follow-up attack, casting Lightning Smash, Lightning Punch, or Lightning Sweep based on the color of the orbs and resetting Thunder Burst Form's duration.",
+            "result": [
+              "- Deals 300% Lightning DMG in total.",
+              "- Unable to gain Energy in the Thunder Burst Form."
+            ]
+          }
+        },
+        {
+          "name": "Skull Crush",
+          "button_press": "Thunder Burst Form + Engine Points + Tap Signature",
+          "description": {
+            "desc": "Gathers power and strikes, dealing Lightning DMG to enemies within a large area. Amplifies the damage based on Engine Points. Exits the Thunder Burst Form afterward.",
+            "result": [
+              "- Deals 740% Lightning DMG in total.",
+              "- Each stack of Engine Points amplifies Base DMG of Skull Crush by 80%. Engine Points can be stacked up to 3 times. "
+            ]
+          }
+        }
+      ]
+    },
+    "qte": {
+      "name": "Swift Blow",
       "description": {
-        "desc": "Rapidly fires arrows at the target, dealing Physical DMG.",
-        "result": ["Deals 460% Physical DMG in total."]
+        "desc": "Punches the target that knocks them airborne, dealing Lightning DMG.",
+        "result": ["-Deals a total of 600% Lightning DMG. "]
       }
     },
-    "red_orb": {
-      "name": "Prismatic Order",
+    "leader": {
+      "name": "Thrill of Violence",
       "description": {
-        "desc": "Shoots an arrow forward, dealing Physical DMG.",
-        "result": [
-          "Deals 200%/390%/590% Physical DMG in total based on the number of orbs pinged."
-        ],
-        "extra": "Automatically uses a 3-Ping version of this attack upon switch-in."
+        "desc": "Lightning DMG of all team members increases by 10%.",
+        "result": []
       }
     },
+    "class": {
+      "name": "Attacker",
+      "description": {
+        "desc": "Extra DMG Bonus increases by 20%. ",
+        "result": []
+      }
+    },
+    "ss_rank": {
+      "name": "Dynamic Impact",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": "Activates all available QTEs when casting Signature - Skull Crush."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": "Lightning DMG increases by 30%. Immediately gains 1 Signal Orb of the corresponding color after performing a 3-Ping. "
+        }
+      ]
+    },
+    "sss_rank": {
+      "name": "Firefall Synergy",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": "Immediately converts the Overload Orb into a Blast Orb after performing a 3-Ping."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": "Each stack of Engine Points amplifies Base DMG of Skull Crush by 100% instead. Extra DMG Bonus increases by 30% in the Thunder Burst Form. "
+        }
+      ]
+    },
+    "s+_rank": {
+      "name": "Outburst of Violence",
+      "levels": [
+        {
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": "Extra DMG Bonus of 3-Ping Skills increases by 40%."
+        },
+        {
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of Thunderous Fury and Thunderclap Strike increases by 40%."
+        },
+        {
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": "Extra DMG Bonus of Signature - Skull Crush increases by 40%. "
+        }
+      ]
+    }
+  },
+  "alisa": {
+    "basic_attack": [
+      {
+        "name": "Darting Pursuit",
+        "button_press": "Tap Basic Attack",
+        "switch_in": "no",
+        "description": {
+          "desc": "Rapidly fires arrows at the target, dealing Physical DMG.",
+          "result": ["Deals 460% Physical DMG in total."]
+        }
+      }
+    ],
+    "red_orb": [
+      {
+        "name": "Prismatic Order",
+        "button_press": "Ping Red Orb",
+        "switch_in": "yes",
+        "description": {
+          "desc": "Shoots an arrow forward, dealing Physical DMG.",
+          "result": [
+            "Deals 200%/390%/590% Physical DMG in total based on the number of orbs pinged."
+          ]
+        }
+      }
+    ],
     "yellow_orb": {
       "name": "Cosmic Descent",
+      "button_press": "Ping Yellow Orb",
+      "switch_in": "no",
       "description": {
         "desc": "Leaps up and turns around, shooting arrows at the enemy in mid-air and dealing Physical DMG. Gains Super Armor while using this skill.",
         "result": [
@@ -28,6 +298,8 @@
     },
     "blue_orb": {
       "name": "Swift Verdict",
+      "button_press": "Ping Blue Orb",
+      "switch_in": "no",
       "description": {
         "desc": "Crouches down to shoot multiple arrows upward, dealing Physical DMG to targets in a small area ahead.",
         "result": [
@@ -35,62 +307,86 @@
         ]
       }
     },
-    "core_passive": [
-      {
-        "name": "Cipher of Synergy",
-        "description": {
-          "desc": "Cecily fights alongside Echo. Press and hold Basic Attack to make Echo enter Tactical Cipher. In Tactical Cipher, Signal Orbs will be temporarily replaced by Cipher Orbs. Pinging a Cipher Orb will make Cecily fire a swordwave at the enemy, dealing Physical DMG. Cecily will then act based on the color of the Cipher Orbs pinged.",
-          "result": [
-            "Each swordwave deals 30% Physical DMG.",
-            "Red Cipher: Launches a thrust attack at the enemy, dealing 90% Physical DMG.",
-            "Yellow Cipher: Launches a downward thrust from above, pulling in nearby enemy units and dealing 50% Physical DMG.",
-            "Blue Cipher: Slashes the target, restoring HP equal to 20% of Echo's ATK to allies and dealing 50% Physical DMG."
-          ]
+    "core_passive": {
+      "name": "Echoing Twins",
+      "skills": [
+        {
+          "name": "Cipher of Synergy",
+          "button_press": "Press and hold Basic Attack",
+          "description": {
+            "desc": [
+              "Cecily fights alongside Echo. Press and hold Basic Attack to make Echo enter Tactical Cipher. In Tactical Cipher, Signal Orbs will be temporarily replaced by Cipher Orbs.",
+              "Pinging a Cipher Orb will make Cecily fire a swordwave at the enemy, dealing Physical DMG. Cecily will then act based on the color of the Cipher Orbs pinged."
+            ],
+            "result": [
+              "Each swordwave deals 30% Physical DMG.",
+              "Red Cipher: Launches a thrust attack at the enemy, dealing 90% Physical DMG.",
+              "Yellow Cipher: Launches a downward thrust from above, pulling in nearby enemy units and dealing 50% Physical DMG.",
+              "Blue Cipher: Slashes the target, restoring HP equal to 20% of Echo's ATK to allies and dealing 50% Physical DMG."
+            ]
+          }
+        },
+        {
+          "name": "Sinbreaker's Judgment",
+          "button_press": "During Tactical Cipher + Ping Cipher Orbs consecutively",
+          "description": {
+            "desc": [
+              "Upon entering Tactical Cipher, Echo starts charging, during which time Cecily will prevent enemies from attacking her and repel them. Echo gains Super Armor for 1.5s and 40% DMG Reduction. Cooldown: 5s. Keep pinging Cipher Orbs or drag the joystick to keep charging.",
+              "When orbs are no longer pinged or when the joystick is released, Echo will stop charging and fire a Sinbreaker's Arrow, dealing Physical DMG. Echo can dodge attacks when performing this move. Cecily will then attack in the order of the Cipher Orbs pinged, with each attack consuming one Cipher Orb. After Echo exits the battlefield, Cecily will stay and continue to attack enemies until all Cipher Orbs are consumed."
+            ],
+            "result": [
+              "- When fully charged, Sinbreaker's Arrow deals 580% Physical DMG, rearranges all Signal Orbs into 3-Pings, and activates Judgment Zone, which heals allies within for 80% of Echo's ATK for 8s and grants Echo 6 Signature Energy.",
+              "- If Sinbreaker's Arrow is not fully charged, it will only deal 230% Physical DMG without activating Judgment Zone."
+            ]
+          }
+        },
+        {
+          "name": "Majestic Splendor",
+          "button_press": "In Judgement Zone + Ping Orbs",
+          "description": {
+            "desc": [
+              "Each orb pinged inside Judgment Zone will generate 10 Splendor Points, max 90."
+            ],
+            "result": []
+          }
+        },
+        {
+          "name": "Swift Archery",
+          "button_press": "In Judgement Zone + Tap Dodge",
+          "description": {
+            "desc": [
+              "Tapping Dodge inside Judgment Zone will trigger Swift Archery, dealing Physical DMG."
+            ],
+            "result": ["Deals 80% Physical DMG."]
+          }
+        },
+        {
+          "name": "Judgment Co-Strike",
+          "button_press": "In Judgment Zone + 90 Splendor Points + Ping One Specific Signal Orb",
+          "description": {
+            "desc": [
+              "At max Splendor Points, pinging a Signal Orb that matches the color of Cipher Orb inside Judgment Zone will trigger a Co-Strike. The first Co-Strike after Judgment Zone is activated will cast Imprisoning Co-Strike.",
+              "If Echo has Soul Shatter Mark, she can trigger another Co-Strike afterward while the Judgment Zone is still active to cast Soulbreaking Co-Strike."
+            ],
+            "result": [
+              "- Imprisoning Co-Strike: Consumes all Splendor Points to imprison and pull in nearby enemies, dealing 720% Physical DMG and restoring 36 Signature Energy.",
+              "- Soulbreaking Co-Strike: Consumes Soul Shatter Mark to leap and shoot the target, dealing 576% Physical DMG and restoring 20 Signature Energy.- Echo becomes invincible during a Co-Strike but cannot cast Signature - Celestial Edge.",
+              "- Echo gains Soul Shatter Mark after casting Signature - Celestial Edge."
+            ]
+          }
+        },
+        {
+          "name": "Blessing of Fortitude",
+          "button_press": "Upon receiving Healing",
+          "description": {
+            "desc": [
+              "Allies are granted Ultralimit Torque which increases their Physical DMG by 10% for 8s after being healed. The duration resets every time it is triggered."
+            ],
+            "result": [""]
+          }
         }
-      },
-      {
-        "name": "Sinbreaker's Judgment",
-        "description": {
-          "desc": "Upon entering Tactical Cipher, Echo starts charging, during which time Cecily will prevent enemies from attacking her and repel them. Echo gains Super Armor for 1.5s and 40% DMG Reduction. Cooldown: 5s. Keep pinging Cipher Orbs or drag the joystick to keep charging. When orbs are no longer pinged or when the joystick is released, Echo will stop charging and fire a Sinbreaker's Arrow, dealing Physical DMG. Echo can dodge attacks when performing this move. Cecily will then attack in the order of the Cipher Orbs pinged, with each attack consuming one Cipher Orb. After Echo exits the battlefield, Cecily will stay and continue to attack enemies until all Cipher Orbs are consumed.",
-          "result": [
-            "- When fully charged, Sinbreaker's Arrow deals 580% Physical DMG, rearranges all Signal Orbs into 3-Pings, and activates Judgment Zone, which heals allies within for 80% of Echo's ATK for 8s and grants Echo 6 Signature Energy.",
-            "- If Sinbreaker's Arrow is not fully charged, it will only deal 230% Physical DMG without activating Judgment Zone."
-          ]
-        }
-      },
-      {
-        "name": "Majestic Splendor",
-        "description": {
-          "desc": "Each orb pinged inside Judgment Zone will generate 10 Splendor Points, max 90.",
-          "result": []
-        }
-      },
-      {
-        "name": "Swift Archery",
-        "description": {
-          "desc": "Tapping Dodge inside Judgment Zone will trigger Swift Archery, dealing Physical DMG.",
-          "result": ["Deals 80% Physical DMG."]
-        }
-      },
-      {
-        "name": "Judgment Co-Strike",
-        "description": {
-          "desc": "At max Splendor Points, pinging a Signal Orb that matches the color of Cipher Orb inside Judgment Zone will trigger a Co-Strike. The first Co-Strike after Judgment Zone is activated will cast Imprisoning Co-Strike. If Echo has Soul Shatter Mark, she can trigger another Co-Strike afterward while the Judgment Zone is still active to cast Soulbreaking Co-Strike.",
-          "result": [
-            "- Imprisoning Co-Strike: Consumes all Splendor Points to imprison and pull in nearby enemies, dealing 720% Physical DMG and restoring 36 Signature Energy.",
-            "- Soulbreaking Co-Strike: Consumes Soul Shatter Mark to leap and shoot the target, dealing 576% Physical DMG and restoring 20 Signature Energy.- Echo becomes invincible during a Co-Strike but cannot cast Signature - Celestial Edge.",
-            "- Echo gains Soul Shatter Mark after casting Signature - Celestial Edge."
-          ]
-        }
-      },
-      {
-        "name": "Blessing of Fortitude",
-        "description": {
-          "desc": "Allies are granted Ultralimit Torque which increases their Physical DMG by 10% for 8s after being healed. The duration resets every time it is triggered.",
-          "result": []
-        }
-      }
-    ],
+      ]
+    },
     "signature": {
       "name": "Celestial Edge",
       "description": {
@@ -125,11 +421,11 @@
       "name": "Decisive Omen",
       "levels": [
         {
-          "rank": "Level 1 — Unlocked at S5",
+          "rank": "Level 1 - Unlocked at S5",
           "desc": "Casting Imprisoning Co-Strike and Soulbreaking Co-Strike will activate all available QTEs."
         },
         {
-          "rank": "Level 2 — Unlocked at SS",
+          "rank": "Level 2 - Unlocked at SS",
           "desc": "Gains a set of 3-Ping Orbs when switched in. While Judgment Zone is active, Extra DMG Bonus increases by 30%."
         }
       ]
@@ -138,11 +434,11 @@
       "name": "Mark of Libra",
       "levels": [
         {
-          "rank": "Level 1 — Unlocked at SS3",
+          "rank": "Level 1 - Unlocked at SS3",
           "desc": "When Echo is switched out, Cecily immediately gains 6 bonus Cipher Orbs. After Echo exits the battlefield, Cecily gains 100% Extra DMG Bonus."
         },
         {
-          "rank": "Level 2 — Unlocked at SSS",
+          "rank": "Level 2 - Unlocked at SSS",
           "desc": "The effect of Amplifier Class Skill increases by 100%. Echo gains 30 Splendor Points and Soul Shatter Mark every time she enters the battlefield. Soulbreaking Co-Strike's Base DMG increases by 50%."
         }
       ]
@@ -151,346 +447,273 @@
       "name": "Dreamer's Shore",
       "levels": [
         {
-          "rank": "Level 1 — Unlocked at SSS3",
+          "rank": "Level 1 - Unlocked at SSS3",
           "desc": "Extra DMG Bonus of Signature - Celestial Edge increases by 30%."
         },
         {
-          "rank": "Level 2 — Unlocked at SSS6",
+          "rank": "Level 2 - Unlocked at SSS6",
           "desc": "Extra DMG Bonus of 3-Ping skills and Cipher Orb skills increases by 50%."
         },
         {
-          "rank": "Level 3 — Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of Imprisoning Co-Strike and Soulbreaking Co-Strike increase by 30%."
-        }
-      ]
-    }
-  },
-  "alisa": {
-    "basic_attack": {
-      "name": "Darting Pursuit",
-      "description": {
-        "desc": "Rapidly fires arrows at the target, dealing Physical DMG.",
-        "result": ["Deals 460% Physical DMG in total."]
-      }
-    },
-    "red_orb": {
-      "name": "Prismatic Order",
-      "description": {
-        "desc": "Shoots an arrow forward, dealing Physical DMG.",
-        "result": [
-          "Deals 200%/390%/590% Physical DMG in total based on the number of orbs pinged."
-        ],
-        "extra": "Automatically uses a 3-Ping version of this attack upon switch-in."
-      }
-    },
-    "yellow_orb": {
-      "name": "Cosmic Descent",
-      "description": {
-        "desc": "Leaps up and turns around, shooting arrows at the enemy in mid-air and dealing Physical DMG. Gains Super Armor while using this skill.",
-        "result": [
-          "Deals 190%/380%/560% Physical DMG in total based on the number of orbs pinged."
-        ]
-      }
-    },
-    "blue_orb": {
-      "name": "Swift Verdict",
-      "description": {
-        "desc": "Crouches down to shoot multiple arrows upward, dealing Physical DMG to targets in a small area ahead.",
-        "result": [
-          "Deals 180%/360%/540% Physical DMG in total based on the number of orbs pinged."
-        ]
-      }
-    },
-    "core_passive": [
-      {
-        "name": "Cipher of Synergy",
-        "description": {
-          "desc": "Cecily fights alongside Echo. Press and hold Basic Attack to make Echo enter Tactical Cipher. In Tactical Cipher, Signal Orbs will be temporarily replaced by Cipher Orbs. Pinging a Cipher Orb will make Cecily fire a swordwave at the enemy, dealing Physical DMG. Cecily will then act based on the color of the Cipher Orbs pinged.",
-          "result": [
-            "Each swordwave deals 30% Physical DMG.",
-            "Red Cipher: Launches a thrust attack at the enemy, dealing 90% Physical DMG.",
-            "Yellow Cipher: Launches a downward thrust from above, pulling in nearby enemy units and dealing 50% Physical DMG.",
-            "Blue Cipher: Slashes the target, restoring HP equal to 20% of Echo's ATK to allies and dealing 50% Physical DMG."
-          ]
-        }
-      },
-      {
-        "name": "Sinbreaker's Judgment",
-        "description": {
-          "desc": "Upon entering Tactical Cipher, Echo starts charging, during which time Cecily will prevent enemies from attacking her and repel them. Echo gains Super Armor for 1.5s and 40% DMG Reduction. Cooldown: 5s. Keep pinging Cipher Orbs or drag the joystick to keep charging. When orbs are no longer pinged or when the joystick is released, Echo will stop charging and fire a Sinbreaker's Arrow, dealing Physical DMG. Echo can dodge attacks when performing this move. Cecily will then attack in the order of the Cipher Orbs pinged, with each attack consuming one Cipher Orb. After Echo exits the battlefield, Cecily will stay and continue to attack enemies until all Cipher Orbs are consumed.",
-          "result": [
-            "- When fully charged, Sinbreaker's Arrow deals 580% Physical DMG, rearranges all Signal Orbs into 3-Pings, and activates Judgment Zone, which heals allies within for 80% of Echo's ATK for 8s and grants Echo 6 Signature Energy.",
-            "- If Sinbreaker's Arrow is not fully charged, it will only deal 230% Physical DMG without activating Judgment Zone."
-          ]
-        }
-      },
-      {
-        "name": "Majestic Splendor",
-        "description": {
-          "desc": "Each orb pinged inside Judgment Zone will generate 10 Splendor Points, max 90.",
-          "result": []
-        }
-      },
-      {
-        "name": "Swift Archery",
-        "description": {
-          "desc": "Tapping Dodge inside Judgment Zone will trigger Swift Archery, dealing Physical DMG.",
-          "result": ["Deals 80% Physical DMG."]
-        }
-      },
-      {
-        "name": "Judgment Co-Strike",
-        "description": {
-          "desc": "At max Splendor Points, pinging a Signal Orb that matches the color of Cipher Orb inside Judgment Zone will trigger a Co-Strike. The first Co-Strike after Judgment Zone is activated will cast Imprisoning Co-Strike. If Echo has Soul Shatter Mark, she can trigger another Co-Strike afterward while the Judgment Zone is still active to cast Soulbreaking Co-Strike.",
-          "result": [
-            "- Imprisoning Co-Strike: Consumes all Splendor Points to imprison and pull in nearby enemies, dealing 720% Physical DMG and restoring 36 Signature Energy.",
-            "- Soulbreaking Co-Strike: Consumes Soul Shatter Mark to leap and shoot the target, dealing 576% Physical DMG and restoring 20 Signature Energy.- Echo becomes invincible during a Co-Strike but cannot cast Signature - Celestial Edge.",
-            "- Echo gains Soul Shatter Mark after casting Signature - Celestial Edge."
-          ]
-        }
-      },
-      {
-        "name": "Blessing of Fortitude",
-        "description": {
-          "desc": "Allies are granted Ultralimit Torque which increases their Physical DMG by 10% for 8s after being healed. The duration resets every time it is triggered.",
-          "result": []
-        }
-      }
-    ],
-    "signature": {
-      "name": "Celestial Edge",
-      "description": {
-        "desc": "Echo and Cecily attack at the same time, dealing Physical DMG and triggering Time Lag Calculation. Afterward, Echo gains Soul Shatter Mark.",
-        "result": ["- Deal 2660% Physical DMG in total."]
-      }
-    },
-    "qte": {
-      "name": "Advent of Justice",
-      "description": {
-        "desc": "Fires multiple arrows at the enemy, dealing Physical DMG and healing HP.",
-        "result": [
-          "- Deals 600% Physical DMG and heals for 100% of ATK in total. "
-        ]
-      }
-    },
-    "leader": {
-      "name": "Harbinger of Law",
-      "description": {
-        "desc": "All members' ATK increases by 10%. Amplifiers' Physical DMG Bonus increases by 5%."
-      }
-    },
-    "class": {
-      "name": "Amplifier",
-      "description": {
-        "desc": "All switched-in members gain an extra 10% ATK and 10% Elemental DMG Bonus of the Amplifier's element for 10s."
-      }
-    },
-    "ss_rank": {
-      "name": "Decisive Omen",
-      "levels": [
-        {
-          "rank": "Level 1 — Unlocked at S5",
-          "desc": "Casting Imprisoning Co-Strike and Soulbreaking Co-Strike will activate all available QTEs."
-        },
-        {
-          "rank": "Level 2 — Unlocked at SS",
-          "desc": "Gains a set of 3-Ping Orbs when switched in. While Judgment Zone is active, Extra DMG Bonus increases by 30%."
-        }
-      ]
-    },
-    "sss_rank": {
-      "name": "Mark of Libra",
-      "levels": [
-        {
-          "rank": "Level 1 — Unlocked at SS3",
-          "desc": "When Echo is switched out, Cecily immediately gains 6 bonus Cipher Orbs. After Echo exits the battlefield, Cecily gains 100% Extra DMG Bonus."
-        },
-        {
-          "rank": "Level 2 — Unlocked at SSS",
-          "desc": "The effect of Amplifier Class Skill increases by 100%. Echo gains 30 Splendor Points and Soul Shatter Mark every time she enters the battlefield. Soulbreaking Co-Strike's Base DMG increases by 50%."
-        }
-      ]
-    },
-    "s+_rank": {
-      "name": "Dreamer's Shore",
-      "levels": [
-        {
-          "rank": "Level 1 — Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of Signature - Celestial Edge increases by 30%."
-        },
-        {
-          "rank": "Level 2 — Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of 3-Ping skills and Cipher Orb skills increases by 50%."
-        },
-        {
-          "rank": "Level 3 — Unlocked at SSS+",
+          "rank": "Level 3 - Unlocked at SSS+",
           "desc": "Extra DMG Bonus of Imprisoning Co-Strike and Soulbreaking Co-Strike increase by 30%."
         }
       ]
     }
   },
   "lamia": {
-    "basic_attack": {
-      "name": "Darting Pursuit",
-      "description": {
-        "desc": "Rapidly fires arrows at the target, dealing Physical DMG.",
-        "result": ["Deals 460% Physical DMG in total."]
-      }
-    },
-    "red_orb": {
-      "name": "Prismatic Order",
-      "description": {
-        "desc": "Shoots an arrow forward, dealing Physical DMG.",
-        "result": [
-          "Deals 200%/390%/590% Physical DMG in total based on the number of orbs pinged."
-        ],
-        "extra": "Automatically uses a 3-Ping version of this attack upon switch-in."
-      }
-    },
-    "yellow_orb": {
-      "name": "Cosmic Descent",
-      "description": {
-        "desc": "Leaps up and turns around, shooting arrows at the enemy in mid-air and dealing Physical DMG. Gains Super Armor while using this skill.",
-        "result": [
-          "Deals 190%/380%/560% Physical DMG in total based on the number of orbs pinged."
-        ]
-      }
-    },
-    "blue_orb": {
-      "name": "Swift Verdict",
-      "description": {
-        "desc": "Crouches down to shoot multiple arrows upward, dealing Physical DMG to targets in a small area ahead.",
-        "result": [
-          "Deals 180%/360%/540% Physical DMG in total based on the number of orbs pinged."
-        ]
-      }
-    },
-    "core_passive": [
+    "basic_attack": [
       {
-        "name": "Cipher of Synergy",
+        "name": "Stygian Waves",
+        "button_press": "Primary Form + Tap Basic Attack",
+        "switch_in": "no",
         "description": {
-          "desc": "Cecily fights alongside Echo. Press and hold Basic Attack to make Echo enter Tactical Cipher. In Tactical Cipher, Signal Orbs will be temporarily replaced by Cipher Orbs. Pinging a Cipher Orb will make Cecily fire a swordwave at the enemy, dealing Physical DMG. Cecily will then act based on the color of the Cipher Orbs pinged.",
+          "desc": "Launches melee attacks and ranged water elemental attacks with Halberd Blade, dealing Dark DMG to the target. When the weather is Downpour or Storm, additional attacks are launched at certain hits of Basic Attack.",
           "result": [
-            "Each swordwave deals 30% Physical DMG.",
-            "Red Cipher: Launches a thrust attack at the enemy, dealing 90% Physical DMG.",
-            "Yellow Cipher: Launches a downward thrust from above, pulling in nearby enemy units and dealing 50% Physical DMG.",
-            "Blue Cipher: Slashes the target, restoring HP equal to 20% of Echo's ATK to allies and dealing 50% Physical DMG."
+            "- Deals 540% Dark DMG in total.",
+            "- In Downpour, each hit of the 4th sequence of Basic Attack deals 40% bonus Dark DMG.",
+            "- In Storm, each hit of the 5th sequence of Basic Attack deals 80% bonus Dark DMG."
           ]
         }
       },
       {
-        "name": "Sinbreaker's Judgment",
+        "name": "Stygian Waves",
+        "button_press": "Dark Tide Form + Tap Basic Attack",
+        "switch_in": "no",
         "description": {
-          "desc": "Upon entering Tactical Cipher, Echo starts charging, during which time Cecily will prevent enemies from attacking her and repel them. Echo gains Super Armor for 1.5s and 40% DMG Reduction. Cooldown: 5s. Keep pinging Cipher Orbs or drag the joystick to keep charging. When orbs are no longer pinged or when the joystick is released, Echo will stop charging and fire a Sinbreaker's Arrow, dealing Physical DMG. Echo can dodge attacks when performing this move. Cecily will then attack in the order of the Cipher Orbs pinged, with each attack consuming one Cipher Orb. After Echo exits the battlefield, Cecily will stay and continue to attack enemies until all Cipher Orbs are consumed.",
+          "desc": "Launches fierce melee attacks, dealing Dark DMG to the target. When Ocean's Scar is present, Abyssal Points can be consumed to enhance Basic Attacks, dealing increased DMG while granting bonus Signature Energy. When Lamia is in Tidal Form, casting Basic Attacks grants her Extra DMG Bonus, after which she will leave Tidal Form.",
           "result": [
-            "- When fully charged, Sinbreaker's Arrow deals 580% Physical DMG, rearranges all Signal Orbs into 3-Pings, and activates Judgment Zone, which heals allies within for 80% of Echo's ATK for 8s and grants Echo 6 Signature Energy.",
-            "- If Sinbreaker's Arrow is not fully charged, it will only deal 230% Physical DMG without activating Judgment Zone."
+            "- Deals 740% Dark DMG in total.",
+            "- Enhanced Basic Attacks have 20% increased base DMG.",
+            "- While enhanced, 20 Abyssal Points are consumed every 0.5s.",
+            "- While enhanced, Lamia gains 5 Signature Energy every 0.5s.",
+            "- Casting one full cycle of Basic Attacks in Tidal Form grants 30% Extra DMG Bonus, Super Armor, and 70% DMG Reduction."
           ]
         }
       },
       {
-        "name": "Majestic Splendor",
+        "name": "Abyssal Currents",
+        "button_press": "Dark Tide Form + Ocean's Scar + Press and Hold Basic Attack",
+        "switch_in": "no",
         "description": {
-          "desc": "Each orb pinged inside Judgment Zone will generate 10 Splendor Points, max 90.",
-          "result": []
-        }
-      },
-      {
-        "name": "Swift Archery",
-        "description": {
-          "desc": "Tapping Dodge inside Judgment Zone will trigger Swift Archery, dealing Physical DMG.",
-          "result": ["Deals 80% Physical DMG."]
-        }
-      },
-      {
-        "name": "Judgment Co-Strike",
-        "description": {
-          "desc": "At max Splendor Points, pinging a Signal Orb that matches the color of Cipher Orb inside Judgment Zone will trigger a Co-Strike. The first Co-Strike after Judgment Zone is activated will cast Imprisoning Co-Strike. If Echo has Soul Shatter Mark, she can trigger another Co-Strike afterward while the Judgment Zone is still active to cast Soulbreaking Co-Strike.",
+          "desc": "When Ocean's Scar is present, press and hold Basic Attack to cast Abyssal Currents, consuming all Abyssal Points and dealing Dark DMG. Each Abyssal Point consumed also increases the base DMG of Abyssal Currents. While casting Abyssal Currents, Lamia is invincible but is unable to cast Signature - Sunken Finale.",
           "result": [
-            "- Imprisoning Co-Strike: Consumes all Splendor Points to imprison and pull in nearby enemies, dealing 720% Physical DMG and restoring 36 Signature Energy.",
-            "- Soulbreaking Co-Strike: Consumes Soul Shatter Mark to leap and shoot the target, dealing 576% Physical DMG and restoring 20 Signature Energy.- Echo becomes invincible during a Co-Strike but cannot cast Signature - Celestial Edge.",
-            "- Echo gains Soul Shatter Mark after casting Signature - Celestial Edge."
+            "- Deals 1000% Dark DMG in total.",
+            "- Abyssal Points have a maximum of 350. Each Abyssal Point increases Base DMG by 1%."
           ]
-        }
-      },
-      {
-        "name": "Blessing of Fortitude",
-        "description": {
-          "desc": "Allies are granted Ultralimit Torque which increases their Physical DMG by 10% for 8s after being healed. The duration resets every time it is triggered.",
-          "result": []
         }
       }
     ],
-    "signature": {
-      "name": "Celestial Edge",
-      "description": {
-        "desc": "Echo and Cecily attack at the same time, dealing Physical DMG and triggering Time Lag Calculation. Afterward, Echo gains Soul Shatter Mark.",
-        "result": ["- Deal 2660% Physical DMG in total."]
+    "red_orb": [
+      {
+        "name": "Hadal Vortex",
+        "button_press": "Dark Tide Form + Ping Red Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Uses Halberd Blade to direct multiple undercurrents to strike enemies ahead, dealing Dark DMG while gaining Fathomless Points and a small number of Abyssal Points. Enters Tidal Form after pinging 3 Signal Orbs.",
+          "result": [
+            "- Deals 240% / 480% / 720% Dark DMG in total based on the number of orbs pinged.",
+            "- Gains 10 / 20 / 30 Fathomless Points based on the number of orbs pinged.",
+            "- Gains 15 Abyssal Points upon a 3-Ping. "
+          ]
+        }
       }
+    ],
+    "yellow_orb": [
+      {
+        "name": "Crushing Spout",
+        "button_press": "Primary Form + Ping Yellow Orb",
+        "switch_in": "yes",
+        "description": {
+          "desc": "Upon a 1-Ping or 2-Ping, glides along waves to deal Dark DMG to enemies ahead. Upon a 3-Ping, rides up a tide to leap into the air, then glides downward to launch a large-area slash, dealing Dark DMG. Making a Yellow 3-Ping after a Yellow 1/2-Ping allows Lamia to directly perform the slash attack. While casting this skill, Lamia gains Fathomless Points and a small amount of Abyssal Points.",
+          "result": [
+            "- Deals 150% / 300% / 450% Dark DMG in total based on the number of orbs pinged.",
+            "- Gains 10 / 20 / 30 Fathomless Points based on the number of orbs pinged.",
+            "- Gains 15 Abyssal Points upon a 3-Ping. "
+          ]
+        }
+      }
+    ],
+    "blue_orb": [
+      {
+        "name": "Pelagic Severance - Rip Current",
+        "button_press": "Primary Form + Ping Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Unleashes multiple strikes toward target location, dealing Dark DMG while gaining Fathomless Points and a small number of Abyssal Points.",
+          "result": [
+            "- Deals 150% / 300% / 450% Dark DMG in total based on the number of orbs pinged.",
+            "- Gains 10 / 20 / 30 Fathomless Points based on the number of orbs pinged.",
+            "- Gains 15 Abyssal Points upon a 3-Ping."
+          ]
+        }
+      },
+      {
+        "name": "Pelagic Severance - High-Pressure Laminar Flow",
+        "button_press": "Dark Tide Form + Ping Blue Orb",
+        "switch_in": "no",
+        "description": {
+          "desc": "Unleashes multiple strikes toward target location, dealing Dark DMG while gaining Fathomless Points and a small number of Abyssal Points. Enters Tidal Form after pinging 3 Signal Orbs.",
+          "result": [
+            "- Deals 240% / 480% / 720% Dark DMG in total based on the number of orbs pinged.",
+            "- Gains 10 / 20 / 30 Fathomless Points based on the number of orbs pinged.",
+            "- Gains 15 Abyssal Points upon a 3-Ping. "
+          ]
+        }
+      }
+    ],
+    "core_passive": {
+      "name": "Seafoam Mirage",
+      "skills": [
+        {
+          "name": "Antimony",
+          "button_press": "N/A",
+          "description": {
+            "desc": [
+              "When Lamia is in Primary Form, she can only cast Yellow or Blue Orb skills, and her Basic Attacks only generate Yellow or Blue Orbs.",
+              "When she is in Dark Tide Form, she can only cast Red or Blue Orb skills, and her Basic Attacks only generate Red or Blue Orbs. Yellow Orbs will be randomly converted into Red or Blue Orbs."
+            ],
+            "result": []
+          }
+        },
+        {
+          "name": "Wave Illusions",
+          "button_press": "N/A",
+          "description": {
+            "desc": [
+              "When Lamia casts a 3-Ping skill in Primary Form, there is a short window of time in which she can consecutively cast another 3-Ping, Torrent Orb, or Tidal Orb skill. After Lamia casts a Red Orb skill in Dark Tide Form, consecutively pinging Red Orbs allows her to cast the skill again directly during the skill action.",
+              "After Lamia casts a Blue Orb skill in Dark Tide Form, she will start swimming in water, during which she can cast the skill again to rapidly fire water spheres to attack the target."
+            ],
+            "result": []
+          }
+        },
+        {
+          "name": "Drowned Conformation",
+          "button_press": "Primary Form + Ping Torrent Orb / Tidal Orb",
+          "description": {
+            "desc": [
+              "When Lamia casts skills through orb pings in Primary Form, she will gain Fathomless Points. For every 30 Fathomless Points, she will gain a Torrent Orb. When two Torrent Orbs are present, they will merge into a Tidal Orb.",
+              "At full Fathomless Points, pinging a Torrent Orb or Tidal Orb will deplete all Fathomless Points. When a Torrent Orb is pinged, Lamia will cast Crushing Wave, dealing Dark DMG to enemies in front while also dealing a small amount DMG to herself. When a Tidal Orb is pinged, she will cast Suffocating Tide to pull in surrounding enemies, then detonate the undercurrents to deal Dark DMG.",
+              "After casting Crushing Wave or Suffocating Tide, Lamia gains Ocean's Scar. Pinging a Torrent Orb will change the weather to Downpour. Pinging a Tidal Orb or two Torrent Orbs will change the weather to Storm. Lamia gains Super Armor and 70% DMG Reduction while casting Crushing Wave or Suffocating Tide."
+            ],
+            "result": [
+              "- Fathomless Points has a maximum of 60.",
+              "- Pinging a Torrent Orb will cast Crushing Wave, dealing 600% Dark DMG in total.",
+              "- Pinging a Tidal Orb will cast Suffocating Tide, dealing 1300% Dark DMG in total.",
+              "- Each Torrent Orb pinged grants 25 Abyssal Points and 15 Signature Energy.",
+              "- Each Tidal Orb pinged grants 60 Abyssal Points and 30 Signature Energy."
+            ]
+          }
+        },
+        {
+          "name": "Dark Flux",
+          "button_press": "Dark Tide Form + Ping Torrent Orb / Tidal Orb",
+          "description": {
+            "desc": [
+              "When Lamia casts skills through orb pings in Dark Tide Form, she will gain Fathomless Points. For every 30 Fathomless Points, she will gain a Torrent Orb. When two Torrent Orbs are present, they will merge into a Tidal Orb.",
+              "When Torrent Orb and Tidal Orb are both present, the Torrent Orb will be pinged to enhance Tidal Orb, turning it into Riptide Orb.At full Fathomless Points, pinging a Torrent Orb, Tidal Orb, or Riptide Orb will deplete all Fathomless Points. When a Torrent Orb is pinged, Lamia will cast Crushing Torrent, slashing to create powerful airflows, dealing Dark DMG to enemies in front, and entering Tidal Form.",
+              "When a Tidal Orb or Riptide Orb is pinged, Lamia will cast Tidal Vortex, dealing Dark DMG. If Lamia is not in Tidal Form when casting Tidal Vortex, she will ascend to the highest point to cast Tidal Vortex, and then exit Tidal Form.Lamia gains Ocean's Scar after casting Crushing Torrent or Tidal Vortex. Lamia gains Super Armor and 70% DMG Reduction while casting Crushing Torrent and Tidal Vortex."
+            ],
+            "result": [
+              "- Fathomless Points has a maximum of 90.",
+              "- Pinging a Torrent Orb will cast Crushing Torrent, dealing 600% Dark DMG in total.",
+              "- Pinging a Tidal Orb will cast Tidal Vortex, dealing 1300% Dark DMG in total.",
+              "- Pinging a Riptide Orb will cast an even more powerful Tidal Vortex, dealing 2200% Dark DMG in total.",
+              "- Each Torrent Orb pinged grants 25 Abyssal Points and 15 Signature Energy.",
+              "- Each Tidal Orb pinged grants 60 Abyssal Points and 30 Signature Energy.",
+              "- Each Riptide Orb pinged grants 105 Abyssal Points and 35 Signature Energy. "
+            ]
+          }
+        }
+      ]
+    },
+    "signature": {
+      "name": "Elegy of Atlantis",
+      "skills": [
+        {
+          "name": "Raging Prelude",
+          "button_press": "Primary Form + 70 Energy + Tap Signature",
+          "description": {
+            "desc": "Lamia summons nearby water to engulf the surroundings and plunge the battlefield into a nameless ocean, dealing Dark DMG to the target. She then enters Dark Tide Form and gains Signal Orbs based on the weather. Time Lag Calculation is triggered while she casts this move.",
+            "result": [
+              "- Deals 200% Dark DMG in total.",
+              "- Gains 1 set of 3-Ping Orbs in Downpour.",
+              "- Gains 2 sets of 3-Ping Orbs in Storm.",
+              "- Downpour and Tempest will cease after casting this move."
+            ]
+          }
+        },
+        {
+          "name": "Sunken Finale",
+          "button_press": "Dark Tide Form + 70 Energy + Tap Signature Move",
+          "description": {
+            "desc": "Lamia stirs up and pulls together several whirlpools, then detonates them to annihilate enemies in the ocean, dealing Dark DMG to the target. After casting this move, she enters Primary Form. Time Lag Calculation is triggered while she casts this move.",
+            "result": ["- Deals 2500% Dark DMG in total. "]
+          }
+        }
+      ]
     },
     "qte": {
-      "name": "Advent of Justice",
+      "name": "Tidal Phantom",
       "description": {
-        "desc": "Fires multiple arrows at the enemy, dealing Physical DMG and healing HP.",
-        "result": [
-          "- Deals 600% Physical DMG and heals for 100% of ATK in total. "
-        ]
+        "desc": "Swings Halberd Blade at the target, dealing Dark DMG.",
+        "result": ["- Deals 600% Dark DMG in total."]
       }
     },
     "leader": {
-      "name": "Harbinger of Law",
+      "name": "Cornflower's Shadow",
       "description": {
-        "desc": "All members' ATK increases by 10%. Amplifiers' Physical DMG Bonus increases by 5%.",
+        "desc": "Increases Dark DMG of all members by 10%. Increases ATK of all Attackers by 10%.",
         "result": []
       }
     },
     "class": {
-      "name": "Amplifier",
+      "name": "Attacker",
       "description": {
-        "desc": "All switched-in members gain an extra 10% ATK and 10% Elemental DMG Bonus of the Amplifier's element for 10s.",
+        "desc": "Extra DMG Bonus increases by 20%.",
         "result": []
       }
     },
     "ss_rank": {
-      "name": "Decisive Omen",
+      "name": "To Depart and Return",
       "levels": [
         {
-          "rank": "Level 1 — Unlocked at S5",
-          "desc": "Casting Imprisoning Co-Strike and Soulbreaking Co-Strike will activate all available QTEs."
+          "rank": "Level 1 - Unlocked at S5",
+          "desc": "Consuming Tidal Orb in Primary Form or casting Basic Attack - Abyssal Currents will activate all available QTEs."
         },
         {
-          "rank": "Level 2 — Unlocked at SS",
-          "desc": "Gains a set of 3-Ping Orbs when switched in. While Judgment Zone is active, Extra DMG Bonus increases by 30%."
+          "rank": "Level 2 - Unlocked at SS",
+          "desc": "Gains one extra Torrent Orb each time upon entering battle. Base DMG of Torrent Orb, Tidal Orb, and Riptide Orb increases by 50%. Gains 15% Extra DMG Bonus in Dark Tide Form."
         }
       ]
     },
     "sss_rank": {
-      "name": "Mark of Libra",
+      "name": "Dawnlight and Spume",
       "levels": [
         {
-          "rank": "Level 1 — Unlocked at SS3",
-          "desc": "When Echo is switched out, Cecily immediately gains 6 bonus Cipher Orbs. After Echo exits the battlefield, Cecily gains 100% Extra DMG Bonus."
+          "rank": "Level 1 - Unlocked at SS3",
+          "desc": "Gains 20 extra Signature Energy when pinging a Tidal Orb in Primary Form for the first time after entering battle. Base DMG of Signal Orb skills and Primary Form's Basic Attack bonus hits increases by 30%."
         },
         {
-          "rank": "Level 2 — Unlocked at SSS",
-          "desc": "The effect of Amplifier Class Skill increases by 100%. Echo gains 30 Splendor Points and Soul Shatter Mark every time she enters the battlefield. Soulbreaking Co-Strike's Base DMG increases by 50%."
+          "rank": "Level 2 - Unlocked at SSS",
+          "desc": "Gains one extra Torrent Orb each time upon entering battle. Pinging Tidal Orb in Primary Form grants 10 additional Signature Energy. Signature - Raging Prelude deals 4500% Dark DMG when the weather is Storm. Maximum limit of Abyssal Points increases to 600. Casting Torrent Orb, Tidal Orb, or 3-Ping Orb skills in Dark Tide Form grants 200% more Abyssal Points."
         }
       ]
     },
     "s+_rank": {
-      "name": "Dreamer's Shore",
+      "name": "Death and Rebirth ",
       "levels": [
         {
-          "rank": "Level 1 — Unlocked at SSS3",
-          "desc": "Extra DMG Bonus of Signature - Celestial Edge increases by 30%."
+          "rank": "Level 1 - Unlocked at SSS3",
+          "desc": "Extra DMG Bonus of Basic Attack - Abyssal Currents increases by 20%."
         },
         {
-          "rank": "Level 2 — Unlocked at SSS6",
-          "desc": "Extra DMG Bonus of 3-Ping skills and Cipher Orb skills increases by 50%."
+          "rank": "Level 2 - Unlocked at SSS6",
+          "desc": "Extra DMG Bonus of Torrent Orb, Tidal Orb, Riptide Orb, and 3-Ping Orb skills increases by 40%."
         },
         {
-          "rank": "Level 3 — Unlocked at SSS+",
-          "desc": "Extra DMG Bonus of Imprisoning Co-Strike and Soulbreaking Co-Strike increase by 30%."
+          "rank": "Level 3 - Unlocked at SSS+",
+          "desc": "Signature - Sunken Finale gains an Extra DMG Bonus based on the pings in the Dark Tide Form, with each orb pinged granting a 3% bonus, up to 16 orbs."
         }
       ]
     }

@@ -5,6 +5,7 @@ from discord.ext import commands
 from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
 from utility.embedconfig import EmbedClass
 from utility.nickname_checker import check_nickname
+from utility.cub_dropdown import CUBDropdownView
 
 class CUBs(commands.Cog):
 
@@ -52,8 +53,9 @@ class CUBs(commands.Cog):
         if(self.does_cub_exist(cub_name)):
             print(cub_name)
             cub = self.retrieve_cub(cub_name)
-            embed = self.embedconf.create_cub_embed(cub)
-            await ctx.send(embed=embed)
+            view = CUBDropdownView(ctx.author, cub=cub)
+            embed = self.embedconf.create_cub_embed(cub, "active")
+            await ctx.send(embed=embed, view=view)
         else:
             content = "This CUB does not exist. Please try again."
             await ctx.send(content=content)

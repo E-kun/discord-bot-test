@@ -133,7 +133,7 @@
   },
   "tokarev": {
     "name": "Tokarev",
-    "weapon_type": "Dual Gun",
+    "weapon_type": "Dual Guns",
     "rarity": 4,
     "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e2gunmd040011.webp",
     "atk": 235,
@@ -757,7 +757,7 @@
   },
   "cruel oath": {
     "name": "Cruel Oath",
-    "weapon_type": "Katana",
+    "weapon_type": "Collab Katana",
     "rarity": 5,
     "thumbnail": "https://assets.huaxu.app/browse/glb/image/icontools/e39smd010011.webp",
     "atk": 361,
@@ -1393,7 +1393,7 @@
   },
   "cruel oath - mod": {
     "name": "Cruel Oath - Mod",
-    "weapon_type": "Katana",
+    "weapon_type": "Collab Katana",
     "rarity": 6,
     "thumbnail": "https://assets.huaxu.app/glb/image/icontools/e39smd010011p02.webp",
     "atk": 445,

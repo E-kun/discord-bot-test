@@ -19,7 +19,7 @@
     "benediction",
     "dragon wind"
   ],
-  "dual gun": [
+  "dual guns": [
     "standard pistol",
     "tokarev",
     "gloomlight",
@@ -74,7 +74,7 @@
   "spear shield": ["astray explorer", "rl-03c black spike", "gungnir"],
   "gauntlets": ["armor break type ix", "white qilin", "baji"],
   "amplifier": ["genesis", "solar ring", "ozma"],
-  "gun set": ["bullet ant", "virtuous contract", "fa2d-ap", "scale"],
+  "gun set": ["bullet ant", "fa2d-ap", "scale"],
   "gunblade": ["standard gunblade", "kara type i gunblade", "apollo"],
   "co-bot": ["collaborator", "animus", "snore"],
   "banner spear": ["fringe", "glorious knight", "phoenix"],
@@ -112,5 +112,9 @@
     "hope of the village",
     "progressive knife",
     "prometheus"
-  ]
+  ],
+  "katana & greatsword": ["virtuous contract", "virtuous contract - mod"],
+  "tactical lance": ["type-4o lance", "type-4o lance - mod"],
+  "collab katana": ["cruel oath", "cruel oath - mod"],
+  "blade cannon": ["black rock cannon"]
 }

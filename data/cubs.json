@@ -2,7 +2,7 @@
   "cetus": {
     "name": "Cetus",
     "cub_type": "Damage, Crowd Control",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3dolphinoffmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3dolphin1.webp",
     "skills_list": [
       "Terrifying Vortex",
       "Raging Waves",
@@ -55,7 +55,7 @@
   "seeshell": {
     "name": "Seeshell",
     "cub_type": "Area, Freeze",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet2beionmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet2bei1.webp",
     "skills_list": [
       "Grenade Carnivale",
       "Grenade Carnivale - Ice",
@@ -120,7 +120,7 @@
   "thorny": {
     "name": "Thorny",
     "cub_type": "Charge",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet2ciweionmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet2ciwei.webp",
     "skills_list": [
       "Needle Gyro Orb",
       "Piercing Field",
@@ -173,7 +173,7 @@
   "yuan ye": {
     "name": "Yuan Ye",
     "cub_type": "Stun",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet2niuonmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/rolepartnerpet2niu2.webp",
     "skills_list": [
       "Loaded Charge",
       "Loaded Charge - Fire",
@@ -238,7 +238,7 @@
   "lingya": {
     "name": "Lingya",
     "cub_type": "DMG",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet2yangonmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet2yang1.webp",
     "skills_list": [
       "Precise Volt Charge",
       "Precise Volt Charge - Lightning",
@@ -303,7 +303,7 @@
   "dawn chorus": {
     "name": "Dawn Chorus",
     "cub_type": "DMG",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3griffonoffmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3griffon1.webp",
     "skills_list": [
       "Night Laser",
       "Flash Assault",
@@ -356,7 +356,7 @@
   "toniris": {
     "name": "Toniris",
     "cub_type": "Pull, Charge",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3heonmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3he2.webp",
     "skills_list": [
       "Awakening Flash",
       "Awakening Flash - Lightning",
@@ -421,7 +421,7 @@
   "jet jaeger": {
     "name": "Jet Jaeger",
     "cub_type": "Slice",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3huonmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3hu.webp",
     "skills_list": [
       "Earthshattering Driller",
       "Earthshattering Driller - Fire",
@@ -486,7 +486,7 @@
   "frost oath": {
     "name": "Frost Oath",
     "cub_type": "Crowd Control, Protection",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3maonmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3ma1.webp",
     "skills_list": [
       "Landing Stomp",
       "Landing Stomp - Physical",
@@ -551,7 +551,7 @@
   "nitor": {
     "name": "Nitor",
     "cub_type": "Damage",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3maoonmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3mao1.webp",
     "skills_list": [
       "Blazing Blitz",
       "Flare Spark",
@@ -604,7 +604,7 @@
   "motorbolt": {
     "name": "Motorbolt",
     "cub_type": "Pull, Damage",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3motoroffmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3motor1.webp",
     "skills_list": [
       "Sparking Assault",
       "Drifting Gale",
@@ -657,7 +657,7 @@
   "punchy": {
     "name": "Punchy",
     "cub_type": "Damage",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3quanonmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3quan1.webp",
     "skills_list": [
       "Downward Punch",
       "Upward Punch",
@@ -710,7 +710,7 @@
   "moonhopper": {
     "name": "Moonhopper",
     "cub_type": "Control",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3tuonmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3tu1.webp",
     "skills_list": [
       "Supergravity Eclipse: Dark",
       "Super Moonfall Field: Dark",
@@ -763,7 +763,7 @@
   "hades fangs": {
     "name": "Hades Fangs",
     "cub_type": "Control, Damage",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3wolfoffmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3wolf1.webp",
     "skills_list": [
       "Fangs Crash",
       "Ion Realm",
@@ -816,7 +816,7 @@
   "rainbow": {
     "name": "Rainbow",
     "cub_type": "Pull, Damage",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3wuzeioffmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3wuzei1.webp",
     "skills_list": [
       "Refraction Siphon",
       "Ripple Dash",
@@ -869,7 +869,7 @@
   "noctua": {
     "name": "Noctua",
     "cub_type": "Super Armor",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3xiaoonmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3xiao2.webp",
     "skills_list": [
       "Radiative Shock - Barrier",
       "Radiative Shock - Field",
@@ -922,7 +922,7 @@
   "boreas": {
     "name": "Boreas",
     "cub_type": "Charge",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3yingonmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3ying1.webp",
     "skills_list": [
       "Azure Blast",
       "Azure Blast - Ice",
@@ -987,7 +987,7 @@
   "shimmer": {
     "name": "Shimmer",
     "cub_type": "Pull, Charge",
-    "thumbnail": "https://assets.huaxu.app/glb/image/pets/pet3yuonmd010011.webp",
+    "thumbnail": "https://assets.huaxu.app/glb/image/rolepartner/pet3yu1.webp",
     "skills_list": [
       "Swirl Blast",
       "Gliding Barrage",

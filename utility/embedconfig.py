@@ -16,6 +16,12 @@ class EmbedClass:
                 build = i
         return build
 
+    def choose_cub_skills(self, active, passive, choice):
+        if(choice == "active"):
+            return active
+        else:
+            return passive
+
     def create_build_embed(self, build, choice): 
         #Split build object here into 2 parts; first being the unchanging data fields (name + frame) and the second being the build choice
 
@@ -156,10 +162,17 @@ class EmbedClass:
         embed.set_thumbnail(url=weapon['thumbnail'])
         return embed
 
-    def create_cub_embed(self, cub):
+    def create_cub_embed(self, cub, choice):
         
         active_skills = cub['active_skills']
         passive_skills = cub['passive_skills']
+
+        if(choice == "active"):
+            name = "**Active Skills**"
+        else:
+            name = "**Passive Skills**"
+
+        skills = self.choose_cub_skills(active_skills, passive_skills, choice)
 
         embed = discord.Embed(
             title=f"{cub['name']}",
@@ -168,11 +181,11 @@ class EmbedClass:
         )
         embed.set_thumbnail(url=cub['thumbnail'])
         embed.add_field(
-                name="**Active Skills**",
+                name=name,
                 value="",
                 inline=False
             )
-        for i in active_skills:
+        for i in skills:
             embed.add_field(
                 name=i['skill_name'], 
                 value=i['skill_desc'],
@@ -183,46 +196,30 @@ class EmbedClass:
     def create_skills_embed(self, skill, skill_type):
         match skill_type:
             case "basic" | "red" | "blue" | "yellow" | "signature":
-                embed = discord.Embed(
-                    title=f"{skill['name']}",
-                    description=f""
-                )
-
-                description = skill['description']
-                embed.add_field(
-                    name="",
-                    value=f"{description['desc']}",
-                    inline=False
-                )
-                embed.add_field(
-                    name="",
-                    value=f"{description['result']}",
-                    inline=False)
-            case "core":
-                # print(skill)
-                embed = discord.Embed(
-                    title=f"Core Passive",
-                    description=f""
-                )
+                print(skill)
 
                 for i in skill:
-                    # print(i['name'])
-                    description = i['description']
-                    result = description['result']
+                    embed = discord.Embed(
+                        title=f"{i['name']}",
+                        description=f""
+                    )
 
                     embed.add_field(
-                        name=f"{i['name']}",
-                        value=f"{description['desc']}",
+                        name="Trigger",
+                        value=f"{i['button_press']}",
                         inline=False
                     )
 
-                    for j in result:
-                        print(j)
-                        embed.add_field(
-                            name="",
-                            value=f"{j}",
-                            inline=False
-                        )
+                    description = i['description']
+                    embed.add_field(
+                        name="",
+                        value=f"{description['desc']}",
+                        inline=False
+                    )
+                    embed.add_field(
+                        name="",
+                        value=f"{description['result']}",
+                        inline=False)
             case "qte" | "leader" | "class":
                 embed = discord.Embed(
                     title=f"{skill['name']}",
@@ -234,6 +231,12 @@ class EmbedClass:
                     value=f"{description['desc']}",
                     inline=False
                 )
+                for i in description['result']:
+                    embed.add_field(
+                        name="",
+                        value=f"{i}",
+                        inline=False
+                    )
             case "ss" | "sss" | "s+":
                 embed = discord.Embed(
                     title=f"{skill['name']}",
@@ -243,13 +246,62 @@ class EmbedClass:
                 levels = skill['levels']
 
                 for i in levels:
-                    print(i)
                     embed.add_field(
                         name=f"{i['rank']}",
                         value=f"{i['desc']}",
                         inline=False
                     )
         
+        return embed
+
+    def create_corepassive_embed(self, skill, ability_no):
+        # print(skill)
+        embed = discord.Embed(
+            title=f"Core Passive - {skill['name']}",
+            description=f""
+        )
+
+        ability = skill['skills'][ability_no]
+            
+        # print(ability)
+
+        description = ability['description']
+        result = description['result']
+        desc_paragraph = description['desc']
+        trigger = ""
+
+        print(ability['name'])
+        print(ability['button_press'])
+        print(desc_paragraph)
+        print(result)
+
+        if ability['button_press'] == "N/A":
+            trigger = ""
+        else:
+            trigger = f"Trigger: {ability['button_press']}"
+
+        embed.add_field(
+            name=f"Ability: {ability['name']}",
+            value=trigger,
+            inline=False
+        )
+
+        for i in desc_paragraph:               
+            embed.add_field(
+                name="",
+                value=f"{i}",
+                inline=False
+            )
+
+        if(len(result) > 0):
+            for j in result:
+                embed.add_field(
+                    name="",
+                    value=f"{j}",
+                    inline=False
+                )
+
+        embed.set_footer(text=f"Part {ability_no + 1}/{len(skill['skills'])}")
         return embed
 
     def create_list_embed(self, list, type):
