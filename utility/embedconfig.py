@@ -95,16 +95,29 @@ class EmbedClass:
             name=f"2pc Set Bonus",
             value=f"{memory['2pc']}",
             inline=False
-        ),
-        embed.add_field(
-            name=f"4pc Set Bonus",
-            value=f"{memory['4pc']}",
-            inline=False
-        ),
+        )
+        if (memory['4pc'] == ""):
+            a = ""
+        else:
+            embed.add_field(
+                name=f"4pc Set Bonus",
+                value=f"{memory['4pc']}",
+                inline=False
+            )
+
+        if ('6pc' in memory):
+            embed.add_field(
+                name=f"6pc Set Bonus",
+                value=f"{memory['6pc']}",
+                inline=False
+            )
+        else:
+            a = ""
+        
         embed.add_field(
             name="ATK",
             value=f"{memory['atk']}",
-        ),
+        )
         embed.add_field(
             name="CRIT",
             value=f"{memory['crit']}",
@@ -112,11 +125,11 @@ class EmbedClass:
         embed.add_field(
             name="DEF",
             value=f"{memory['def']}",
-        ),
+        )
         embed.add_field(
             name="HP",
             value=f"{memory['hp']}",
-        ),
+        )
         embed.set_thumbnail(url=memory['thumbnail'])
         return embed
 

@@ -18,8 +18,10 @@ class Memories(commands.Cog):
         return parsed_json[memory]
 
     def does_memory_exist(self, memory_name):
+        with open('data/memorylist.json') as file:
+            parsed_json = json.load(file)
 
-        memorylist = ["cottie", "edison", "aife", "ike", "einsteina", "archimedes", "alice", "patton", "bianca: tipsy night", "isabel", "kuriko eternal", "boone", "darwin", "da vinci", "derketo", "diesel", "lucia - summer daze", "seraphine", "philip", "frederick", "voltaire", "condelina", "shakespeare", "heisen", "hanna", "catherine", "guinevere", "bathlon", "chen jiyuan", "leeuwenhoek", "flamel", "tifa", "elizabeth", "unimate", "charlotte", "turing", "aline", "fran", "signa", "alphonse"]
+        memorylist = parsed_json['memorylist']
         exists = False
 
         for i in memorylist:
