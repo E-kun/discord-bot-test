@@ -4,7 +4,7 @@ import json
 from discord.ext import commands
 from discord.ext.commands import BucketType, cog, BadArgument, command, cooldown
 from utility.embedconfig import EmbedClass
-from utility.nickname_checker import check_nickname
+from utility.nickname_checker import check_nickname, abbreviation_checker
 
 class Memories(commands.Cog):
 
@@ -49,17 +49,34 @@ class Memories(commands.Cog):
         else:
             memory_name = args[0]
         
-        memory_name = check_nickname(memory_name, "memory")            
-
         print(memory_name)
+        
         if(self.does_memory_exist(memory_name)):
-            print(memory_name)
             memory = self.retrieve_memory(memory_name)
             embed = self.embedconf.create_memory_embed(memory)
             await ctx.send(embed=embed)
+        elif(abbreviation_checker(memory_name) != "n/a"):
+            memory = abbreviation_checker(memory_name)
+            if(self.does_memory_exist(memory)):
+                # print(memory_name)
+                memory = self.retrieve_memory(memory)
+                embed = self.embedconf.create_memory_embed(memory)
+                await ctx.send(embed=embed)
+            else:
+                content = "This memory does not exist. Please try again."
+                await ctx.send(content=content)
         else:
-            content = "This memory does not exist. Please try again."
-            await ctx.send(content=content)
+            memory_name = check_nickname(memory_name, "memory")            
+
+            # print(memory_name)
+            if(self.does_memory_exist(memory_name)):
+                print(memory_name)
+                memory = self.retrieve_memory(memory_name)
+                embed = self.embedconf.create_memory_embed(memory)
+                await ctx.send(embed=embed)
+            else:
+                content = "This memory does not exist. Please try again."
+                await ctx.send(content=content)
 
 
 async def setup(bot: commands.Bot):

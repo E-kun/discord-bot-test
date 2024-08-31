@@ -301,3 +301,48 @@ def check_nickname(nickname, caller):
         item_name = memory
 
     return item_name
+
+def abbreviation_checker(nickname):
+        match nickname:
+            case "dv":
+                memory = "da vinci"
+            case "cot":
+                memory = "cottie"
+            case "eins":
+                memory = "einsteina"
+            case "guin":
+                memory = "guinevere"
+            case "char":
+                memory = "charlotte"
+            case "uni":
+                memory = "unimate"
+            case "leeu":
+                memory = "leeuwenhoek"
+            case "bath":
+                memory = "bathlon"
+            case "cond":
+                memory = "condelina"
+            case "chen" | "cjy":
+                memory = "chen jiyuan"
+            case "lantern":
+                memory = "lantern festival reunion"
+            case "sam":
+                memory = "samantha"
+            case "shakes":
+                memory = "shakespeare"
+            case "liz" | "eliz":
+                memory = "elizabeth"
+            case "sera" | "seraph":
+                memory = "seraphine"
+            case "cath":
+                memory = "catherine"
+            case "fred":
+                memory = "frederick"
+            case "phil":
+                memory = "phillip"
+            case "derk":
+                memory = "derketo"
+            case _:
+                memory = "n/a"
+            
+        return memory
