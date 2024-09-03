@@ -26,7 +26,9 @@ class Skills(commands.Cog):
         return parsed_json[character]
 
     def does_character_exist(self, character):
-        framelist = ["lotus", "eclipse", "storm", "dawn", "lux", "palefire", "nightblade", "zero", "blast", "luminance", "entropy","ember", "pulse", "tenebrion","crimson abyss", "bastion", "astral", "brilliance", "veritas", "sophia", "arclight", "plume", "rozen", "camu", "rosetta", "changyu", "pavo", "laurel","2b", "9s", "a2", "hypnos", "tempest", "glory", "xxi", "garnet", "roland", "empyrea", "capriccio", "pulao", "starfarer", "haicma", "scire", "noan", "bambinata", "balter", "kaleido", "hyperreal", "crimson weave", "zitherwoe", "feral", "noctis", "alisa", "lamia", "brs", "epitaph"]
+        with open('data/characterlist.json') as file:
+            parsed_json = json.load(file)
+        framelist = parsed_json['characterlist']
         exists = False
 
         for i in framelist:

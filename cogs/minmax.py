@@ -70,8 +70,11 @@ class Minmax(commands.Cog):
         
         if(not args == ()):
             if(len(args)== 1):
-                focus = args[0].split(",")[0]
-                compare_with = args[0].split(",")[1]
+                if("," not in args[0]):
+                    await ctx.send("There is only one argument here! You need to provide 2 memories separated by a comma.")
+                else:
+                    focus = args[0].split(",")[0]
+                    compare_with = args[0].split(",")[1]
         
             elif(len(args) > 1):
                 for idx,i in enumerate(args):
@@ -113,25 +116,26 @@ class Minmax(commands.Cog):
 
                 embed = discord.Embed(
                     title="Minmax",
-                    description=""
+                    description="",
+                    color=discord.Color(value=0xc3d8fa)
                 )
 
                 embed.add_field(
-                    name=f"{top_mem['name']} Goes Top", 
+                    name=f"{top_mem['name']} goes Top", 
                     value=f"""
-                        ATK: {top_mem['atk']}
-                        DEF: {top_mem['def']}
-                        CRIT: {top_mem['crit']}
-                        HP: {top_mem['hp']}
+                        `ATK  : {top_mem['atk']}   `
+                        `DEF  : {top_mem['def']}   `
+                        `CRIT : {top_mem['crit']}    `
+                        `HP   : {top_mem['hp']}  `
                         """)
                 
                 embed.add_field(
-                    name=f"{bot_mem['name']} Goes Bottom", 
+                    name=f"{bot_mem['name']} goes Bottom", 
                     value=f"""
-                        ATK: {bot_mem['atk']}
-                        DEF: {bot_mem['def']}
-                        CRIT: {bot_mem['crit']}
-                        HP: {bot_mem['hp']}
+                        `ATK : {bot_mem['atk']}   `
+                        `DEF : {bot_mem['def']}   `
+                        `CRIT: {bot_mem['crit']}    `
+                        `HP  : {bot_mem['hp']}  `
                         """)
 
                 await ctx.send(embed=embed)
@@ -139,25 +143,6 @@ class Minmax(commands.Cog):
         else:
             content = f"There are no memories to compare! Please include 2 memories separated by a comma."
             await ctx.channel.send(content=content)
-
-
-
-        # try:
-        #     # intTime = abs(int(time))
-        # except:
-        #     content = f""
-        #     await ctx.channel.send(content=content)
-        
-        # if():
-
-        #     embed = discord.Embed(
-        #         title="",
-        #         description=f""
-        #     )
-        #     await ctx.channel.send(embed=embed)
-        # else:
-        #     content = f""
-        #     await ctx.channel.send(content=content)
 
 async def setup(bot: commands.Bot):
     await bot.add_cog(Minmax(bot))

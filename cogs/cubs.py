@@ -19,7 +19,10 @@ class CUBs(commands.Cog):
         return parsed_json[cub]
 
     def does_cub_exist(self, cub_name):
-        cublist = ["cetus", "seeshell", "thorny", "yuan ye", "lingya", "dawn chorus", "toniris", "jet jaeger", "frost oath", "nitor", "motorbolt", "punchy", "moonhopper", "hades fangs", "rainbow", "noctua", "boreas", "shimmer"]
+        with open('data/cublist.json') as file:
+            parsed_json = json.load(file)
+
+        cublist = parsed_json['cublist']
         exists = False
 
         for i in cublist:

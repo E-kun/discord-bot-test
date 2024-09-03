@@ -95,7 +95,7 @@ def check_nickname(nickname, caller):
             weapon = "tonitrus"
             cub = "n/a"
             memory = "n/a"
-        case "sophia" | "s*phia":
+        case "sophia" | "s*phia" | "silverfang":
             character = "sophia"
             weapon = "scion"
             cub = "n/a"
@@ -125,7 +125,7 @@ def check_nickname(nickname, caller):
             weapon = "gungnir"
             cub = "frost oath"
             memory = "leeuwenhoek"
-        case "changyu" | "changwho":
+        case "changyu" | "changwho" | "qilin":
             character = "changyu"
             weapon = "baji"
             cub = "n/a"
@@ -135,7 +135,7 @@ def check_nickname(nickname, caller):
             weapon = "qinghe"
             cub = "n/a"
             memory = "wu'an"
-        case "laurel":
+        case "laurel" | "dark luna":
             character = "laurel"
             weapon = "ozma"
             cub = "noctua"
@@ -175,12 +175,12 @@ def check_nickname(nickname, caller):
             weapon = "snore"
             cub = "n/a"
             memory = "n/a"
-        case "garnet":
+        case "garnet" | "flare":
             character = "garnet"
             weapon = "phoenix"
             cub = "n/a"
             memory = "tifa"
-        case "roland" | "kuraimaksu" | "clown":
+        case "roland" | "kuraimaksu" | "clown" | "theatre" | "curtain call":
             character = "roland"
             weapon = "durendal"
             cub = "n/a"
@@ -196,20 +196,20 @@ def check_nickname(nickname, caller):
             cub = "n/a"
             memory = "seraphine"
         case "pulao":
-            character = "nightblade"
+            character = "pulao"
             weapon = "infinity"
             cub = "n/a"
-            memory = "n/a"
+            memory = "marco"
         case "starfarer" | "nanamech" | "nanamecha":
             character = "starfarer"
             weapon = "implosion"
             cub = "jet jaeger"
             memory = "unimate"
-        case "haicma":
+        case "haicma" | "hag" | "haicmama" | "nanny":
             character = "haicma"
             weapon = "galatea"
             cub = "n/a"
-            memory = "n/a"
+            memory = "isabel"
         case "daren" | "bonka" | "tsundere" | "radiant daybreak" | "trs" | "<:trs:1275701510293946482>" | "bunny" | "bnnuy" | "scire" | "best girl" | "bestgirl":
             character = "scire"
             weapon = "illuminare"
@@ -219,13 +219,13 @@ def check_nickname(nickname, caller):
             character = "noan"
             weapon = "prometheus"
             cub = "n/a"
-            memory = "n/a"
+            memory = "shelley"
         case "balter" | "stigmata":
             character = "stigmata"
             weapon = "hecate"
             cub = "shimmer"
             memory = "charlotte"
-        case "bambinata" | "bambi":
+        case "bambinata" | "bambi" | "bombi":
             character = "bambinata"
             weapon = "sound of silence"
             cub = "n/a"
@@ -278,8 +278,43 @@ def check_nickname(nickname, caller):
         case "uncle" | "king engine" | "kingengine" | "wata" | "epitaph":
             character = "epitaph"
             weapon = "night falcon"
-            cub = ""
+            cub = "n/a"
             memory = "alphonse"
+        case "shukra":
+            character = "shukra"
+            weapon = ""
+            cub = ""
+            memory = ""
+        case "teddy":
+            character = "teddy"
+            weapon = ""
+            cub = ""
+            memory = ""
+        case "oblivion":
+            character = "oblivion"
+            weapon = ""
+            cub = ""
+            memory = ""
+        case "bridget":
+            character = "bridget"
+            weapon = ""
+            cub = ""
+            memory = ""
+        case "solacetune":
+            character = "solacetune"
+            weapon = ""
+            cub = ""
+            memory = ""
+        case "lucid dreamer":
+            character = "lucid dreamer"
+            weapon = ""
+            cub = ""
+            memory = ""
+        case "pyroath":
+            character = "pyroath"
+            weapon = ""
+            cub = ""
+            memory = ""
         
         case _:
             if(caller == "character"):
@@ -304,7 +339,7 @@ def check_nickname(nickname, caller):
 
 def abbreviation_checker(nickname):
         match nickname:
-            case "dv":
+            case "dv" | "davinci":
                 memory = "da vinci"
             case "cot":
                 memory = "cottie"
@@ -339,7 +374,7 @@ def abbreviation_checker(nickname):
             case "fred":
                 memory = "frederick"
             case "phil":
-                memory = "phillip"
+                memory = "philip"
             case "derk":
                 memory = "derketo"
             case _:

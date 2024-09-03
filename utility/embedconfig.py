@@ -317,29 +317,41 @@ class EmbedClass:
         embed.set_footer(text=f"Part {ability_no + 1}/{len(skill['skills'])}")
         return embed
 
-    def create_list_embed(self, list, type):
-        match type:
-            case "weapons":
-                title_string = "Weapon List"
-            case "memories":
-                title_string = "Memory List"
-            case "characters":
-                title_string = "Character List"
-            case "cubs":
-                title_string = "CUB List"
+    def create_cublist_embed(self, cubs):
+        embed = discord.Embed(
+            title=f"List of CUBs",
+            description="",
+            color=discord.Color(0x3d6e41)
+        )
+        for cub in cubs:
+            if(cub['sig_character'] != "N/A"):
+                embed.add_field(
+                    name="",
+                    value=f"`{cub['base_rank']}・{cub['name']}  ({cub['sig_character']})`",
+                    inline=False
+                )
+            else:
+                embed.add_field(
+                    name="",
+                    value=f"`{cub['base_rank']}・{cub['name']}`",
+                    inline=False
+                )
+        return embed
 
-        print(type)
-        print(list)
-        print(title_string)
+    def create_list_embed(self, name, items, curpage, maxlistcount):
 
         embed = discord.Embed(
-            title=f"{title_string}",
-            description=f""
+            title=f"List of {name}",
+            description="",
+            color=discord.Color(0xb8f2e4)
         )
-        embed.add_field(
-            name = "",
-            value = f"{list}"
-        )
+        for i in items:
+            embed.add_field(
+                name = "",
+                value = i.replace('#', '★'),
+                inline=False
+            )
+        embed.set_footer(text=f"Page {curpage}/{maxlistcount}")
         return embed
 
     def create_about_embed(self):
@@ -358,6 +370,7 @@ class EmbedClass:
                 Thanks to all of you who have helped out in the making of this bot. Without you it would have taken me much longer to get this off the ground.
 
                 The dalaos for their build expertise:
+                    Aethervoid
                     trs
                     pwowq
                     Hyperbrick

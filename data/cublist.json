@@ -1,0 +1,115 @@
+{
+  "cublist": [
+    "cetus",
+    "seeshell",
+    "thorny",
+    "yuan ye",
+    "lingya",
+    "dawn chorus",
+    "toniris",
+    "jet jaeger",
+    "frost oath",
+    "nitor",
+    "motorbolt",
+    "punchy",
+    "moonhopper",
+    "hades fangs",
+    "rainbow",
+    "noctua",
+    "boreas",
+    "shimmer"
+  ],
+  "cublist_categorized": [
+    {
+      "name": "Seeshell",
+      "sig_character": "N/A",
+      "base_rank": "A"
+    },
+    {
+      "name": "Thorny",
+      "sig_character": "N/A",
+      "base_rank": "A"
+    },
+    {
+      "name": "Yuan Ye",
+      "sig_character": "N/A",
+      "base_rank": "A"
+    },
+    {
+      "name": "Lingya",
+      "sig_character": "N/A",
+      "base_rank": "A"
+    },
+    {
+      "name": "Noctua",
+      "sig_character": "N/A",
+      "base_rank": "A"
+    },
+    {
+      "name": "Toniris",
+      "sig_character": "Veritas",
+      "base_rank": "S"
+    },
+    {
+      "name": "Boreas",
+      "sig_character": "Glory",
+      "base_rank": "S"
+    },
+
+    {
+      "name": "Frost Oath",
+      "sig_character": "Rigor",
+      "base_rank": "S"
+    },
+    {
+      "name": "Nitor",
+      "sig_character": "Ember",
+      "base_rank": "S"
+    },
+    {
+      "name": "Jet Jaeger",
+      "sig_character": "Starfarer",
+      "base_rank": "S"
+    },
+    {
+      "name": "Moonhopper",
+      "sig_character": "Scire",
+      "base_rank": "S"
+    },
+    {
+      "name": "Shimmer",
+      "sig_character": "Stigmata",
+      "base_rank": "S"
+    },
+    {
+      "name": "Punchy",
+      "sig_character": "Hyperreal",
+      "base_rank": "S"
+    },
+    {
+      "name": "Rainbow",
+      "sig_character": "Kaleido",
+      "base_rank": "S"
+    },
+    {
+      "name": "Motorbolt",
+      "sig_character": "Crimson Weave",
+      "base_rank": "S"
+    },
+    {
+      "name": "Hades' Fangs",
+      "sig_character": "Feral Scent",
+      "base_rank": "S"
+    },
+    {
+      "name": "Dawn Chorus",
+      "sig_character": "Alisa",
+      "base_rank": "S"
+    },
+    {
+      "name": "Cetus",
+      "sig_character": "Lamia",
+      "base_rank": "S"
+    }
+  ]
+}

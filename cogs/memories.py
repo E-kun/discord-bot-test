@@ -58,7 +58,6 @@ class Memories(commands.Cog):
         elif(abbreviation_checker(memory_name) != "n/a"):
             memory = abbreviation_checker(memory_name)
             if(self.does_memory_exist(memory)):
-                # print(memory_name)
                 memory = self.retrieve_memory(memory)
                 embed = self.embedconf.create_memory_embed(memory)
                 await ctx.send(embed=embed)
@@ -67,8 +66,6 @@ class Memories(commands.Cog):
                 await ctx.send(content=content)
         else:
             memory_name = check_nickname(memory_name, "memory")            
-
-            # print(memory_name)
             if(self.does_memory_exist(memory_name)):
                 print(memory_name)
                 memory = self.retrieve_memory(memory_name)

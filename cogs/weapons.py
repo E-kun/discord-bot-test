@@ -82,10 +82,10 @@ class Weapons(commands.Cog):
                 view.update_buttons()
                 await ctx.send(view=view, embed=embed)
             else:
-                content = "This weapon does not exist. Please try again."
+                content = "This weapon does not exist. Please try again. If there is a capital letter in the weapon that you are searching for, you will need to make it lower case when running the command."
                 await ctx.send(content=content)
         else:
-            content = "This weapon does not exist. Please try again."
+            content = "This weapon does not exist. Please try again. If there is a capital letter in the weapon that you are searching for, you will need to make it lower case when running the command."
             await ctx.send(content=content)
 
 
